@@ -1,0 +1,23 @@
+---
+title: "moneyball"
+author: "Liu_Boyu"
+date: "October 12, 2016"
+output: html_document
+---
+
+
+```{r, echo=FALSE}
+require(dplyr)
+setwd("C:/Users/bl022_000/Desktop/moneyball/MoneyBall/data/2014_2015")
+
+df1 = read.csv("2014_2015_schedule.csv", header = TRUE)
+df2 = read.csv("2014_2015_stats.csv", header = TRUE)
+
+
+
+
+
+
+
+
+```
