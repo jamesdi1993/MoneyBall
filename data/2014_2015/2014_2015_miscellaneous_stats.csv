@@ -1,4 +1,4 @@
-Rk,Team,Age,PW,PL,MOV,SOS,SRS,ORtg,DRtg,Pace,FTr,3PAr,TS%,Off_eFG%,Off_TOV%,Off_ORB%,Off_FT/FGA,Def_eFG%,Def_TOV%,Def_DRB%,Def_FT/FGA,Arena,Attendance
+Rk,Team,Age,PW,PL,MOV,SOS,SRS,ORtg,DRtg,Pace,FTr,3PAr,TS_pct,Off_eFG_pct,Off_TOV_pct,Off_ORB_pct,Off_FT/FGA,Def_eFG_pct,Def_TOV_pct,Def_DRB_pct,Def_FT/FGA,Arena,Attendance
 1,Golden State Warriors*,26.6,65,17,10.1,-0.09,10.01,111.6,101.4,98.3,0.239,0.311,0.571,0.54,13.1,24.1,0.184,0.47,14.3,74.5,0.217,Oracle Arena,803436
 2,Los Angeles Clippers*,28.8,58,24,6.59,0.22,6.8,112.4,105.5,94.7,0.303,0.322,0.565,0.533,11.6,22.8,0.215,0.493,13.2,75.7,0.231,STAPLES Center,785892
 3,San Antonio Spurs*,29.8,58,24,6.2,0.14,6.34,108.5,102,93.8,0.256,0.269,0.555,0.517,13.1,23.4,0.2,0.484,13.3,77.3,0.19,AT&T Center,762855

@@ -1,4 +1,4 @@
-Rk,Team,Age,PW,PL,MOV,SOS,SRS,ORtg,DRtg,Pace,FTr,3PAr,TS%,Off_eFG%,Off_TOV%,Off_ORB%,Off_FT/FGA,Def_eFG%,Def_TOV%,Def_DRB%,Def_FT/FGA,Arena,Attendance
+Rk,Team,Age,PW,PL,MOV,SOS,SRS,ORtg,DRtg,Pace,FTr,3PAr,TS_pct,Off_eFG_pct,Off_TOV_pct,Off_ORB_pct,Off_FT/FGA,Def_eFG_pct,Def_TOV_pct,Def_DRB_pct,Def_FT/FGA,Arena,Attendance
 1,Golden State Warriors*,27.4,65,17,10.76,-0.38,10.38,114.5,103.8,99.3,0.25,0.362,0.593,0.563,13.5,23.5,0.191,0.479,12.6,76,0.208,Oracle Arena,803436
 2,San Antonio Spurs*,30.3,67,15,10.63,-0.36,10.28,110.3,99,93.8,0.246,0.223,0.564,0.526,12.4,23,0.197,0.477,14.1,79.1,0.182,AT&T Center,756445
 3,Oklahoma City Thunder*,25.8,59,23,7.28,-0.19,7.09,113.1,105.6,96.7,0.292,0.275,0.565,0.524,14,31.1,0.228,0.484,11.7,76,0.205,Chesapeake Energy Arena,746323

@@ -1,4 +1,4 @@
-Rk,Team,G,MP,FG%,Dist.,FGA_2P,FGA_0-2,FGA_3-9,FGA_10-15,FGA_16 <3,FGA_3P,FG_2P,FG_0-2,FG_3-9,FG_10-15,FG_16 <3,FG_3P,2-Pt_%Ast'd,Dunks%FGA,DunksMd.,Layups%FGA,LayupsMd.,3-Pt_%Ast'd,Corner%3PA,Corner3P%,Heaves_Att.,Heaves_Md.
+Rk,Team,G,MP,FG_pct,Dist.,FGA_2P,FGA_0_2,FGA_3_9,FGA_10_15,FGA_16 _less_than_3,FGA_3P,FG_2P,FG_0_2,FG_3_9,FG_10_15,FG_16 _less_than_3,FG_3P,2_Pt_pct_Ast'd,Dunks_pct_FGA,DunksMd.,Layups_pct_FGA,LayupsMd.,3_Pt_pct_Ast'd,Corner_pct_3PA,Corner3P_pct,Heaves_Att.,Heaves_Md.
 1,Atlanta Hawks*,82,19730,0.466,13.2,0.679,0.29,0.158,0.08,0.151,0.321,0.506,0.636,0.392,0.386,0.441,0.38,0.591,0.038,225,0.249,1000,0.918,0.275,0.421,3,0
 2,Boston Celtics*,82,19880,0.443,13.3,0.72,0.279,0.145,0.103,0.193,0.28,0.488,0.623,0.383,0.408,0.416,0.327,0.565,0.041,267,0.228,958,0.877,0.204,0.374,16,0
 3,Brooklyn Nets*,82,19930,0.451,12.4,0.76,0.268,0.213,0.116,0.164,0.24,0.489,0.617,0.444,0.406,0.396,0.331,0.488,0.04,243,0.218,860,0.887,0.284,0.391,24,0
