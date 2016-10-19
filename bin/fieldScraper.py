@@ -2,8 +2,7 @@
 # --------------------------------------------------
 # This script is used to scrape the fields and their
 # explanations from basketball-reference.com into a 
-# JSON file
-# 
+# csv file
 
 from lxml import html
 import json
