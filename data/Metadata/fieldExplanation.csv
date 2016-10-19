@@ -1,0 +1,106 @@
+age, Age of Player at the start of February 1st of that season.
+ast, Assists
+avg_dist, Average distance (ft.) of FGA
+blk, Blocks
+def_rtg, Defensive Rating
+drb, Defensive Rebounds
+drb_pct, Defensive Rebound Percentage
+efg_pct, Effective Field Goal Percentage
+fg, Field Goals
+fg2, 2-Point Field Goals
+fg2_dunk, FGs that are dunks.
+fg2_layup, Team FGs that are layups.
+fg2_pct, 2-Point Field Goal Percentage
+fg2_pct_ast, % of 2-Pt FGs that are assisted.
+fg2a, 2-point Field Goal Attempts
+fg2a_pct_fga, % of FGAs that are 2-Pt FGAs.
+fg3, 3-Point Field Goals
+fg3_heave, Heaves made (beyond half-court)
+fg3_pct, 3-Point Field Goal Percentage
+fg3_pct_ast, % of 3-Pt FGs that are assisted.
+fg3_pct_corner, 3P% on 3PAs from the corner.
+fg3a, 3-Point Field Goal Attempts
+fg3a_heave, Heave attempts (beyond half-court)
+fg3a_pct_fga, % of FGAs that are 3-Pt FGAs.
+fg3a_per_fga_pct, 3-Point Attempt Rate
+fg_pct, Field Goal Percentage
+fg_pct_00_02, FG% on FGAs that are 0-2 feet from the basket.
+fg_pct_03_09, FG% on FGAs that are 3-9 feet from the basket.
+fg_pct_10_15, FG% on FGAs that are 10-15 feet from the basket.
+fg_pct_16_xx, FG% on 2-Pt FGAs that are 16+ feet from the basket.
+fga, Field Goal Attempts
+ft, Free Throws
+ft_pct, Free Throw Percentage
+ft_rate, Free Throws Per Field Goal Attempt
+fta, Free Throw Attempts
+fta_per_fga_pct, Free Throw Attempt Rate
+losses_pyth, Pythagorean losses, i.e., expected losses based on points scored and allowed
+mov, Margin of Victory
+off_rtg, Offensive Rating
+opp_ast, Opponent Assists
+opp_avg_dist, Average distance (ft.) of Opponent FGA
+opp_blk, Opponent Blocks
+opp_drb, Opponent Defensive Rebounds
+opp_efg_pct, Opponent Effective Field Goal Percentage
+opp_fg, Opponent Field Goals
+opp_fg2, Opponent 2-Point Field Goals
+opp_fg2_dunk, Opponent FGs that are dunks.
+opp_fg2_layup, Opponent FGs that are layups.
+opp_fg2_pct, Opponent 2-Point Field Goal Percentage
+opp_fg2_pct_ast, % of opponent 2-Pt FGs that are assisted.
+opp_fg2a, Opponent 2-Point Field Goal Attempts
+opp_fg2a_pct_fga, % of opponent FGAs that are 2-Pt FGAs.
+opp_fg3, Opponent 3-Point Field Goals
+opp_fg3_pct, Opponent 3-Point Field Goal Percentage
+opp_fg3_pct_ast, % of opponent 3-Pt FGs that are assisted.
+opp_fg3_pct_corner, 3P% on opponent 3PAs from the corner.
+opp_fg3a, Opponent 3-Point Field Goal Attempts
+opp_fg3a_pct_fga, % of opponent FGAs that are 3-Pt FGAs.
+opp_fg_pct, Opponent Field Goal Percentage
+opp_fg_pct_00_02, Opponent FG% on FGAs that are 0-2 feet from the basket.
+opp_fg_pct_03_09, Opponent FG% on FGAs that are 3-9 feet from the basket.
+opp_fg_pct_10_15, Opponent FG% on FGAs that are 10-15 feet from the basket.
+opp_fg_pct_16_xx, Opponent FG% on 2-Pt FGAs that are 16+ feet from the basket.
+opp_fga, Opponent Field Goal Attempts
+opp_ft, Opponent Free Throws
+opp_ft_pct, Opponent Free Throw Percentage
+opp_ft_rate, Opponent Free Throws Per Field Goal Attempt
+opp_fta, Opponent Free Throw Attempts
+opp_mp, Opponent Minutes Played
+opp_orb, Opponent Offensive Rebounds
+opp_pct_fg2_dunk, % of all opponent FGAs that are dunk attempts.
+opp_pct_fg2_layup, % of all opponent FGAs that are layup attempts.
+opp_pct_fg3a_corner, % of opponent 3PAs from the corner.
+opp_pct_fga_00_02, % of opponent FGAs that are 0-2 feet from the basket.
+opp_pct_fga_03_09, % of opponent FGAs that are 3-9 feet from the basket.
+opp_pct_fga_10_15, % of opponent FGAs that are 10-15 feet from the basket.
+opp_pct_fga_16_xx, % of opponent FGAs that are 2-Pt shotsand 16+ feet from the basket.
+opp_pf, Opponent Personal Fouls
+opp_pts, Opponent Points
+opp_pts_per_g, Opponent Points Per Game
+opp_stl, Opponent Steals
+opp_tov, Opponent Turnovers
+opp_tov_pct, Opponent Turnover Percentage
+opp_trb, Opponent Total Rebounds
+orb, Offensive Rebounds
+orb_pct, Offensive Rebound Percentage
+pace, Pace Factor
+pct_fg2_dunk, % of all FGAs that are dunk attempts.
+pct_fg2_layup, % of all team FGAs that are layup attempts.
+pct_fg3a_corner, % of 3PAs from the corner.
+pct_fga_00_02, % of FGAs that are 0-2 feet from the basket.
+pct_fga_03_09, % of FGAs that are 3-9 feet from the basket.
+pct_fga_10_15, % of FGAs that are 10-15 feet from the basket.
+pct_fga_16_xx, % of FGAs that are 2-Pt shotsand 16+ feet from the basket.
+pf, Personal Fouls
+pts, Points
+pts_per_g, Points Per Game
+sos, Strength of Schedule
+srs, Simple Rating System
+stl, Steals
+team_name, Team
+tov, Turnovers
+tov_pct, Turnover Percentage
+trb, Total Rebounds
+ts_pct, True Shooting Percentage
+wins_pyth, Pythagorean wins, i.e., expected wins based on points scored and allowed
