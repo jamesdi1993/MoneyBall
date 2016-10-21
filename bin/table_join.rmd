@@ -8,20 +8,23 @@ output: html_document
 
 ```{r, echo=FALSE}
 require(dplyr)
+
+# 2014-2015
 setwd("C:/Users/bl022_000/Desktop/moneyball/MoneyBall/data/2014_2015")
 df_schedule = read.csv("2014_2015_schedule.csv", header = TRUE)
 df2 = read.csv("2014_2015_stats.csv", header = TRUE)
 
-df2 = df2[-c(1)] # visitor
+colnames(df2)
+# df2 = df2[-c(1)] # visitor
 
 df3 = df2  # home
 
 # change column names
-colnames(df2)[colnames(df2)!="Team"] <- paste("visitor", colnames(df2)[colnames(df2)!="Team"], sep = "_")
-colnames(df2)[colnames(df2)=="Team"] <- "Visitor"
+colnames(df2)[colnames(df2)!="team_name"] <- paste("visitor", colnames(df2)[colnames(df2)!="team_name"], sep = "_")
+colnames(df2)[colnames(df2)=="team_name"] <- "Visitor"
 
-colnames(df3)[colnames(df3)!="Team"] <- paste("home", colnames(df3)[colnames(df3)!="Team"], sep = "_")
-colnames(df3)[colnames(df3)=="Team"] <- "Home"
+colnames(df3)[colnames(df3)!="team_name"] <- paste("home", colnames(df3)[colnames(df3)!="team_name"], sep = "_")
+colnames(df3)[colnames(df3)=="team_name"] <- "Home"
 
 
 df = full_join(df_schedule, df2, by = "Visitor")
@@ -30,5 +33,28 @@ df = full_join(df, df3, by = "Home")
 write.csv(df, file = "2014_2015_full_table.csv")
 
 
+
+# 2015-2016
+setwd("C:/Users/bl022_000/Desktop/moneyball/MoneyBall/data/2015_2016")
+df_schedule = read.csv("2015_2016_schedule.csv", header = TRUE)
+df2 = read.csv("2015_2016_stats.csv", header = TRUE)
+
+colnames(df2)
+# df2 = df2[-c(1)] # visitor
+
+df3 = df2  # home
+
+# change column names
+colnames(df2)[colnames(df2)!="team_name"] <- paste("visitor", colnames(df2)[colnames(df2)!="team_name"], sep = "_")
+colnames(df2)[colnames(df2)=="team_name"] <- "Visitor"
+
+colnames(df3)[colnames(df3)!="team_name"] <- paste("home", colnames(df3)[colnames(df3)!="team_name"], sep = "_")
+colnames(df3)[colnames(df3)=="team_name"] <- "Home"
+
+
+df = full_join(df_schedule, df2, by = "Visitor")
+df = full_join(df, df3, by = "Home")
+
+write.csv(df, file = "2015_2016_full_table.csv")
 
 ```
