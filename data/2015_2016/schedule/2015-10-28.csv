@@ -1,15 +1,15 @@
 Visitor,Home,Prediction,Result,Prediction_Outcome
-Philadelphia 76ers,Boston Celtics
-Chicago Bulls,Brooklyn Nets
-Utah Jazz,Detroit Pistons
-Denver Nuggets,Houston Rockets
-Minnesota Timberwolves,Los Angeles Lakers
-Cleveland Cavaliers,Memphis Grizzlies
-Charlotte Hornets,Miami Heat
-New York Knicks,Milwaukee Bucks
-San Antonio Spurs,Oklahoma City Thunder
-Washington Wizards,Orlando Magic
-Dallas Mavericks,Phoenix Suns
-New Orleans Pelicans,Portland Trail Blazers
-Los Angeles Clippers,Sacramento Kings
-Indiana Pacers,Toronto Raptors
+Philadelphia 76ers,Boston Celtics,,,
+Chicago Bulls,Brooklyn Nets,,,
+Utah Jazz,Detroit Pistons,,,
+Denver Nuggets,Houston Rockets,,,
+Minnesota Timberwolves,Los Angeles Lakers,,,
+Cleveland Cavaliers,Memphis Grizzlies,,,
+Charlotte Hornets,Miami Heat,,,
+New York Knicks,Milwaukee Bucks,,,
+San Antonio Spurs,Oklahoma City Thunder,,,
+Washington Wizards,Orlando Magic,,,
+Dallas Mavericks,Phoenix Suns,,,
+New Orleans Pelicans,Portland Trail Blazers,,,
+Los Angeles Clippers,Sacramento Kings,,,
+Indiana Pacers,Toronto Raptors,,,

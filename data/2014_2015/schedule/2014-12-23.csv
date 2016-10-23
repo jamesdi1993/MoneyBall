@@ -1,12 +1,12 @@
 Visitor,Home,Prediction,Result,Prediction_Outcome
-Los Angeles Clippers,Atlanta Hawks
-Denver Nuggets,Brooklyn Nets
-Minnesota Timberwolves,Cleveland Cavaliers
-New Orleans Pelicans,Indiana Pacers
-Golden State Warriors,Los Angeles Lakers
-Philadelphia 76ers,Miami Heat
-Charlotte Hornets,Milwaukee Bucks
-Portland Trail Blazers,Oklahoma City Thunder
-Boston Celtics,Orlando Magic
-Dallas Mavericks,Phoenix Suns
-Chicago Bulls,Washington Wizards
+Los Angeles Clippers,Atlanta Hawks,,,
+Denver Nuggets,Brooklyn Nets,,,
+Minnesota Timberwolves,Cleveland Cavaliers,,,
+New Orleans Pelicans,Indiana Pacers,,,
+Golden State Warriors,Los Angeles Lakers,,,
+Philadelphia 76ers,Miami Heat,,,
+Charlotte Hornets,Milwaukee Bucks,,,
+Portland Trail Blazers,Oklahoma City Thunder,,,
+Boston Celtics,Orlando Magic,,,
+Dallas Mavericks,Phoenix Suns,,,
+Chicago Bulls,Washington Wizards,,,

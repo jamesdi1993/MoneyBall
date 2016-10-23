@@ -1,7 +1,6 @@
 Visitor,Home,Prediction,Result,Prediction_Outcome
-Phoenix Suns,Brooklyn Nets
-Washington Wizards,Cleveland Cavaliers
-Orlando Magic,Minnesota Timberwolves
-Memphis Grizzlies,New Orleans Pelicans
-Los Angeles Lakers,Philadelphia 76ers
-Dallas Mavericks,Portland Trail Blazers
+Washington Wizards,Cleveland Cavaliers,,0,0
+Orlando Magic,Minnesota Timberwolves,,0,0
+Memphis Grizzlies,New Orleans Pelicans,,0,0
+Los Angeles Lakers,Philadelphia 76ers,,1,0
+Dallas Mavericks,Portland Trail Blazers,,0,0

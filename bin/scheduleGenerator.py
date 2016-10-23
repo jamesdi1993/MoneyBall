@@ -54,7 +54,12 @@ for game_schedule in filereader:
 			day_schedule_file = open(day_schedule_filename, 'w')
 			day_schedule_file_writer = csv.writer(day_schedule_file)
 			day_schedule_file_writer.writerow(header)
-		day_schedule_file_writer.writerow(game_schedule[1:])
+		game_schedule_holder = []
+		game_schedule_holder.extend(game_schedule[1:])
+		# add three more placeholders for each row 
+		# this is for making it easier to update game results
+		game_schedule_holder.extend(["", "", ""])
+		day_schedule_file_writer.writerow(game_schedule_holder)
 		day_schedule_file.close()
 	else:
 		first_line = False
