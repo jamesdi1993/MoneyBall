@@ -37,29 +37,33 @@ season_schedule_file= open(file_name, 'rU')
 filereader = csv.reader(season_schedule_file)
 first_line = True
 for game_schedule in filereader:
-	if not first_line:
-		month_year_day = game_schedule[0].split(' ')[1:]
-		day = month_year_day[1]
-		# Keep the day two digits, i.e the date format should be 'yyyy-mm-dd'
-		if len(day) == 1:
-			day = '0' + day
-		day_schedule_filename = prefix + 'schedule/' + str(month_year_day[2]) + '-' + month_mapping[month_year_day[0]] + '-' + day + '.csv'
-		day_schedule_file = None
-		day_schedule_file_writer = None
-		if os.path.isfile(day_schedule_filename):
-
-			day_schedule_file = open(day_schedule_filename, 'a')
-			day_schedule_file_writer = csv.writer(day_schedule_file)	
-		else:
-			day_schedule_file = open(day_schedule_filename, 'w')
-			day_schedule_file_writer = csv.writer(day_schedule_file)
-			day_schedule_file_writer.writerow(header)
-		game_schedule_holder = []
-		game_schedule_holder.extend(game_schedule[1:])
-		# add three more placeholders for each row 
-		# this is for making it easier to update game results
-		game_schedule_holder.extend(["", "", ""])
-		day_schedule_file_writer.writerow(game_schedule_holder)
-		day_schedule_file.close()
-	else:
+	if first_line:
 		first_line = False
+		continue
+	month_year_day = game_schedule[0].split(' ')[1:]
+	day = month_year_day[1]
+	# Keep the day two digits, i.e the date format should be 'yyyy-mm-dd'
+	if len(day) == 1:
+		day = '0' + day
+	date = str(month_year_day[2]) + '-' + month_mapping[month_year_day[0]] + '-' + day
+	directory = prefix + 'schedule/' + date + "/"
+	# if the directory does not exist, create directory for this game day
+	if not os.path.exists(directory):
+		os.makedirs(directory)
+	day_schedule_filename = directory + date + '.csv'
+	day_schedule_file = None
+	day_schedule_file_writer = None
+	if os.path.isfile(day_schedule_filename):
+		day_schedule_file = open(day_schedule_filename, 'a')
+		day_schedule_file_writer = csv.writer(day_schedule_file)	
+	else:
+		day_schedule_file = open(day_schedule_filename, 'w')
+		day_schedule_file_writer = csv.writer(day_schedule_file)
+		day_schedule_file_writer.writerow(header)
+	game_schedule_holder = []
+	game_schedule_holder.extend(game_schedule[1:])
+	# add three more placeholders for each row 
+	# this is for making it easier to update game results
+	game_schedule_holder.extend(["", "", ""])
+	day_schedule_file_writer.writerow(game_schedule_holder)
+	day_schedule_file.close()
