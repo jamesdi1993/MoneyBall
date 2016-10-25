@@ -88,7 +88,7 @@ first_line = True
 
 # for each game in the previoud day game schedule, look for the game result from the
 # scoreboard of the previous day games
-for row in game_list[1:]:
+for row in game_list:
 	if not first_line:
 		visitor = row[0]
 		home = row[1]
