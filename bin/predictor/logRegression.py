@@ -34,9 +34,8 @@ class LogRegressionNaivePredictor:
 		test_X = np.delete(test_X, self.delete_col_test_indices, 1)
 		test_X = np.delete(test_X, self.delete_row_index, 0)
 		# test_y = np.delete(test_y, self.delete_row_index, 0)
-		y_pred = self.test(test_X)
+		y_pred = self.test(test_X).astype(int)  # cast the ndarray to of type int
 		return y_pred
-		# print "y_pred is: ", y_pred
 		# print "test_y is: ", test_y
 		# self.computeError(y_pred, test_y)
 

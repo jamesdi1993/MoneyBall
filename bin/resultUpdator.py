@@ -12,7 +12,7 @@ import argparse
 
 parser = argparse.ArgumentParser(description='Provide the season to updates result for.')
 parser.add_argument('-s', metavar = "<year1>-<year2>", help = "The season to updates result for")
-parser.add_argument('-d', metavar = "<yyyy>-<mm>-<dd>", help = "The specific day to generate schedule for")
+parser.add_argument('-d', metavar = "<yyyy>-<mm>-<dd>", help = "The specific day to update result for")
 args = parser.parse_args()
 
 default_year = "2016_2017"
@@ -29,10 +29,11 @@ else:
 if day == None:
 	day = default_day
 
-prefix = "../data/" + year + "schedule/"
+prefix = "../data/" + year + "/schedule/" + day + "/"
 file_name = prefix + day + ".csv"
 
-url = "http://www.basketball-reference.com/boxscores/index.cgi?month=" + str(previous_day.month) + "&day=" + str(previous_day.day) + "&year=" + str(previous_day.year)
+date = day.split('-')
+url = "http://www.basketball-reference.com/boxscores/index.cgi?month=" + date[1] + "&day=" + date[2] + "&year=" + date[0]
 # TODO: put this file into a new json file
 team_mapping = {
 	"Phoenix": "Phoenix Suns",
@@ -100,9 +101,9 @@ for row in game_list:
 			# assumption: a team cannot be in two games on the same day!
 			if (visitor == winner or home == winner):
 				# if home team wins, result is 1. Otherwise 0
-				row[3] = str(int(home == winner))
-				row[4] = str(int(row[2] == row[3]))
-				print "The game is: ", row
+				row[3] = int(home == winner)
+				row[4] = int(int(row[2]) == row[3]) # 
+				print "The game is ", row
 				game_csv_writer.writerow(row)
 				break
 	else:

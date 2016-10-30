@@ -1,5 +1,5 @@
 Visitor,Home,Prediction,Result,Prediction_Outcome
-Washington Wizards,Atlanta Hawks,,,
-Boston Celtics,Chicago Bulls,,,
-Los Angeles Clippers,Portland Trail Blazers,,,
-San Antonio Spurs,Sacramento Kings,,,
+Washington Wizards,Atlanta Hawks,1,1,1
+Boston Celtics,Chicago Bulls,1,1,1
+Los Angeles Clippers,Portland Trail Blazers,0,0,1
+San Antonio Spurs,Sacramento Kings,1,0,0
