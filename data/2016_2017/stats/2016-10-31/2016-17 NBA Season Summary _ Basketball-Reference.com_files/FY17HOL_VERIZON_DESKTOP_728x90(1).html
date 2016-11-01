@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<!-- saved from url=(0108)https://s0.2mdn.net/4470646/1476813256867/FY17HOL_VERIZON_DESKTOP_728x90/FY17HOL_VERIZON_DESKTOP_728x90.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		
+		<title>FY17HOL_VERIZON_DESKTOP_728x90</title>
+		<style>
+			#banner {
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 728px;
+				height: 90px;
+				cursor: pointer;
+				box-sizing: border-box;
+			}
+			#details {
+				position: absolute;
+			}
+		</style>
+<!-- Start Animate Code -->
+<script src="./createjs-2015.11.26.min.js"></script>
+<script src="./FY17HOL_VERIZON_DESKTOP_728x90.js"></script>
+<script>
+var canvas, stage, exportRoot;
+function init() {
+	canvas = document.getElementById("canvas");
+	images = images||{};
+	var loader = new createjs.LoadQueue(false);
+	loader.addEventListener("fileload", handleFileLoad);
+	loader.addEventListener("complete", handleComplete);
+	loader.loadManifest(lib.properties.manifest);
+}
+function handleFileLoad(evt) {
+	if (evt.item.type == "image") { images[evt.item.id] = evt.result; }
+}
+function handleComplete(evt) {
+	var queue = evt.target;
+	var ssMetadata = lib.ssMetadata;
+	for(i=0; i<ssMetadata.length; i++) {
+		ss[ssMetadata[i].name] = new createjs.SpriteSheet( {"images": [queue.getResult(ssMetadata[i].name)], "frames": ssMetadata[i].frames} )
+	}
+	exportRoot = new lib.FY17HOL_VERIZON_DESKTOP_728x90();
+	stage = new createjs.Stage(canvas);
+	stage.addChild(exportRoot);
+	createjs.Ticker.setFPS(lib.properties.fps);
+	createjs.Ticker.addEventListener("tick", stage);
+}
+</script>
+<!-- End Animate Code -->
+	<script type="text/javascript">
+    
+      (function() {
+        var relegateNavigation = '';
+        var handleClickTagMessage = function(e) {
+          try {
+            var eventData = JSON.parse(e.data);
+          } catch (err) {
+            return;
+          }
+          if (eventData.isInitClickTag) {
+            if (eventData.clickTags) {
+              for (var i = 0; i < eventData.clickTags.length; i++) {
+                var clkTag = eventData.clickTags[i];
+                window[clkTag.name] = clkTag.url;
+              }
+            } else if (eventData.clickTag) {
+              window.clickTag = eventData.clickTag;
+            }
+            relegateNavigation = eventData.relegateNavigation;
+          }
+        };
+
+        if (open.call) {
+          window.open = function(open) {
+            return function(url, name, features) {
+              if (relegateNavigation === 'parent') {
+                var message = {'clickTag': url, 'isPostClickTag': true};
+                parent.postMessage(JSON.stringify(message), '*');
+              } else {
+                var args = [url, name];
+                if (features) {
+                  args.push(features);
+                }
+                open.apply(window, args);
+              }
+            };
+          }(window.open);
+        }
+
+        if (window.addEventListener) {
+          window.addEventListener(
+              'message', handleClickTagMessage, false);
+        } else {
+          window.attachEvent('onmessage', handleClickTagMessage);
+        }
+      })();
+    
+  </script></head>
+	<body onload="init();" style="background-color:#DEDEDE;margin:0px;">
+		<div id="banner">
+			<canvas id="canvas" width="728" height="90" style="background-color:rgba(255, 255, 255, 1.00)"></canvas>
+			<div id="details" style="height:20px;width:70px;left:3.7px;top:71px;"></div>
+		</div>
+		<script type="text/javascript">
+			var clickTag = "";
+			document.getElementById("banner").addEventListener("click", function(){
+				window.open(window.clickTag);
+			});
+			document.getElementById("banner").addEventListener("mouseover", function(){
+				document.rollOverFunction();
+			});		
+			document.getElementById("banner").addEventListener("mouseout", function(){
+				document.rollOutFunction();
+			});
+			document.getElementById("details").addEventListener("mouseover", function(){
+				document.openDetails();
+			});		
+			document.getElementById("details").addEventListener("mouseout", function(){
+				document.closeDetails();
+			});
+		</script>
+	
+
+</body></html>

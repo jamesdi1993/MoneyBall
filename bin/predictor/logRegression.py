@@ -11,7 +11,7 @@ from sklearn.metrics import f1_score
 
 class LogRegressionNaivePredictor:
 	def __init__(self):
-		self.col = 233
+		self.col = 134
 		self.delete_col_train_indices = range(6)
 		self.delete_col_test_indices = range(2)
 		self.delete_row_index = 0

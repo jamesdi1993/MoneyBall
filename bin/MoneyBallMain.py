@@ -19,7 +19,7 @@ def main() :
     # join the stats tables and schedule table for today
 	subprocess.call("RScript mergeTables_JD.R -s 2016-2017", shell = True)
 	# train model and make prediction
-	training_data_path = "../data/2014_2015/2014_2015_full_table.csv"
+	training_data_path = "../data/2015_2016/2015_2016_full_table.csv"
 	prediction_data_path = "../data/2016_2017/schedule/" + today + "/" + today + "-full-table.csv"
 	schedule_path = "../data/2016_2017/schedule/" + today + "/" + today + ".csv"
 

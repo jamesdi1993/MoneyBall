@@ -1,5 +1,5 @@
 Visitor,Home,Prediction,Result,Prediction_Outcome
-Sacramento Kings,Atlanta Hawks,,,
-Chicago Bulls,Brooklyn Nets,,,
-Phoenix Suns,Los Angeles Clippers,,,
-Denver Nuggets,Toronto Raptors,,,
+Sacramento Kings,Atlanta Hawks,1,1,1
+Chicago Bulls,Brooklyn Nets,0,0,1
+Phoenix Suns,Los Angeles Clippers,1,1,1
+Denver Nuggets,Toronto Raptors,1,1,1

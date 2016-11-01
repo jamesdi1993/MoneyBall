@@ -44,8 +44,8 @@ year1 = years[0]
 year2 = years[1]
 # the index is there is because the format is yyyy-yy, e.g 2016-2017
 url_local = directory + year1+ '-' + year2[2:] + " NBA Season Summary _ Basketball-Reference.com.html"
-
-table_ids = ["team_stats", "opp_stats", "misc_stats", "team_shooting", "opponent_shooting"]
+# table_ids = ["team_stats", "opp_stats", "misc_stats", "team_shooting", "opponent_shooting"]
+table_ids = ["team_stats", "opp_stats", "misc_stats"]
 table_file_prefix = '../data/'
 excluded_labels = ["ranker", "g", "mp", "arena_name", "attendance"]
 
@@ -77,6 +77,7 @@ for table_id in table_ids:
 
 	# construct the xpath for the fields in the row 
 	# index is 1 is because we want to extract team name seperately
+	print "table id is: ", table_id
 	field_xpath = 'td[contains(@data-stat,"' + headers[1] + '")'
 	for header in headers[2:]:
 		field_xpath = field_xpath + ' or contains(@data-stat,"'+ header + '")'

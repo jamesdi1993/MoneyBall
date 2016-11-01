@@ -1,8 +1,8 @@
 Visitor,Home,Prediction,Result,Prediction_Outcome
-Milwaukee Bucks,Detroit Pistons,1,,
-Dallas Mavericks,Houston Rockets,1,,
-Utah Jazz,Los Angeles Clippers,0,,
-Washington Wizards,Memphis Grizzlies,1,,
-San Antonio Spurs,Miami Heat,1,,
-Los Angeles Lakers,Oklahoma City Thunder,1,,
-Golden State Warriors,Phoenix Suns,0,,
+Milwaukee Bucks,Detroit Pistons,1,1,1
+Dallas Mavericks,Houston Rockets,1,1,1
+Utah Jazz,Los Angeles Clippers,0,1,0
+Washington Wizards,Memphis Grizzlies,1,1,1
+San Antonio Spurs,Miami Heat,1,0,0
+Los Angeles Lakers,Oklahoma City Thunder,1,1,1
+Golden State Warriors,Phoenix Suns,0,0,1

@@ -1,0 +1,229 @@
+@charset "UTF-8";
+
+/* CSS Reset */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+
+	display: block;
+}
+body {
+
+	line-height: 1;
+}
+ol, ul {
+
+	list-style: none;
+}
+blockquote, q {
+
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/*---------------*/
+
+#container {
+    top: 0px;
+    left: 0px;
+    width: 728px;
+    height: 90px;
+    display: block;
+    position: relative;
+    cursor: pointer;
+    border: 1px solid #A7A7A7;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    overflow: hidden;
+}
+
+#banner {
+    top: 0px;
+    left: 0px;
+    width: 728px;
+    height: 90px;
+    display: block;
+    overflow: hidden;
+    background: url("bg.jpg") no-repeat;
+}
+
+#clicktag {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 728px;
+    height: 90px;
+    opacity: 0;
+    z-index: 100;
+}
+
+#brand {
+    position: absolute;
+    bottom: 11px;
+    right: 9px;
+    z-index: 1;
+}
+
+#copy1 {
+    background: url('sprite.png') no-repeat -1px -2px;
+    position: absolute;
+    width: 331px;
+		height: 19px;
+    top: 26px;
+    left: 25px;
+    z-index: 1;
+}
+
+#copy2 {
+    position: absolute;
+    top: 53px;
+    left: 25px;
+    width: 212px;
+		height: 13px;;
+    background: url('sprite.png') no-repeat -1px -29px;
+}
+
+#price {
+    position: absolute;
+    width: 199px;
+	height: 75px;
+    top: 6px;
+    left: 383px;
+    background: url('sprite.png') no-repeat -338px -2px;
+    z-index: 2;
+}
+
+#price_shadow {
+    position: absolute;
+    width: 187px;
+	height: 81px;
+    top: 8px;
+    left: 371px;
+    z-index: 1;
+}
+
+#shadow_dollar{
+    position: absolute;
+    width: 33px;
+	height: 39px;
+    top: 0px;
+    left: -1px;
+    background: url('sprite.png') no-repeat -543px -9px;
+    z-index: 1;
+}
+
+#shadow_three{
+    position: absolute;
+    width: 72px;
+	height: 90px;
+    top: 1px;
+    left: 16px;
+    background: url('sprite.png') no-repeat -583px -10px;
+    z-index: 1;
+}
+
+#shadow_four{
+    position: absolute;
+    width: 70px;
+		height: 93px;
+    top: 1px;
+    left: 79px;
+    background: url('sprite.png') no-repeat -668px -10px;
+    z-index: 1;
+}
+
+#shadow_nine{
+    position: absolute;
+    width: 31px;
+	height: 35px;
+    top: 1px;
+    left: 133px;
+    background: url('sprite.png') no-repeat -748px -9px;
+    z-index: 1;
+}
+
+#shadow_zero{
+    position: absolute;
+    width: 31px;
+	height: 37px;
+    top: 1px;
+    left: 154px;
+    background: url('sprite.png') no-repeat -787px -9px;
+    z-index: 1;
+}
+
+#logo {
+    position: absolute;
+    top: 10px;
+    right: 25px;
+		background: url('sprite.png') no-repeat -3px -47px;
+		width: 99px;
+		height: 19px;
+}
+
+#PhoneNumber {
+    position: absolute;
+    width: 96px;
+	height: 13px;
+    bottom: 6px;
+    right: 26px;
+    background: url('sprite.png') no-repeat -222px -53px;
+    z-index: 3;
+
+}
+
+#cta {
+    position: absolute;
+    right: 20px;
+    bottom: 24px;
+		background: url('sprite.png') no-repeat -107px -72px;
+		width: 112px;
+		height: 30px;    overflow: hidden;
+    z-index: 3;
+}
+
+#shine{
+    position: absolute;
+    width: 110px;
+	height: 28px;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(to right, rgba(255,255,255,0), rgba(255,255,255,0.5), rgba(255,255,255,0));
+    border: 0;
+    z-index: 2;
+}

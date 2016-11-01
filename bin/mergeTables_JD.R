@@ -28,7 +28,6 @@ schedule_day = opt$gameday
 # 2014_2015
 # set working directory
 wd_stats_table = paste("~/Desktop/cs/fun project/MoneyBall/MoneyBall/data", year_underscore, "stats", stats_day, sep = '/')
-wd_stats_table
 setwd(wd_stats_table)
 
 #-----------------------------------------------------------------------
@@ -36,22 +35,22 @@ setwd(wd_stats_table)
 #-----------------------------------------------------------------------
 # read all tables
 miscellaneous_stats_table = paste(year_underscore, "_misc_stats.csv", sep='')
-opponent_shooting_table = paste(year_underscore, "_opponent_shooting.csv", sep = '')
+# opponent_shooting_table = paste(year_underscore, "_opponent_shooting.csv", sep = '')
 opponent_stats_table = paste(year_underscore, "_opp_stats.csv", sep = '')
-team_shooting_table = paste(year_underscore, "_team_shooting.csv", sep = '')
+# team_shooting_table = paste(year_underscore, "_team_shooting.csv", sep = '')
 team_stats_table = paste(year_underscore, "_team_stats.csv", sep = '')
 
 df1 = read.csv(miscellaneous_stats_table, header = TRUE, encoding="ascii")
-df2 = read.csv(opponent_shooting_table, header = TRUE)
+# df2 = read.csv(opponent_shooting_table, header = TRUE)
 df3 = read.csv(opponent_stats_table, header = TRUE)
-df4 = read.csv(team_shooting_table, header = TRUE)
+# df4 = read.csv(team_shooting_table, header = TRUE)
 df5 = read.csv(team_stats_table, header = TRUE)
 
 
 # join tables
-df = full_join(df1, df2, by="team_name")
-df = full_join(df,df3,by="team_name")
-df = full_join(df,df4,by="team_name")
+# df = full_join(df1, df2, by="team_name")
+df = full_join(df1,df3,by="team_name")
+# df = full_join(df,df4,by="team_name")
 df = full_join(df,df5,by="team_name")
 
 # write statistics to csv
@@ -82,6 +81,7 @@ colnames(df_copy)[colnames(df_copy)=="team_name"] <- "Home"
 df = left_join(df_schedule, df, by = "Visitor")
 df = left_join(df, df_copy, by = "Home")
 
+# full_table = paste(schedule_day, "-full-table.csv", sep = '')
 full_table = paste(schedule_day, "-full-table.csv", sep = '')
 write.csv(df, file = full_table, row.names=FALSE)
 
