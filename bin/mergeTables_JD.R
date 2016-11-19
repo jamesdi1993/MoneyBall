@@ -12,7 +12,9 @@ option_list = list(
 	make_option(c("-d", "--statsday"), type="character", default=today, 
               help="the specific day to join the stats tables for", metavar="character"),
 	make_option(c("-g", "--gameday"), type="character", default=today, 
-              help="the specific day to join the game schedule for", metavar="character")
+              help="the specific day to join the game schedule for", metavar="character"),
+	make_option(c("-y", "--year"), action="store_true", default = FALSE,
+              help="the year to join the tables for, if it is for the entire season", metavar="character")
 ); 
  
 opt_parser = OptionParser(option_list=option_list);
@@ -24,10 +26,15 @@ year = opt$season
 year_underscore = gsub("-", "_", year)
 stats_day = opt$statsday
 schedule_day = opt$gameday
+is_whole_year = opt$year
 
-# 2014_2015
+# check if this is for the entire year
 # set working directory
-wd_stats_table = paste("~/Desktop/cs/fun project/MoneyBall/MoneyBall/data", year_underscore, "stats", stats_day, sep = '/')
+if (is_whole_year) {
+	wd_stats_table = paste("~/Desktop/cs/fun project/MoneyBall/MoneyBall/data", year_underscore, sep = '/')
+}  else {
+	wd_stats_table = paste("~/Desktop/cs/fun project/MoneyBall/MoneyBall/data", year_underscore, "stats", stats_day, sep = '/')
+}
 setwd(wd_stats_table)
 
 #-----------------------------------------------------------------------
@@ -35,23 +42,23 @@ setwd(wd_stats_table)
 #-----------------------------------------------------------------------
 # read all tables
 miscellaneous_stats_table = paste(year_underscore, "_misc_stats.csv", sep='')
-# opponent_shooting_table = paste(year_underscore, "_opponent_shooting.csv", sep = '')
+opponent_shooting_table = paste(year_underscore, "_opponent_shooting.csv", sep = '')
 opponent_stats_table = paste(year_underscore, "_opp_stats.csv", sep = '')
-# team_shooting_table = paste(year_underscore, "_team_shooting.csv", sep = '')
+team_shooting_table = paste(year_underscore, "_team_shooting.csv", sep = '')
 team_stats_table = paste(year_underscore, "_team_stats.csv", sep = '')
 
 df1 = read.csv(miscellaneous_stats_table, header = TRUE, encoding="ascii")
-# df2 = read.csv(opponent_shooting_table, header = TRUE)
+df2 = read.csv(opponent_shooting_table, header = TRUE)
 df3 = read.csv(opponent_stats_table, header = TRUE)
-# df4 = read.csv(team_shooting_table, header = TRUE)
+df4 = read.csv(team_shooting_table, header = TRUE)
 df5 = read.csv(team_stats_table, header = TRUE)
 
 
 # join tables
-# df = full_join(df1, df2, by="team_name")
-df = full_join(df1,df3,by="team_name")
-# df = full_join(df,df4,by="team_name")
-df = full_join(df,df5,by="team_name")
+df = full_join(df1, df2, by="team_name")
+df = full_join(df, df3,by="team_name")
+df = full_join(df, df4,by="team_name")
+df = full_join(df, df5,by="team_name")
 
 # write statistics to csv
 stats_table = paste(year_underscore, "_stats.csv", sep = '');
@@ -60,9 +67,16 @@ write.csv(df, file = stats_table, row.names=FALSE)
 #-----------------------------------------------------------------------
 # join statistics with game results
 #-----------------------------------------------------------------------
-wd_schedule_table = paste("~/Desktop/cs/fun project/MoneyBall/MoneyBall/data", year_underscore, "schedule", schedule_day, sep = '/')
+if (is_whole_year){
+	wd_schedule_table = wd_stats_table
+	schedule_table = paste("~/Desktop/cs/fun project/MoneyBall/MoneyBall/data", 
+		year_underscore, paste(year_underscore, "_schedule_prediction.csv", sep = ''), sep = '/')
+}  else{
+	wd_schedule_table = paste("~/Desktop/cs/fun project/MoneyBall/MoneyBall/data", 
+		year_underscore, "schedule", schedule_day, sep = '/')
+	schedule_table = paste(schedule_day, ".csv", sep = '')
+}
 setwd(wd_schedule_table)
-schedule_table = paste(schedule_day, ".csv", sep = '')
 df_schedule = read.csv(schedule_table, header = TRUE)
 df_schedule = df_schedule[c("Visitor", "Home")]
 
@@ -81,7 +95,10 @@ colnames(df_copy)[colnames(df_copy)=="team_name"] <- "Home"
 df = left_join(df_schedule, df, by = "Visitor")
 df = left_join(df, df_copy, by = "Home")
 
-# full_table = paste(schedule_day, "-full-table.csv", sep = '')
-full_table = paste(schedule_day, "-full-table.csv", sep = '')
+if (is_whole_year){
+	full_table = paste(year_underscore, "_full_table.csv", sep = '')
+} else{
+	full_table = paste(schedule_day, "_full_table.csv", sep = '')
+}
 write.csv(df, file = full_table, row.names=FALSE)
 
