@@ -11,37 +11,41 @@ from sklearn.metrics import f1_score
 
 class LogRegressionNaivePredictor:
 	def __init__(self):
-		self.col = 134
-		self.delete_col_train_indices = range(6)
-		self.delete_col_test_indices = range(2)
-		self.delete_row_index = 0
+		# self.delete_col_train_indices = range(6)
+		# self.delete_col_test_indices = range(2)
+		# self.delete_row_index = 0
 		self.clf = LogisticRegression(fit_intercept=True, C=10, penalty='l2', solver='lbfgs')
 
-	def train_w_file(self, train_data_path):
-		train_X = np.genfromtxt (train_data_path, delimiter=",")
-		train_y = train_X[:,5]
-		train_X = np.delete(train_X , self.delete_col_train_indices, 1)
-		train_X  = np.delete(train_X , self.delete_row_index, 0)
-		train_y = np.delete(train_y, self.delete_row_index, 0)
-		self.train(train_X, train_y)
+	# def train_w_file(self, train_data_path):
+	# 	train_X = np.genfromtxt (train_data_path, delimiter=",")
+	# 	train_y = train_X[:,5]
+	# 	train_X = np.delete(train_X , self.delete_col_train_indices, 1)
+	# 	train_X  = np.delete(train_X , self.delete_row_index, 0)
+	# 	train_y = np.delete(train_y, self.delete_row_index, 0)
+	# 	self.train(train_X, train_y)
 
 	def train(self, train_X, train_y):
 		self.clf.fit(train_X, train_y)
+		# print "The coeffients are: ", self.clf.coef_
 
-	def test_w_file(self, test_data_path):
-		test_X = np.genfromtxt(test_data_path, delimiter=",")
-		# test_y = test_X[:,5]
-		test_X = np.delete(test_X, self.delete_col_test_indices, 1)
-		test_X = np.delete(test_X, self.delete_row_index, 0)
-		# test_y = np.delete(test_y, self.delete_row_index, 0)
-		y_pred = self.test(test_X).astype(int)  # cast the ndarray to of type int
-		return y_pred
-		# print "test_y is: ", test_y
-		# self.computeError(y_pred, test_y)
+	# def test_w_file(self, test_data_path):
+	# 	test_X = np.genfromtxt(test_data_path, delimiter=",")
+	# 	# test_y = test_X[:,5]
+	# 	test_X = np.delete(test_X, self.delete_col_test_indices, 1)
+	# 	test_X = np.delete(test_X, self.delete_row_index, 0)
+	# 	# test_y = np.delete(test_y, self.delete_row_index, 0)
+	# 	y_pred = self.test(test_X).astype(int)  # cast the ndarray to of type int
+	# 	return y_pred
+	# 	# print "test_y is: ", test_y
+	# 	# self.computeError(y_pred, test_y)
 
 	def test(self, test_X):
 		y_pred = self.clf.predict(test_X)
-		return y_pred
+		return y_pred.astype(int)
+
+	def fit_and_predict(self, train_X, train_y, test_X):
+		self.train(train_X, train_y)
+		return self.test(test_X)
 
 	def computeError(self, y_pred, y_result):
 		err = metrics.zero_one_loss(y_result, y_pred, normalize=True)

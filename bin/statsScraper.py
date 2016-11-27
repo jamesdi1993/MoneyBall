@@ -8,7 +8,10 @@
 # in real time. 
 from selenium import webdriver 
 from selenium import common
-from selenium.webdriver.chrome.options import Options
+from selenium.common.exceptions import TimeoutException
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 from lxml import html
 import urllib
 import csv
@@ -59,18 +62,29 @@ table_names = {
 table_file_prefix = '../data/'
 excluded_labels = ["ranker", "g", "mp", "arena_name", "attendance"]
 
-# options = webdriver.ChromeOptions() 
-# options.add_argument("download.default_directory=" + "../data/" + year + "/stats/" + day + "/")
-
 # open the selenium chrome driver and retrieve the web content
 driver = webdriver.Chrome('../lib/chromedriver')
-driver.get(url)
-page = driver.page_source
+# wait for 10 seconds for page to load
+driver.set_page_load_timeout(15)
+try:
+	driver.get(url)
+except TimeoutException:
+	print "The driver timed out"
 
-# write the page source to file for later retrieval
-html_source = io.open(url_local, 'w', encoding="utf-8")
-html_source.write(page)
-html_source.close
+try:
+	# Check if all elements are present
+	for table_id in table_names:
+		print "Waiting for table: ", table_id, " to load."
+		WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.ID, table_id)))
+	page = driver.page_source
+	# write the page source to file for later retrieval
+	html_source = io.open(url_local, 'w', encoding="utf-8")
+	html_source.write(page)
+	html_source.close
+except TimeoutException:
+	print "Not all elements are present"
+finally:
+	driver.close()
 
 # if there is no local html file exit with error message
 if not os.path.exists(url_local):
@@ -98,24 +112,23 @@ for table_id in table_names.keys():
 	# extract the data
 	data_path = '//*[@id="' + table_id + '"]/tbody/tr'
 	rows = page_element.xpath(data_path)
+
 	# drop the last row because it's average data of all teams
 	# if not table_id == "misc_stats_clone":
-	rows = rows[:-1]
+	# rows = rows[:-1]q
 
 	# construct the xpath for the fields in the row 
 	# index is 1 is because we want to extract team name seperately
-	print "table id is: ", table_id
+	# print "table id is: ", table_id
 
-	field_xpath = 'td[contains(@data-stat,"' + headers[1] + '")'
+	field_xpath = 'td[(@data-stat=\"' + headers[1] + '\")'
 	for header in headers[2:]:
-		field_xpath = field_xpath + ' or contains(@data-stat,"'+ header + '")'
-	field_xpath = field_xpath + ' and not(contains(@data-stat, "team_name"))]/text()'
+		field_xpath = field_xpath + ' or (@data-stat=\"'+ header + '\")'
+	field_xpath = field_xpath + ' and not(@data-stat="team_name")]/text()'
 
 	current_headers = current_headers + headers
 	table_writer.writerow(headers)
 
-	print "headers is: ", headers
-	print "field_xpath is: ", field_xpath
 	for row in rows:
 		team_name = row.xpath('td[@data-stat="team_name"]/a/text()')[0]
 		# refactor this line of code

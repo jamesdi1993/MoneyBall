@@ -70,7 +70,7 @@ write.csv(df, file = stats_table, row.names=FALSE)
 if (is_whole_year){
 	wd_schedule_table = wd_stats_table
 	schedule_table = paste("~/Desktop/cs/fun project/MoneyBall/MoneyBall/data", 
-		year_underscore, paste(year_underscore, "_schedule_prediction.csv", sep = ''), sep = '/')
+		year_underscore, paste(year_underscore, "_schedule.csv", sep = ''), sep = '/')
 }  else{
 	wd_schedule_table = paste("~/Desktop/cs/fun project/MoneyBall/MoneyBall/data", 
 		year_underscore, "schedule", schedule_day, sep = '/')
@@ -78,8 +78,6 @@ if (is_whole_year){
 }
 setwd(wd_schedule_table)
 df_schedule = read.csv(schedule_table, header = TRUE)
-df_schedule = df_schedule[c("Visitor", "Home")]
-
 
 df_copy = df  # make a copy for home stats and visitor stats
 
@@ -91,14 +89,16 @@ colnames(df)[colnames(df)=="team_name"] <- "Visitor"
 colnames(df_copy)[colnames(df_copy)!="team_name"] <- paste("home", colnames(df_copy)[colnames(df_copy)!="team_name"], sep = "_")
 colnames(df_copy)[colnames(df_copy)=="team_name"] <- "Home"
 
-# add stats of both teams to results
-df = left_join(df_schedule, df, by = "Visitor")
-df = left_join(df, df_copy, by = "Home")
-
 if (is_whole_year){
 	full_table = paste(year_underscore, "_full_table.csv", sep = '')
 } else{
+	# leave only the team names if the schedule is for a specific day
+	df_schedule = df_schedule[c("Visitor", "Home")]
 	full_table = paste(schedule_day, "_full_table.csv", sep = '')
 }
+
+# add stats of both teams to results
+df = left_join(df_schedule, df, by = "Visitor")
+df = left_join(df, df_copy, by = "Home")
 write.csv(df, file = full_table, row.names=FALSE)
 

@@ -13,7 +13,9 @@ lfw_imageSize = (32, 32, 3)
 ######################################################################
 # data utilities
 ######################################################################
-
+delete_col_train_indices = set(range(6))
+delete_col_test_indices = set(range(2))
+delete_row_index = 0
 
 def show_image(im, size=lfw_imageSize) :
     """
@@ -58,7 +60,31 @@ def plot_gallery(images, title='plot', subtitles=[],
         plt.yticks(())
     plt.show()
 
+def read_data(train_data_path, test_data_path):
 
+    train_data = np.genfromtxt(train_data_path, delimiter=",", dtype=None)
+    test_data = np.genfromtxt(test_data_path, delimiter=",", dtype=None)
+    # make sure train_X and test_X have the same dimension
+    return normalize_data(train_data, test_data)
+
+def normalize_data(train_data, test_data):
+    train_X_header = train_data[0]
+    test_X_header = test_data[0]
+    train_y = train_data[:,5]
+    for index in range(train_X_header.size):
+        if train_X_header[index] not in test_X_header:
+            delete_col_train_indices.add(index)
+    for index in range(test_X_header.size):
+        if test_X_header[index] not in train_X_header:
+            delete_col_test_indices.add(index)
+
+    train_X = np.delete(train_data , list(delete_col_train_indices), 1)
+    test_X = np.delete(test_data, list(delete_col_test_indices), 1)
+
+    train_X  = np.delete(train_X , delete_row_index, 0).astype(float)
+    test_X = np.delete(test_X, delete_row_index, 0).astype(float)
+    train_y = np.delete(train_y, delete_row_index, 0).astype(int)
+    return train_X, train_y, test_X
 # def limit_pics(X, y, classes, nim):
 #     """
 #     Select subset of images from dataset.

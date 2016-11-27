@@ -102,8 +102,7 @@ for row in game_list:
 			if (visitor == winner or home == winner):
 				# if home team wins, result is 1. Otherwise 0
 				row[3] = int(home == winner)
-				row[4] = int(int(row[2]) == row[3]) # 
-				print "The game is ", row
+				row[4] = int(int(row[2]) == row[3])
 				game_csv_writer.writerow(row)
 				break
 	else:
