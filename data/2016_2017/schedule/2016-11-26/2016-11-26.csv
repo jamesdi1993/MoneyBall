@@ -1,6 +1,6 @@
 Visitor,Home,Prediction,Result,Prediction_Outcome
-New York Knicks,Charlotte Hornets,,,
-Minnesota Timberwolves,Golden State Warriors,,,
-Memphis Grizzlies,Miami Heat,,,
-Detroit Pistons,Oklahoma City Thunder,,,
-San Antonio Spurs,Washington Wizards,,,
+New York Knicks,Charlotte Hornets,0,1,0
+Minnesota Timberwolves,Golden State Warriors,0,1,0
+Memphis Grizzlies,Miami Heat,0,0,1
+Detroit Pistons,Oklahoma City Thunder,0,1,0
+San Antonio Spurs,Washington Wizards,0,0,1

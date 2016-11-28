@@ -1,0 +1,1 @@
+var useSSL = "https:" == document.location.protocol;document.write('<scr'+'ipt src="' + (useSSL ? 'https:' : 'http:') + '//tag.contextweb.com/TagPublish/getjs.aspx?action=VIEWAD&cwrun=200&cwadformat=728x90&cwpid=560006&cwwidth=728&cwheight=90&cwpnet=1&cwtagid=506065&PPTOKEN_1=~~DOMAIN~~&PPTOKEN_2=~~HOP~~"></scr'+'ipt>');

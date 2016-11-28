@@ -1,0 +1,151 @@
+
+<!-- saved from url=(0066)https://s0.2mdn.net/1160694/1452721187993/[V2]%20paint_728x90.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script type="text/javascript">
+    
+      (function() {
+        var relegateNavigation = '';
+        var handleClickTagMessage = function(e) {
+          try {
+            var eventData = JSON.parse(e.data);
+          } catch (err) {
+            return;
+          }
+          if (eventData.isInitClickTag) {
+            if (eventData.clickTags) {
+              for (var i = 0; i < eventData.clickTags.length; i++) {
+                var clkTag = eventData.clickTags[i];
+                window[clkTag.name] = clkTag.url;
+              }
+            } else if (eventData.clickTag) {
+              window.clickTag = eventData.clickTag;
+            }
+            relegateNavigation = eventData.relegateNavigation;
+          }
+        };
+
+        if (open.call) {
+          window.open = function(open) {
+            return function(url, name, features) {
+              if (relegateNavigation === 'parent') {
+                var message = {'clickTag': url, 'isPostClickTag': true};
+                parent.postMessage(JSON.stringify(message), '*');
+              } else {
+                var args = [url, name];
+                if (features) {
+                  args.push(features);
+                }
+                open.apply(window, args);
+              }
+            };
+          }(window.open);
+        }
+
+        if (window.addEventListener) {
+          window.addEventListener(
+              'message', handleClickTagMessage, false);
+        } else {
+          window.attachEvent('onmessage', handleClickTagMessage);
+        }
+      })();
+    
+  </script>
+        
+        <style type="text/css">
+            body { background: transparent; height:100%; margin: 0; }
+        .ad-728x90-1 { background: #fff; width: 726px; height: 88px; border: 1px black solid; position: relative; cursor: pointer; }
+        .ad-728x90-1 .dynamic-creative { height: 88px; width: 554px; display: inline-block; float: left; }
+
+        .ad-728x90-1 .left-container { background: #184186; width: 14px; height: 88px; position: absolute; left: 0; top: 0; cursor: pointer; }
+        .ad-728x90-1 .banner-container {position: absolute; width: 728px; height: 88px; left: 0px; z-index: 200;}
+        .ad-728x90-1 .right-container { background: url('https://aa.chango.com/static/dynamic/lowes/v1/category/images/728x90_logo.gif') no-repeat; width: 149px; height: 88px; position: absolute; right: 0; top: 0; cursor: pointer; z-index: 0; }
+        .ad-728x90-1 .right-container2 {  width: 320px; height: 88px; position: absolute; right: 0; top: 0; cursor: pointer; z-index: 10; }
+
+        .ad-728x90-1 .prod-wrapper { width: 100%; height: 100%; text-align: center; position: relative; }
+
+        .ad-728x90-1 .prod-desc { float: left; height: 90px; width: 250px; text-align: left; font-family: 'Roboto Condensed', 'Helvetica', 'Arial', sans-serif; margin-top: 19px; padding: 0 0 0 22px; }
+
+        .ad-728x90-1 .prod-name { color: #0e4489; font-size: 24px; line-height: 24px; letter-spacing: -2px; max-height: 48px; overflow: hidden; text-overflow: clip; text-transform: uppercase; text-overflow: clip; text-transform: uppercase; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; }
+
+        .ad-728x90-1 .image-wrapper { position: relative; width: 80px; height: 80px; text-align: center; float: left; margin-top: 5px; padding: 0 35px; }
+        .ad-728x90-1 .prod-image { position: absolute; max-width: 80px; max-height: 80px; top: 50%; left: 50%; transform: translate(-50%, -50%); -webkit-transform: translate(-50%, -50%); -ms-transform: translate(-50%, -50%); }
+
+        .ad-728x90-1 .arrow-left { background: url('https://aa.chango.com/static/dynamic/lowes/v1/category/images/arrow-left.png') no-repeat; width: 15px; height: 15px; position: absolute; cursor: pointer; background-size: 9px 13px; top: 66px; right: 268px; z-index: 2000;}
+        .ad-728x90-1 .arrow-right { background: url('https://aa.chango.com/static/dynamic/lowes/v1/category/images/arrow-right.png') no-repeat; width: 15px; height: 15px; position: absolute; cursor: pointer; background-size: 9px 13px; top: 66px; right: 183px; z-index: 2000;}
+
+        .ad-728x90-1 .btn-container { position: absolute; top: 18px; right: 135px; }
+        .ad-728x90-1 .shop-btn { background: url('https://aa.chango.com/static/dynamic/lowes/v1/category/images/shop-btn.gif') no-repeat; width: 111px; height: 32px; display: inline-block; cursor: pointer; margin: 0px 40px 0px; }
+
+        .ad-728x90-1 .ellipses { width: 110px; text-align: center; position: absolute; top: 69px; left: 434px; }
+        .ad-728x90-1 .dot { background: #0e4489; height: 6px; width: 6px; border-radius: 4px; display: inline-block; margin: 0 2px; }
+        .ad-728x90-1 .dot.active { background: #009cdf; }
+
+        .ad-728x90-1 .bx-wrapper { max-width: 167px !important; margin-left: 14px; margin-right: 290px !important }
+        .ad-728x90-1 .bx-viewport { height: 88px !important }
+        .ad-728x90-1 .prod-wrap { width: 160px !important }
+
+        </style>
+
+        <link href="./css" rel="stylesheet" type="text/css">
+        <script type="text/javascript" src="./jquery.min.js"></script>
+        <script type="text/javascript" src="./jquery.bxslider.min.js"></script>
+<script type="text/javascript" src="./dynamicAd_lowesFallback_1447187511.js"></script>
+<script type="text/javascript" src="./dynamicAd.js"></script>
+
+         </head>
+    <body>
+        <script>
+var clickTag = "";            var data = {
+                // "fallback": "https://aa.chango.com/static/dynamic/kohls/fallback-160x600.jpg",
+                "landing_url": "",
+                "interaction_url": "",
+                "current_time": 123,
+                "click_prefix": "",
+                "click_suffix": "",
+                "products": [{'sku': '', 'brand': 'lowes', 'link': '', 'desc': '', 'partner_id': 'lowes', 'sale_price_end_date': '', 'category': '', 'title': 'Everything you need for your painting project', 'image_url': 'https://images.lowes.com/product/converted/042397/042397595462lg.jpg', 'sale_price': '', 'group_id': '', 'price': ''}, {'sku': '', 'brand': 'lowes', 'link': '', 'desc': '', 'partner_id': 'lowes', 'sale_price_end_date': '', 'category': '', 'title': 'Everything you need for your painting project', 'image_url': 'https://images.lowes.com/product/converted/715195/715195997249lg.jpg', 'sale_price': '', 'group_id': '', 'price': ''}, {'sku': '', 'brand': 'lowes', 'link': '', 'desc': '', 'partner_id': 'lowes', 'sale_price_end_date': '', 'category': '', 'title': 'Everything you need for your painting project', 'image_url': 'https://images.lowes.com/product/converted/035777/035777251225lg.jpg', 'sale_price': '', 'group_id': '', 'price': ''}, {'sku': '', 'brand': 'lowes', 'link': '', 'desc': '', 'partner_id': 'lowes', 'sale_price_end_date': '', 'category': '', 'title': 'Everything you need for your painting project', 'image_url': 'https://images.lowes.com/product/converted/633955/633955365537lg.jpg', 'sale_price': '', 'group_id': '', 'price': ''}, {'sku': '', 'brand': 'lowes', 'link': '', 'desc': '', 'partner_id': 'lowes', 'sale_price_end_date': '', 'category': '', 'title': 'Everything you need for your painting project', 'image_url': 'https://images.lowes.com/product/converted/098262/098262012886lg.jpg', 'sale_price': '', 'group_id': '', 'price': ''}, {'sku': '', 'brand': 'lowes', 'link': '', 'desc': '', 'partner_id': 'lowes', 'sale_price_end_date': '', 'category': '', 'title': 'Everything you need for your painting project', 'image_url': 'https://images.lowes.com/product/converted/024964/024964180738lg.jpg', 'sale_price': '', 'group_id': '', 'price': ''}]
+            };
+        </script>
+        <div class="ad-728x90-1">
+<a href="javascript:window.open(window.clickTag)">
+    <div class="banner-container logo-container">
+     <div class="prod-desc prod-name">Everything you need for your painting project</div>
+ </div>
+            <div class="bx-wrapper" style="max-width: 583px; margin: 0px auto;"><div class="bx-viewport" style="width: 100%; overflow: hidden; position: relative; height: 88px;"><div class="dynamic-creative" style="width: 815%; position: relative; transition-duration: 0s; transform: translate3d(-960px, 0px, 0px);"><div class="prod-wrap prod-page bx-clone" id="prod-" data-href="" data-interaction-url="" style="float: left; list-style: none; position: relative; width: 167px;">                        <div class="prod-wrapper">                            <div class="image-wrapper">                                <img class="prod-image" src="./024964180738lg.jpg">                            </div>                        </div>                    </div>                    <div class="prod-wrap prod-page" id="prod-" data-href="" data-interaction-url="" style="float: left; list-style: none; position: relative; width: 167px;">                        <div class="prod-wrapper">                            <div class="image-wrapper">                                <img class="prod-image" src="./042397595462lg.jpg">                            </div>                        </div>                    </div>                    <div class="prod-wrap prod-page" id="prod-" data-href="" data-interaction-url="" style="float: left; list-style: none; position: relative; width: 167px;">                        <div class="prod-wrapper">                            <div class="image-wrapper">                                <img class="prod-image" src="./715195997249lg.jpg">                            </div>                        </div>                    </div>                    <div class="prod-wrap prod-page" id="prod-" data-href="" data-interaction-url="" style="float: left; list-style: none; position: relative; width: 167px;">                        <div class="prod-wrapper">                            <div class="image-wrapper">                                <img class="prod-image" src="./035777251225lg.jpg">                            </div>                        </div>                    </div>                    <div class="prod-wrap prod-page" id="prod-" data-href="" data-interaction-url="" style="float: left; list-style: none; position: relative; width: 167px;">                        <div class="prod-wrapper">                            <div class="image-wrapper">                                <img class="prod-image" src="./633955365537lg.jpg">                            </div>                        </div>                    </div>                    <div class="prod-wrap prod-page" id="prod-" data-href="" data-interaction-url="" style="float: left; list-style: none; position: relative; width: 167px;">                        <div class="prod-wrapper">                            <div class="image-wrapper">                                <img class="prod-image" src="./098262012886lg.jpg">                            </div>                        </div>                    </div>                    <div class="prod-wrap prod-page" id="prod-" data-href="" data-interaction-url="" style="float: left; list-style: none; position: relative; width: 167px;">                        <div class="prod-wrapper">                            <div class="image-wrapper">                                <img class="prod-image" src="./024964180738lg.jpg">                            </div>                        </div>                    </div><div class="prod-wrap prod-page bx-clone" id="prod-" data-href="" data-interaction-url="" style="float: left; list-style: none; position: relative; width: 167px;">                        <div class="prod-wrapper">                            <div class="image-wrapper">                                <img class="prod-image" src="./042397595462lg.jpg">                            </div>                        </div>                    </div></div></div></div>
+            <div class="left-container logo-container"></div>
+            </a><div class="btn-container"><a href="javascript:window.open(window.clickTag)">
+                </a><a class="shop-btn"></a>
+            </div>
+            <div class="right-container logo-container"></div>
+            <div class="right-container2 logo-container"></div>
+            <div class="ellipses"><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot active"></div></div>
+            <div class="arrow-container">
+                <a class="arrow-left"></a>
+                <a class="arrow-right"></a>
+            </div>
+        </div>
+        <script>
+            var da = DynamicAd;
+            var options = {
+                "160x600": {width: 150, height: 250},
+                "300x600": {width: 280, height: 500},
+                "300x250": {width: 280, height: 200},
+                "728x90": {width: 583, height: 90}
+            };
+            $(document).ready(function(){
+                da.init(data, options["728x90"], '.dynamic-creative', '.prod-wrap', '\
+                    <div class="prod-wrap prod-page" id="prod-%%sku%%" data-href="%%link%%" data-interaction-url="%%interaction_url%%">\
+                        <div class="prod-wrapper">\
+                            <div class="image-wrapper">\
+                                <img class="prod-image" src="%%image%%">\
+                            </div>\
+                        </div>\
+                    </div>');
+                da.cycleCarousel(".arrow-right", true);
+                da.cycleCarousel(".arrow-left", false);
+                da.clickEllipses("ellipses");
+            });
+        </script>
+
+
+    
+
+</body></html>
