@@ -1,0 +1,1 @@
+document.write("<scr"+"ipt src='https://www.googletagservices.com/tag/js/gpt.js'> googletag.pubads().definePassback('/117033896/ak_srcom728', [728, 90]).setTargeting('AdPartner', ['PubGears']).display(); </scr"+"ipt>");

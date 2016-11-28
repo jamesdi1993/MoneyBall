@@ -1,0 +1,33 @@
+
+<!-- saved from url=(0174)http://bcp.crwdcntrl.net/5/c=6411/rand=338301467/pv=y/tp=BIDT/tpid=1d49a443-3fab-48c5-9c75-54db1887ae6f/int=%23OpR%2371320%23bttrack.com%20%3A%20Total%20Site%20Traffic/rt=ifr -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></head><body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" style="background-color:transparent; width: 100%; text-align: center;">
+<div><img src="./382416.gif" width="1" height="1"><img src="./5907" width="1" height="1"><script>
+function processTargusData(json)
+{
+   if (json != null) {
+       if (json.targus != null) {
+            u = "";
+            v = "map";
+            if (json.targus.sk != null && json.targus.sk != "") {
+                u += "/tp=TARG/tpid=" + json.targus.sk;
+            }
+            if (json.targus.age != null && json.targus.age != "") {
+                u += "/genp=" + (new Date().getFullYear() - json.targus.age);
+                v = "5";
+            }
+            if (json.targus.gender != null && json.targus.gender != "") {
+                u += "/genp=gender%20-%20" + json.targus.gender;
+                v = "5";
+            }
+            if (u != "") {
+              var img = new Image();
+              img.src = "http://bcp.crwdcntrl.net/" + v + "/c=368" + u;
+              document.body.appendChild(img);
+            }
+        }
+   }
+}
+</script>
+<script src="./g.json"></script><img src="./tpc=na_id" height="1" width="1"><img src="./match" width="1" height="1"><img src="./usync" height="1" width="1"></div>
+
+</body></html>

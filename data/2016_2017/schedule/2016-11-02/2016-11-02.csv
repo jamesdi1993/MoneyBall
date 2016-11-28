@@ -1,11 +1,11 @@
 Visitor,Home,Prediction,Result,Prediction_Outcome
-Los Angeles Lakers,Atlanta Hawks,,,
-Chicago Bulls,Boston Celtics,,,
-Detroit Pistons,Brooklyn Nets,,,
-Philadelphia 76ers,Charlotte Hornets,,,
-Oklahoma City Thunder,Los Angeles Clippers,,,
-New Orleans Pelicans,Memphis Grizzlies,,,
-Houston Rockets,New York Knicks,,,
-Portland Trail Blazers,Phoenix Suns,,,
-Dallas Mavericks,Utah Jazz,,,
-Toronto Raptors,Washington Wizards,,,
+Los Angeles Lakers,Atlanta Hawks,1,0,0
+Chicago Bulls,Boston Celtics,0,1,0
+Detroit Pistons,Brooklyn Nets,0,1,0
+Philadelphia 76ers,Charlotte Hornets,0,1,0
+Oklahoma City Thunder,Los Angeles Clippers,1,0,0
+New Orleans Pelicans,Memphis Grizzlies,1,1,1
+Houston Rockets,New York Knicks,0,0,1
+Portland Trail Blazers,Phoenix Suns,0,1,0
+Dallas Mavericks,Utah Jazz,0,1,0
+Toronto Raptors,Washington Wizards,1,0,0

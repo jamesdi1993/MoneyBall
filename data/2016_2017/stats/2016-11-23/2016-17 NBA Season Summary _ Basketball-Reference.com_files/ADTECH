@@ -1,0 +1,12 @@
+var useSSL = "https:" == document.location.protocol;document.write('<scr'+'ipt type="text/Javascript" src="' + (useSSL ? 'https:' : 'http:') + '//tags.pubgears.com/bsktb01/ros/728x90/adtech_1?cb=' + Math.round(Math.random() * 100000) + '&domain=&hop="></scr'+'ipt>');
+
+
+document.write('<img src="http://atpixelus.alephd.com/post_adtech?wxUHWgTMU.-5UPZR0TMWxRKisWlM4qxWAa48Dl89J7SJk60bRYf51gjN2tHjKttEyTYy6hkbIFClbQQnFjSUAnxsMoBduVa.ebK3IO9cQJVYDloFVxdvqVm2CwLBGHb.m8ywck2R.Ly6-0-FZxFY9vghyByuxQg1mVdK8.nU7j39ERMBknSa28B0FjOJ1WlmKvA1ScAjcW3ibaRL5Y6hPZ2m2AiDCwVjwoSrXChhx59u53Py0p.ZWoL117CFBweYmW3KcVcS67ZlMkJnE7gncKn3Ynmf6LlRlfiIFyICjpg=" width="1" height="1"  style="display:none;">');
+document.write('<img src="http://ad.afy11.net/ad?mode=10&sspid=585" width="1" height="1" style="display:none;">');
+document.write('<img src="http://um.simpli.fi/pm_match?http://ums.adtechus.com/mapuser?providerid=1051;userid=$UID" width="1" height="1" style="display:none;">');
+document.write('<img src="http://ums.adtechus.com/mapuser?providerid=1070;getuser=http://a.tribalfusion.com/i.match?p=b15&u=$UID&redirect=http%3A//ums.adtechus.com/mapuser%3Fproviderid%3D1070%3Buserid%3D%24TF_USER_ID_ENC%24" width="1" height="1" style="display:none;">');
+document.write('<img src="http://c1.adform.net/serving/cookie/match/?CC=1&party=15&curl=http://ums.adtechus.com/mapuser?providerid=1016;userid=$UID" width="1" height="1" style="display:none;">');
+document.write('<img src="http://ums.adtechus.com/mapuser?providerid=1039;userid=0;getuser=http://pix04.revsci.net/D08734/a1/0/0/0.gif?DM_LOC=http%3A%2F%2Faol.com%2F0.gif%3Fid%3D$UID" width="1" height="1" style="display:none;">');
+document.write('<img src="http://rp.gwallet.com/r1/cm/p81r" width="1" height="1" style="display:none;">');
+document.write('<img src="http://px.owneriq.net/eaol?redir=http://ums.adtechus.com/mapuser?providerid=1044;userid=$UID" width="1" height="1" style="display:none;">');
+document.write('<img src="http://acuityplatform.com/Adserver/atds?getuserid=http://ums.adtechus.com/mapuser?providerid=1027;userid=$UID" width="1" height="1" style="display:none;">');

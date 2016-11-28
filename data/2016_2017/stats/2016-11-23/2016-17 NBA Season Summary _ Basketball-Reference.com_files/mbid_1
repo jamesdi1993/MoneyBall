@@ -1,0 +1,1 @@
+var useSSL = "https:" == document.location.protocol;document.write('<scr'+'ipt language="javascript1.1" src="' + (useSSL ? 'https:' : 'http:') + '//adserver.adtechus.com/addyn/3.0/9865.1/4269048/0/225/ADTECH;loc=100;target=_blank;misc=[TIMESTAMP];rdclick=[CLICKMACRO]"></scr'+'ipt>');

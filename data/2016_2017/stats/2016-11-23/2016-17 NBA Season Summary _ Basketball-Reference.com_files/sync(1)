@@ -1,0 +1,6 @@
+(function () {var f = function () {
+		{
+			var e = new Image();e.src = 'http://p.adsymptotic.com/d/px?_pid=13001&_psign=c5ccca7f0d37071ee38ee7ac29330eac&_puuid=Acs1rFvfiQVXlVyZZMCrp3qSyot9HpNK8JnnIJc&_redirect=http%3A%2F%2Fpippio.com%2Fapi%2Fsync%3Fpid%3D1284%26m%3DCIYKEioKJggBEBIaIDk0MTNjZTNkMDQxNGE2NmZhNzBiNDdjMDU5MjA0MzE5EAAaDQi6nNXBBRIFCIQKEAA%26it%3D1%26iv%3D%24%7BUUID%7D';
+		}};
+	if (document.body) { f(); } else { document.addEventListener('DOMContentLoaded', f); }
+}());
