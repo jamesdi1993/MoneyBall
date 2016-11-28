@@ -5,6 +5,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.cm as cm
 
+import csv
+
 # scikit-learn libraries
 from sklearn.datasets import fetch_lfw_people
 
@@ -85,6 +87,28 @@ def normalize_data(train_data, test_data):
     test_X = np.delete(test_X, delete_row_index, 0).astype(float)
     train_y = np.delete(train_y, delete_row_index, 0).astype(int)
     return train_X, train_y, test_X
+
+
+def writeToFile(file_name, y_pred):
+    # read file first and get all the entries
+    game_file_reader = open(file_name, 'rU')
+    game_csv_reader = csv.reader(game_file_reader)
+    game_list = []
+    game_list.extend(game_csv_reader)
+    game_file_reader.close()
+
+    game_file_writer = open(file_name, 'w')
+    game_csv_writer = csv.writer(game_file_writer)
+
+    for index in range(len(game_list)):
+        if index == 0:
+            game_csv_writer.writerow(game_list[0])
+        else:
+            row = game_list[index]
+            # update the prediction, which is the 3rd column
+            row[2] = y_pred[index - 1]
+            game_csv_writer.writerow(row)
+    game_file_writer.close()
 # def limit_pics(X, y, classes, nim):
 #     """
 #     Select subset of images from dataset.

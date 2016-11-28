@@ -32,7 +32,7 @@ def main() :
 	y_pred = logRegPredictor.fit_and_predict(train_X, train_y, test_X)
 	print "The prediction for: ", today, " is: ", y_pred
 	# write the prediction to the schedule file
-	logRegPredictor.writeToFile(schedule_path, y_pred)
+	util.writeToFile(schedule_path, y_pred)
 
 if __name__ == "__main__" :
    main()
