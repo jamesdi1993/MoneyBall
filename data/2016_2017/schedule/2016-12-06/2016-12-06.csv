@@ -1,7 +1,7 @@
 Visitor,Home,Prediction,Result,Prediction_Outcome
-Chicago Bulls,Detroit Pistons,,,
-Philadelphia 76ers,Memphis Grizzlies,,,
-New York Knicks,Miami Heat,,,
-San Antonio Spurs,Minnesota Timberwolves,,,
-Phoenix Suns,Utah Jazz,,,
-Orlando Magic,Washington Wizards,,,
+Chicago Bulls,Detroit Pistons,0,1,0
+Philadelphia 76ers,Memphis Grizzlies,0,1,0
+New York Knicks,Miami Heat,0,0,1
+San Antonio Spurs,Minnesota Timberwolves,0,0,1
+Phoenix Suns,Utah Jazz,0,1,0
+Orlando Magic,Washington Wizards,0,0,1

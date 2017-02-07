@@ -1,7 +1,7 @@
 Visitor,Home,Prediction,Result,Prediction_Outcome
-Los Angeles Clippers,Brooklyn Nets,,,
-Detroit Pistons,Charlotte Hornets,,,
-Cleveland Cavaliers,Milwaukee Bucks,,,
-Los Angeles Lakers,New Orleans Pelicans,,,
-Orlando Magic,San Antonio Spurs,,,
-Houston Rockets,Utah Jazz,,,
+Los Angeles Clippers,Brooklyn Nets,0,1,0
+Detroit Pistons,Charlotte Hornets,0,0,1
+Cleveland Cavaliers,Milwaukee Bucks,0,1,0
+Los Angeles Lakers,New Orleans Pelicans,0,1,0
+Orlando Magic,San Antonio Spurs,0,0,1
+Houston Rockets,Utah Jazz,0,1,0

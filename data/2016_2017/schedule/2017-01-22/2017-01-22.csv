@@ -1,5 +1,5 @@
 Visitor,Home,Prediction,Result,Prediction_Outcome
-Los Angeles Lakers,Dallas Mavericks,,,
-Denver Nuggets,Minnesota Timberwolves,,,
-Golden State Warriors,Orlando Magic,,,
-Phoenix Suns,Toronto Raptors,,,
+Los Angeles Lakers,Dallas Mavericks,0,1,0
+Denver Nuggets,Minnesota Timberwolves,0,1,0
+Golden State Warriors,Orlando Magic,0,0,1
+Phoenix Suns,Toronto Raptors,0,0,1

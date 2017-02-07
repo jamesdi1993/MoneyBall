@@ -1,8 +1,8 @@
 Visitor,Home,Prediction,Result,Prediction_Outcome
-Sacramento Kings,Charlotte Hornets,,,
-Los Angeles Clippers,Golden State Warriors,,,
-Detroit Pistons,Miami Heat,,,
-Boston Celtics,Milwaukee Bucks,,,
-Brooklyn Nets,Minnesota Timberwolves,,,
-Denver Nuggets,Phoenix Suns,,,
-Memphis Grizzlies,Utah Jazz,,,
+Sacramento Kings,Charlotte Hornets,0,0,1
+Los Angeles Clippers,Golden State Warriors,0,1,0
+Detroit Pistons,Miami Heat,0,1,0
+Boston Celtics,Milwaukee Bucks,0,0,1
+Brooklyn Nets,Minnesota Timberwolves,0,1,0
+Denver Nuggets,Phoenix Suns,0,0,1
+Memphis Grizzlies,Utah Jazz,0,0,1

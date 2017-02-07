@@ -1,10 +1,10 @@
 Visitor,Home,Prediction,Result,Prediction_Outcome
-Minnesota Timberwolves,Charlotte Hornets,,,
-Chicago Bulls,Dallas Mavericks,,,
-Phoenix Suns,Golden State Warriors,,,
-Los Angeles Lakers,Memphis Grizzlies,,,
-Brooklyn Nets,Milwaukee Bucks,,,
-Boston Celtics,Philadelphia 76ers,,,
-Miami Heat,Portland Trail Blazers,,,
-Atlanta Hawks,Toronto Raptors,,,
-Denver Nuggets,Utah Jazz,,,
+Minnesota Timberwolves,Charlotte Hornets,0,0,1
+Chicago Bulls,Dallas Mavericks,0,1,0
+Phoenix Suns,Golden State Warriors,0,1,0
+Los Angeles Lakers,Memphis Grizzlies,0,1,0
+Brooklyn Nets,Milwaukee Bucks,0,1,0
+Boston Celtics,Philadelphia 76ers,0,0,1
+Miami Heat,Portland Trail Blazers,0,1,0
+Atlanta Hawks,Toronto Raptors,0,1,0
+Denver Nuggets,Utah Jazz,0,1,0

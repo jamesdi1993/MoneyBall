@@ -1,7 +1,7 @@
 Visitor,Home,Prediction,Result,Prediction_Outcome
-Utah Jazz,Denver Nuggets,,,
-Chicago Bulls,Orlando Magic,,,
-Los Angeles Clippers,Philadelphia 76ers,,,
-Minnesota Timberwolves,Phoenix Suns,,,
-San Antonio Spurs,Toronto Raptors,,,
-Boston Celtics,Washington Wizards,,,
+Utah Jazz,Denver Nuggets,0,1,0
+Chicago Bulls,Orlando Magic,0,0,1
+Los Angeles Clippers,Philadelphia 76ers,0,1,0
+Minnesota Timberwolves,Phoenix Suns,0,0,1
+San Antonio Spurs,Toronto Raptors,0,0,1
+Boston Celtics,Washington Wizards,0,1,0

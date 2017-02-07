@@ -1,6 +1,6 @@
 Visitor,Home,Prediction,Result,Prediction_Outcome
-Detroit Pistons,Boston Celtics,,,
-Cleveland Cavaliers,Dallas Mavericks,,,
-Brooklyn Nets,Miami Heat,,,
-Orlando Magic,Minnesota Timberwolves,,,
-Memphis Grizzlies,Phoenix Suns,,,
+Detroit Pistons,Boston Celtics,0,1,0
+Cleveland Cavaliers,Dallas Mavericks,0,1,0
+Brooklyn Nets,Miami Heat,0,1,0
+Orlando Magic,Minnesota Timberwolves,0,1,0
+Memphis Grizzlies,Phoenix Suns,0,0,1

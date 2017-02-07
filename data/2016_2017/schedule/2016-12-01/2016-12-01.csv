@@ -1,7 +1,7 @@
 Visitor,Home,Prediction,Result,Prediction_Outcome
-Milwaukee Bucks,Brooklyn Nets,,,
-Dallas Mavericks,Charlotte Hornets,,,
-Los Angeles Clippers,Cleveland Cavaliers,,,
-Houston Rockets,Golden State Warriors,,,
-Orlando Magic,Memphis Grizzlies,,,
-Miami Heat,Utah Jazz,,,
+Milwaukee Bucks,Brooklyn Nets,0,0,1
+Dallas Mavericks,Charlotte Hornets,0,1,0
+Los Angeles Clippers,Cleveland Cavaliers,0,0,1
+Houston Rockets,Golden State Warriors,0,0,1
+Orlando Magic,Memphis Grizzlies,0,1,0
+Miami Heat,Utah Jazz,0,0,1

@@ -1,5 +1,5 @@
 Visitor,Home,Prediction,Result,Prediction_Outcome
-Orlando Magic,Detroit Pistons,,,
-Indiana Pacers,Los Angeles Clippers,,,
-Sacramento Kings,New York Knicks,,,
-New Orleans Pelicans,Oklahoma City Thunder,,,
+Orlando Magic,Detroit Pistons,0,0,1
+Indiana Pacers,Los Angeles Clippers,0,0,1
+Sacramento Kings,New York Knicks,0,1,0
+New Orleans Pelicans,Oklahoma City Thunder,0,1,0

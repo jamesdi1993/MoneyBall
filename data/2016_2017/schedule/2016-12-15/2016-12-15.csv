@@ -1,6 +1,6 @@
 Visitor,Home,Prediction,Result,Prediction_Outcome
-Portland Trail Blazers,Denver Nuggets,,,
-New York Knicks,Golden State Warriors,,,
-Chicago Bulls,Milwaukee Bucks,,,
-Indiana Pacers,New Orleans Pelicans,,,
-San Antonio Spurs,Phoenix Suns,,,
+Portland Trail Blazers,Denver Nuggets,0,1,0
+New York Knicks,Golden State Warriors,0,1,0
+Chicago Bulls,Milwaukee Bucks,0,1,0
+Indiana Pacers,New Orleans Pelicans,0,1,0
+San Antonio Spurs,Phoenix Suns,0,0,1

@@ -1,9 +1,9 @@
 Visitor,Home,Prediction,Result,Prediction_Outcome
-New York Knicks,Atlanta Hawks,,,
-Philadelphia 76ers,Chicago Bulls,,,
-Oklahoma City Thunder,Cleveland Cavaliers,,,
-Houston Rockets,Indiana Pacers,,,
-Washington Wizards,New Orleans Pelicans,,,
-Golden State Warriors,Portland Trail Blazers,,,
-Dallas Mavericks,San Antonio Spurs,,,
-Orlando Magic,Toronto Raptors,,,
+New York Knicks,Atlanta Hawks,0,1,0
+Philadelphia 76ers,Chicago Bulls,0,1,0
+Oklahoma City Thunder,Cleveland Cavaliers,0,1,0
+Houston Rockets,Indiana Pacers,0,1,0
+Washington Wizards,New Orleans Pelicans,0,0,1
+Golden State Warriors,Portland Trail Blazers,0,0,1
+Dallas Mavericks,San Antonio Spurs,0,0,1
+Orlando Magic,Toronto Raptors,0,0,1

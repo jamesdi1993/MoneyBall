@@ -1,13 +1,13 @@
 Visitor,Home,Prediction,Result,Prediction_Outcome
-Toronto Raptors,Boston Celtics,,,
-New York Knicks,Brooklyn Nets,,,
-Minnesota Timberwolves,Cleveland Cavaliers,,,
-Philadelphia 76ers,Dallas Mavericks,,,
-Memphis Grizzlies,Denver Nuggets,,,
-New Orleans Pelicans,Detroit Pistons,,,
-Charlotte Hornets,Golden State Warriors,,,
-Atlanta Hawks,Miami Heat,,,
-Chicago Bulls,Oklahoma City Thunder,,,
-Indiana Pacers,Orlando Magic,,,
-Los Angeles Clippers,Phoenix Suns,,,
-Milwaukee Bucks,Utah Jazz,,,
+Toronto Raptors,Boston Celtics,0,1,0
+New York Knicks,Brooklyn Nets,0,0,1
+Minnesota Timberwolves,Cleveland Cavaliers,0,1,0
+Philadelphia 76ers,Dallas Mavericks,0,1,0
+Memphis Grizzlies,Denver Nuggets,0,0,1
+New Orleans Pelicans,Detroit Pistons,0,1,0
+Charlotte Hornets,Golden State Warriors,0,1,0
+Atlanta Hawks,Miami Heat,0,1,0
+Chicago Bulls,Oklahoma City Thunder,0,0,1
+Indiana Pacers,Orlando Magic,0,0,1
+Los Angeles Clippers,Phoenix Suns,0,0,1
+Milwaukee Bucks,Utah Jazz,0,1,0

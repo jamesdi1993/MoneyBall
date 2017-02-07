@@ -1,6 +1,6 @@
 Visitor,Home,Prediction,Result,Prediction_Outcome
-Philadelphia 76ers,Detroit Pistons,,,
-New York Knicks,Los Angeles Lakers,,,
-Golden State Warriors,Minnesota Timberwolves,,,
-Boston Celtics,Oklahoma City Thunder,,,
-New Orleans Pelicans,Phoenix Suns,,,
+Philadelphia 76ers,Detroit Pistons,0,0,1
+New York Knicks,Los Angeles Lakers,0,0,1
+Golden State Warriors,Minnesota Timberwolves,0,0,1
+Boston Celtics,Oklahoma City Thunder,0,1,0
+New Orleans Pelicans,Phoenix Suns,0,0,1

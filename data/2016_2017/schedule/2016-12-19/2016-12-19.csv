@@ -1,6 +1,6 @@
 Visitor,Home,Prediction,Result,Prediction_Outcome
-Detroit Pistons,Chicago Bulls,,,
-Dallas Mavericks,Denver Nuggets,,,
-Washington Wizards,Indiana Pacers,,,
-Phoenix Suns,Minnesota Timberwolves,,,
-Atlanta Hawks,Oklahoma City Thunder,,,
+Detroit Pistons,Chicago Bulls,0,1,0
+Dallas Mavericks,Denver Nuggets,0,1,0
+Washington Wizards,Indiana Pacers,0,1,0
+Phoenix Suns,Minnesota Timberwolves,0,1,0
+Atlanta Hawks,Oklahoma City Thunder,0,0,1
