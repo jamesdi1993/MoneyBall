@@ -115,7 +115,7 @@ for table_id in table_names.keys():
 
 	# drop the last row because it's average data of all teams
 	# if not table_id == "misc_stats_clone":
-	# rows = rows[:-1]q
+	# rows = rows[:-1]
 
 	# construct the xpath for the fields in the row 
 	# index is 1 is because we want to extract team name seperately

@@ -17,6 +17,8 @@ def main() :
 	subprocess.call("python resultUpdator.py -s 2016-2017", shell = True)
 	# pull new stats from basketball-reference.com
 	subprocess.call("python statsScraper.py -s 2016-2017", shell = True)
+	# pull team standing stats from nba.com
+	subprocess.call("python teamStandingScraper.py -s 2016-2017", shell = True)
     # join the stats tables and schedule table for today
 	subprocess.call("RScript mergeTables_JD.R -s 2016-2017", shell = True)
 	# train model and make prediction

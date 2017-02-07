@@ -46,19 +46,21 @@ opponent_shooting_table = paste(year_underscore, "_opponent_shooting.csv", sep =
 opponent_stats_table = paste(year_underscore, "_opp_stats.csv", sep = '')
 team_shooting_table = paste(year_underscore, "_team_shooting.csv", sep = '')
 team_stats_table = paste(year_underscore, "_team_stats.csv", sep = '')
+team_standing_table = paste(year_underscore, "_team_standings.csv", sep = '')
 
 df1 = read.csv(miscellaneous_stats_table, header = TRUE, encoding="ascii")
 df2 = read.csv(opponent_shooting_table, header = TRUE)
 df3 = read.csv(opponent_stats_table, header = TRUE)
 df4 = read.csv(team_shooting_table, header = TRUE)
 df5 = read.csv(team_stats_table, header = TRUE)
-
+df6 = read.csv(team_standing_table, header = TRUE)
 
 # join tables
 df = full_join(df1, df2, by="team_name")
 df = full_join(df, df3,by="team_name")
 df = full_join(df, df4,by="team_name")
 df = full_join(df, df5,by="team_name")
+df = full_join(df, df6,by="team_name")
 
 # write statistics to csv
 stats_table = paste(year_underscore, "_stats.csv", sep = '');

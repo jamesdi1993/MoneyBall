@@ -40,8 +40,8 @@ colnames(df_copy)[colnames(df_copy)!="team_name"] <- paste("home", colnames(df_c
 colnames(df_copy)[colnames(df_copy)=="team_name"] <- "Home"
 
 # add stats of both teams to results
-df = full_join(df_schedule, df, by = "Visitor")
-df = full_join(df, df_copy, by = "Home")
+df = left_join(df_schedule, df, by = "Visitor")
+df = left_join(df, df_copy, by = "Home")
 
 write.csv(df, file = "2014_2015_full_table.csv", row.names=FALSE)
 
