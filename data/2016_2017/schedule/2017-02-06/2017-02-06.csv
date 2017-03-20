@@ -1,12 +1,12 @@
 Visitor,Home,Prediction,Result,Prediction_Outcome
-Utah Jazz,Atlanta Hawks,0,,
-Dallas Mavericks,Denver Nuggets,0,,
-Philadelphia 76ers,Detroit Pistons,0,,
-Oklahoma City Thunder,Indiana Pacers,0,,
-San Antonio Spurs,Memphis Grizzlies,0,,
-Miami Heat,Minnesota Timberwolves,0,,
-Phoenix Suns,New Orleans Pelicans,0,,
-Los Angeles Lakers,New York Knicks,0,,
-Chicago Bulls,Sacramento Kings,0,,
-Los Angeles Clippers,Toronto Raptors,0,,
-Cleveland Cavaliers,Washington Wizards,0,,
+Utah Jazz,Atlanta Hawks,0,0,1
+Dallas Mavericks,Denver Nuggets,0,1,0
+Philadelphia 76ers,Detroit Pistons,0,1,0
+Oklahoma City Thunder,Indiana Pacers,0,1,0
+San Antonio Spurs,Memphis Grizzlies,0,1,0
+Miami Heat,Minnesota Timberwolves,0,0,1
+Phoenix Suns,New Orleans Pelicans,0,1,0
+Los Angeles Lakers,New York Knicks,0,0,1
+Chicago Bulls,Sacramento Kings,0,0,1
+Los Angeles Clippers,Toronto Raptors,0,1,0
+Cleveland Cavaliers,Washington Wizards,0,0,1

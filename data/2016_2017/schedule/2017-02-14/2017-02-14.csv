@@ -1,4 +1,4 @@
 Visitor,Home,Prediction,Result,Prediction_Outcome
-Toronto Raptors,Chicago Bulls,,,
-Sacramento Kings,Los Angeles Lakers,,,
-Cleveland Cavaliers,Minnesota Timberwolves,,,
+Toronto Raptors,Chicago Bulls,0,1,0
+Sacramento Kings,Los Angeles Lakers,0,0,1
+Cleveland Cavaliers,Minnesota Timberwolves,0,0,1

@@ -1,0 +1,2519 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" xmlns:ng="http://angularjs.org" lang="en" ng-app="stats" ver="3.2.0" class="ng-scope"><head><script async="" src="https://ml314.com/utsync.ashx?pub=748&amp;adv=&amp;et=0&amp;eid=&amp;ct=js&amp;pi=&amp;fp=&amp;clid=&amp;ps=&amp;cl=&amp;mlt=&amp;data=&amp;&amp;cp=http%3A%2F%2Fstats.nba.com%2Fstandings%2F&amp;pv=1487179826324_5gwmii421&amp;bl=en-us&amp;cb=1974699&amp;ht=&amp;d=&amp;dc=&amp;si=1487179826324_5gwmii421&amp;cid=&amp;s=1280x800&amp;rp="></script><style type="text/css">@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}.ng-animate-shim{visibility:hidden;}.ng-anchor{position:absolute;}</style>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500,700|Roboto+Condensed" rel="stylesheet" />
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="description" content="The destination for current and historic NBA statistics." />
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="apple-touch-icon" href="/media/img/stats-homescreen-icon.png" />    
+    <title>NBA.com/Stats  | Standings By Day </title>
+    <link rel="stylesheet" type="text/css" href="/styles/theme.min.css" />
+  <script async="" src="//connect.facebook.net/en_US/fbevents.js"></script><script type="text/javascript" src="http://cdn.krxd.net/userdata/get?pub=e9eaedd3-c1da-4334-82f0-d7e3ff883c87&amp;technographics=1&amp;callback=Krux.ns._default.kxjsonp_userdata"></script><script type="text/javascript" src="http://beacon.krxd.net/optout_check?callback=Krux.ns._default.kxjsonp_optOutCheck"></script><script type="text/javascript" async="" src="//ml314.com/tag.aspx?1512017"></script><script src="http://pagead2.googlesyndication.com/pagead/osd.js"></script><script src="https://securepubads.g.doubleclick.net/gampad/ads?gdfp_req=1&amp;correlator=1358069019189305&amp;output=json_html&amp;callback=googletag.impl.pubads.callbackProxy1&amp;impl=fifs&amp;json_a=1&amp;eid=108809080&amp;tfcd=0&amp;sc=0&amp;sfv=1-0-6&amp;iu_parts=8663477%2CNBA%2Cstats&amp;enc_prev_ius=%2F0%2F1%2F2&amp;prev_iu_szs=970x90%7C728x90&amp;prev_scp=pos%3Dbnr_atf_01%26elemId%3Dad_bnr_atf_01%26rpfl_11078%3D2_tier0220%26rpfl_elemid%3Dad_bnr_atf_01%26fln_to%3D0&amp;eri=1&amp;cust_params=crt_to%3D0%26transId%3D14871798242019127962815040%26azn_to%3D0%26guid%3D58a4902a087d780a3c89e6171d02877d&amp;cookie_enabled=1&amp;lmt=1487179825&amp;dt=1487179825170&amp;cc=100&amp;frm=20&amp;biw=1035&amp;bih=620&amp;oid=3&amp;adxs=0&amp;adys=0&amp;adks=3752008181&amp;gut=v2&amp;ifi=1&amp;u_tz=-480&amp;u_his=2&amp;u_h=800&amp;u_w=1280&amp;u_ah=738&amp;u_aw=1280&amp;u_cd=24&amp;u_nplug=4&amp;u_nmime=6&amp;u_sd=1&amp;flash=24.0.0&amp;url=http%3A%2F%2Fstats.nba.com%2Fstandings%2F&amp;dssz=26&amp;icsg=1108135363584&amp;mso=513&amp;std=0&amp;vrg=110&amp;vrp=110&amp;ga_vid=232566819.1487179825&amp;ga_sid=1487179825&amp;ga_hid=2019815025"></script><script type="text/javascript" src="http://beacon.krxd.net/cookie2json?callback=Krux.ns._default.kxjsonp_3pevents"></script><script type="text/javascript" async="" src="http://aax.amazon-adsystem.com/e/dtb/bid?src=3159&amp;u=http%3A%2F%2Fstats.nba.com%2Fstandings%2F&amp;cb=5018614&amp;t=1000"></script><script type="text/javascript" async="" src="http://rtax.criteo.com/delivery/rta/rta.js?netId=4157&amp;cookieName=crtg_trnr&amp;rnd=65952123521&amp;varName=crtg_content"></script><script async="" src="//cdn.krxd.net/ctjs/controltag.js.9b011501452f200c61e59ab807d974c3"></script><script src="http://79423.analytics.edgesuite.net/html5/akamaihtml5-min.js"></script><script src="http://b.scorecardresearch.com/beacon.js"></script><script src="https://securepubads.g.doubleclick.net/gpt/pubads_impl_110.js" async=""></script><link rel="prefetch" href="http://tpc.googlesyndication.com/safeframe/1-0-6/html/container.html" /></head>
+
+  <body class="has-sap-sponser">
+
+    <header id="header-ad">
+      <div id="ad_bnr_atf_01" data-google-query-id="CNfahMfQktICFdJ-YgodirAFpQ" class=" adfuel-rendered"><div id="google_ads_iframe_/8663477/NBA/stats_0__container__" style="border: 0pt none;"><iframe id="google_ads_iframe_/8663477/NBA/stats_0" title="advertisement" name="google_ads_iframe_/8663477/NBA/stats_0" width="728" height="90" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" srcdoc="" style="border: 0px; vertical-align: bottom;"></iframe></div></div>
+    </header>
+
+    <div class="[ show-for-large ] stats-header">
+        <div class="nav">
+
+  <!-- <div class="nav__dropdown">
+    <div>
+      <i class="[ fa fa-bars fa-lg ]" aria-hidden="true"></i>
+    </div>
+  </div> -->
+
+  <div class="nav__logo">
+    <a class="nav__logo-img" href="http://www.nba.com"></a>
+  </div>
+
+  <ul class="nav__menu [ hide-for-small-only hide-for-medium-only ]" role="navigation">
+    <li class="nav__menu-item"><a href="http://www.nba.com/games"><span>Games</span></a></li>
+    <li class="nav__menu-item"><a href="http://www.nba.com/news"><span>Top Stories</span></a></li>
+    <li class="nav__menu-item"><a href="http://www.nba.com/video"><span>Video</span></a></li>
+    <li class="nav__menu-item"><a href="http://www.nba.com/standings"><span>Standings</span></a></li>
+    <li class="nav__menu-item"><a href="http://stats.nba.com"><span>Stats</span></a></li>
+    <li class="nav__menu-item"><a href="http://www.nba.com/players"><span>Players</span></a></li>
+    <li class="nav__menu-item"><a href="http://www.nba.com/teams"><span>Teams</span></a></li>
+  </ul>
+
+  <ul class="nav__right" role="navigation">
+    <li class="nav__menu-item"><a href="http://www.nba.com/global/storelinkhandler.html" title="NBA Store" class="btn-store"><span>Store</span></a></li>
+    <li class="nav__menu-item"><a href="http://nbatickets.nba.com/" title="NBA Tickets" class="btn-tickets"><span>Tickets</span></a></li>
+    <!-- <li class="nav__menu-item"><a href=""><span>My Account</span></a></li> -->
+  </ul>
+
+
+</div>
+    </div>
+
+    <div class="stats-subheader [ show-for-large ]">
+      <div class="sap-flag [ show-for-sap ]">
+        <div class="sap-flag__inner ">
+          <a class="sap-flag__link" href=""><img class="sap-flag__image" src="/media/img/sap_header_v5.svg" /></a>
+        </div>
+      </div>
+    </div>
+
+    <main class="stats-container">
+
+      <nav class="stats-dropdown ng-scope ng-hide" ng-controller="StatsNavController" ng-show="showSiteNavigation">
+
+  <section class="dropdown__base" style="height: 329px; overflow-y: auto;">
+
+    <div class="dropdown__item">
+      <h4 class="dropdown__item-header">
+        <a class="dropdown__item-header__link" href="/">Stats Home</a>
+      </h4>
+    </div>
+
+    <!-- players: open -->
+    <div class="dropdown__category--active ng-hide" ng-show="isPlayerSection">
+      <div class="dropdown__item" ng-click="toggleActiveMenu('player')">
+        <h4 class="dropdown__item-header">
+          <a class="dropdown__item-header__link ng-binding"> <i class="dropdown__item-header__arrow [ fa / fa-chevron-right / show-for-large ]" aria-hidden="true"></i><i class="dropdown__item-header__arrow [ fa / fa-chevron-down / hide-for-large ]" aria-hidden="true"></i></a>
+        </h4>
+      </div>
+    </div>
+
+    <section class="dropdown__category ng-hide" ng-show="isActiveMenu.player">
+      <ul class="dropdown__category-list" style="height: 329px; overflow-y: auto;">
+        <!-- ngIf: player.sections.stats -->
+        <!-- ngIf: player.sections.current -->
+        <!-- ngIf: player.sections.stats -->
+        <!-- ngIf: player.sections.stats -->
+        <!-- ngIf: player.sections.stats -->
+        <!-- ngIf: player.sections.stats -->
+        <!-- ngIf: player.sections.stats -->
+        <!-- ngIf: player.sections.stats -->
+        <li><a href="/player/#!//career/">Career</a></li>
+        <!-- ngIf: player.sections.gamelogs -->
+        <!-- ngIf: player.sections.tracking -->
+        <!-- ngIf: player.sections.tracking -->
+        <!-- ngIf: player.sections.tracking -->
+        <!-- ngIf: player.sections.tracking -->
+      </ul>
+    </section>
+
+    <!-- teams: open -->
+    <div class="dropdown__category--active ng-hide" ng-show="isTeamSection">
+      <div class="dropdown__item" ng-click="toggleActiveMenu('team')">
+        <h4 class="dropdown__item-header">
+          <a class="dropdown__item-header__link ng-binding">  <i class="dropdown__item-header__arrow [ fa / fa-chevron-right / show-for-large ]" aria-hidden="true"></i><i class="dropdown__item-header__arrow [ fa / fa-chevron-down / hide-for-large ]" aria-hidden="true"></i></a>
+        </h4>
+      </div>
+    </div>
+
+    <section class="dropdown__category ng-hide" ng-show="isActiveMenu.team">
+      <ul class="dropdown__category-list" style="height: 329px; overflow-y: auto;">
+        <li><a href="/team/#!//" ng-click="toggleNav();">Profile</a></li>
+        <li><a href="/team/#!//traditional/" ng-click="toggleNav();">Traditional</a></li>
+        <li><a href="/team/#!//advanced/" ng-click="toggleNav();">Advanced</a></li>
+        <li><a href="/team/#!//four-factors/" ng-click="toggleNav();">Four Factors</a></li>
+        <li><a href="/team/#!//misc/" ng-click="toggleNav();">Misc</a></li>
+        <li><a href="/team/#!//scoring/" ng-click="toggleNav();">Scoring</a></li>
+        <li><a href="/team/#!//opponent/" ng-click="toggleNav();">Opponent</a></li>
+        <li><a href="/team/#!//shooting/" ng-click="toggleNav();">Shooting</a></li>
+
+        <!-- lineups -->
+
+        <li><a href="/team/#!//lineups-traditional/" ng-click="toggleNav();">Lineups Traditional</a></li>
+        <li><a href="/team/#!//lineups-advanced/" ng-click="toggleNav();">Lineups Advanced</a></li>
+        <li><a href="/team/#!//lineups-four-factors/" ng-click="toggleNav();">Lineups Four Factors</a></li>
+        <li><a href="/team/#!//lineups-misc/" ng-click="toggleNav();">Lineups Misc</a></li>
+        <li><a href="/team/#!//lineups-scoring/" ng-click="toggleNav();">Lineups Scoring</a></li>
+        <li><a href="/team/#!//lineups-opponent/" ng-click="toggleNav();">Lineups Opponent</a></li>
+
+        <!-- players -->
+
+        <li><a href="/team/#!//players-traditional/" ng-click="toggleNav();">Players Traditional</a></li>
+        <li><a href="/team/#!//players-advanced/" ng-click="toggleNav();">Players Advanced</a></li>
+        <li><a href="/team/#!//players-misc/" ng-click="toggleNav();">Players Misc</a></li>
+        <li><a href="/team/#!//players-scoring/" ng-click="toggleNav();">Players Scoring</a></li>
+        <li><a href="/team/#!//players-usage/" ng-click="toggleNav();">Players Usage</a></li>
+
+        <!-- on off court -->
+        <li><a href="/team/#!//onoffcourt-traditional/" ng-click="toggleNav();">On/Off Court Traditional</a></li>
+        <li><a href="/team/#!//onoffcourt-advanced/" ng-click="toggleNav();">On/Off Court Advanced</a></li>
+        <li><a href="/team/#!//onoffcourt-four-factors/" ng-click="toggleNav();">On/Off Court Four Factors</a></li>
+        <li><a href="/team/#!//onoffcourt-misc/" ng-click="toggleNav();">On/Off Court Misc</a></li>
+        <li><a href="/team/#!//onoffcourt-scoring/" ng-click="toggleNav();">On/Off Court Scoring</a></li>
+        <li><a href="/team/#!//onoffcourt-opponent/" ng-click="toggleNav();">On/Off Court Opponent</a></li>
+        <li><a href="/team/#!//onoffcourt-summary/" ng-click="toggleNav();">On/Off Court Summary</a></li>
+
+        <!-- tracking -->
+        <li><a href="/team/#!//shots-dash/" ng-click="toggleNav();">Shots Dashboard</a></li>
+        <li><a href="/team/#!//rebounds-dash/" ng-click="toggleNav();">Rebounds Dashboard</a></li>
+        <li><a href="/team/#!//passes-dash/" ng-click="toggleNav();">Passes Dashboard</a></li>
+
+        <!-- history -->
+        <li><a href="/team/#!//gamelogs/" ng-click="toggleNav();">Game Logs</a></li>
+        <li><a href="/team/#!//seasons/" ng-click="toggleNav();">Seasons</a></li>
+        <li><a href="/team/#!//yearoveryear/" ng-click="toggleNav();">Year Over Year</a></li>
+      </ul>
+    </section>
+
+
+    <!-- on off: open -->
+    <div class="dropdown__category--active ng-hide" ng-show="isOnOffSection">
+      <div class="dropdown__item" ng-click="toggleActiveMenu('onoff')">
+        <h4 class="dropdown__item-header">
+          <a class="dropdown__item-header__link">On Off Court Compare <i class="dropdown__item-header__arrow [ fa / fa-chevron-right / show-for-large ]" aria-hidden="true"></i><i class="dropdown__item-header__arrow [ fa / fa-chevron-down / hide-for-large ]" aria-hidden="true"></i></a>
+        </h4>
+      </div>
+    </div>
+
+    <section class="dropdown__category ng-hide" ng-show="isActiveMenu.onoff">
+      <ul class="dropdown__category-list" style="height: 329px; overflow-y: auto;">
+        <li><a href="/vs/" ng-click="toggleNav();">Traditional</a></li>
+        <li><a href="/vs/advanced/" ng-click="toggleNav();">Advanced</a></li>
+        <li><a href="/vs/misc/" ng-click="toggleNav();">Misc</a></li>
+        <li><a href="/vs/scoring/" ng-click="toggleNav();">Scoring</a></li>
+        <li><a href="/vs/four-factors/" ng-click="toggleNav();">Four Factors</a></li>
+        <li><a href="/vs/opponent/" ng-click="toggleNav();">Opponent</a></li>
+      </ul>
+    </section>
+
+    <!-- game: open -->
+    <div class="dropdown__category--active ng-hide" ng-show="isGameSection">
+      <div class="dropdown__item" ng-click="toggleActiveMenu('game')">
+        <h4 class="dropdown__item-header">
+          <a class="dropdown__item-header__link ng-binding"> <i class="dropdown__item-header__arrow [ fa / fa-chevron-right / show-for-large ]" aria-hidden="true"></i><i class="dropdown__item-header__arrow [ fa / fa-chevron-down / hide-for-large ]" aria-hidden="true"></i></a>
+        </h4>
+      </div>
+    </div>
+
+    <section class="dropdown__category ng-hide" ng-show="isActiveMenu.game">
+      <ul class="dropdown__category-list" style="height: 329px; overflow-y: auto;">
+        <li><a href="/game/#!//">Box Score</a></li>
+        <li><a ng-show="game.sections.advancedStats" href="/game/#!//advanced/" ng-click="toggleNav();" class="ng-hide">Advanced</a></li>
+        <li><a ng-show="game.sections.advancedStats" href="/game/#!//misc/" ng-click="toggleNav();" class="ng-hide">Misc</a></li>
+        <li><a ng-show="game.sections.advancedStats" href="/game/#!//scoring/" ng-click="toggleNav();" class="ng-hide">Scoring</a></li>
+        <li><a ng-show="game.sections.advancedStats" href="/game/#!//usage/" ng-click="toggleNav();" class="ng-hide">Usage</a></li>
+        <li><a ng-show="game.sections.advancedStats" href="/game/#!//four-factors/" ng-click="toggleNav();" class="ng-hide">Four Factors</a></li>
+        <li><a ng-show="game.sections.playerTracking" href="/game/#!//tracking/" ng-click="toggleNav();" class="ng-hide">Player Tracking</a></li>
+        <li><a ng-show="game.sections.playByPlay" href="/game/#!//playbyplay/" ng-click="toggleNav();" class="ng-hide">Play By Play</a></li>
+        <li><a ng-show="game.sections.shotchart" href="/game/#!//shotchart/" ng-click="toggleNav();" class="ng-hide">Shotchart</a></li>
+        <li><a ng-show="game.sections.gameCharts" href="/game/#!//charts/" ng-click="toggleNav();" class="ng-hide">Game Charts</a></li>
+        <li><a ng-show="game.sections.hustle" href="/game/#!//hustle/" ng-click="toggleNav();" class="ng-hide">Hustle</a></li>
+      </ul>
+    </section>
+
+    <!-- fanasty: open -->
+    <div class="dropdown__category--active ng-hide" ng-show="isFantasySection">
+      <div class="dropdown__item" ng-click="toggleActiveMenu('fantasy')">
+        <h4 class="dropdown__item-header">
+          <a class="dropdown__item-header__link">Fantasy Compare <i class="dropdown__item-header__arrow [ fa / fa-chevron-right / show-for-large ]" aria-hidden="true"></i><i class="dropdown__item-header__arrow [ fa / fa-chevron-down / hide-for-large ]" aria-hidden="true"></i></a>
+        </h4>
+      </div>
+    </div>
+
+    <section class="dropdown__category ng-hide" ng-show="isActiveMenu.fantasy">
+      <ul class="dropdown__category-list" style="height: 329px; overflow-y: auto;">
+        <li><a href="/fantasycompare/" ng-click="toggleNav();">Traditional</a></li>
+        <li><a href="/fantasycompare/advanced/" ng-click="toggleNav();">Advanced</a></li>
+        <li><a href="/fantasycompare/misc/" ng-click="toggleNav();">Misc</a></li>
+        <li><a href="/fantasycompare/scoring/" ng-click="toggleNav();">Scoring</a></li>
+        <li><a href="/fantasycompare/usage/" ng-click="toggleNav();">Usage</a></li>
+      </ul>
+    </section>
+
+
+    <div class="stats-dropdown__level--base__top"></div>
+
+
+    <!-- players -->
+    <div class="dropdown__item" ng-click="toggleCat('players')" ng-class="{'dropdown__item--active':isCat.players}">
+      <h4 class="dropdown__item-header">Players <i class="dropdown__item-header__arrow [ fa / fa-chevron-right / show-for-large ]" aria-hidden="true"></i><i class="dropdown__item-header__arrow [ fa / fa-chevron-down / hide-for-large ]" aria-hidden="true"></i></h4>
+    </div>
+
+
+    <!-- players - category -->
+    <section class="dropdown__category ng-hide" ng-show="isCat.players">
+      <ul class="dropdown__category-list" style="height: 329px; overflow-y: auto;">
+        <li><a href="/players/">Players Home</a></li>
+        <li><a href="/players/list/">Player Index</a></li>
+        <li><a href="/players/traditional/">Traditional Stats</a></li>
+        <li><a href="/leaders/">Season Leaders</a></li>
+        <li><a href="/leaders/alltime/">All Time Leaders</a></li>
+
+        <!-- players / general -->
+        <li class="dropdown__item" ng-click="toggleSub(isPlayersSub, 'general')" ng-class="{'dropdown__item--active': isPlayersSub.general}">
+          <a class="dropdown__item-header">General <i class="dropdown__item-header__arrow [ fa / fa-chevron-right / show-for-large ]" aria-hidden="true"></i><i class="dropdown__item-header__arrow [ fa / fa-chevron-down / hide-for-large ]" aria-hidden="true"></i></a>
+        </li>
+
+        <section class="dropdown__subcategory ng-hide" ng-show="isPlayersSub.general">
+          <ul class="dropdown__subcategory-list" style="height: 329px; overflow-y: auto;">
+            <li><a href="/players/traditional/">Traditional</a></li>
+            <li><a href="/players/advanced/">Advanced</a></li>
+            <li><a href="/players/misc/">Misc</a></li>
+            <li><a href="/players/scoring/">Scoring</a></li>
+            <li><a href="/players/usage/">Usage</a></li>
+            <li><a href="/players/opponent/">Opponent</a></li>
+            <li><a href="/players/defense/">Defense</a></li>
+          </ul>
+        </section>
+
+        <!-- players / clutch -->
+        <li class="dropdown__item" ng-click="toggleSub(isPlayersSub, 'clutch')" ng-class="{'dropdown__item--active': isPlayersSub.clutch}">
+          <a class="dropdown__item-header">Clutch <i class="dropdown__item-header__arrow [ fa / fa-chevron-right / show-for-large ]" aria-hidden="true"></i><i class="dropdown__item-header__arrow [ fa / fa-chevron-down / hide-for-large ]" aria-hidden="true"></i></a>
+        </li>
+
+        <section class="dropdown__subcategory ng-hide" ng-show="isPlayersSub.clutch">
+          <ul class="dropdown__subcategory-list" style="height: 329px; overflow-y: auto;">
+            <li><a href="/players/clutch-traditional/">Clutch Traditional</a></li>
+            <li><a href="/players/clutch-advanced/">Clutch Advanced</a></li>
+            <li><a href="/players/clutch-misc/">Clutch Misc</a></li>
+            <li><a href="/players/clutch-scoring/">Clutch Scoring</a></li>
+            <li><a href="/players/clutch-usage/">Clutch Usage</a></li>
+            <li><a href="/players/clutch-opponent/">Clutch Opponent</a></li>
+          </ul>
+        </section>
+
+        <!-- players / defense -->
+        <li class="dropdown__item" ng-click="toggleSub(isPlayersSub, 'defense')" ng-class="{'dropdown__item--active': isPlayersSub.defense}">
+          <a class="dropdown__item-header">Defense <i class="dropdown__item-header__arrow [ fa / fa-chevron-right / show-for-large ]" aria-hidden="true"></i><i class="dropdown__item-header__arrow [ fa / fa-chevron-down / hide-for-large ]" aria-hidden="true"></i></a>
+        </li>
+
+        <section class="dropdown__subcategory ng-hide" ng-show="isPlayersSub.defense">
+          <ul class="dropdown__subcategory-list" style="height: 329px; overflow-y: auto;">
+            <li><a href="/players/defense/">Defense Overall</a></li>
+            <li><a href="/players/defense-dash-overall/">Defending Shots Overall</a></li>
+            <li><a href="/players/defense-dash-3pt/">Defending 3 Pointers</a></li>
+            <li><a href="/players/defense-dash-2pt/">Defending 2 Pointers</a></li>
+            <li><a href="/players/defense-dash-lt6/">Defending Less Than 6 FT</a></li>
+            <li><a href="/players/defense-dash-lt10/">Defending Less Than 10 FT</a></li>
+            <li><a href="/players/defense-dash-gt15/">Defending More Than 15 FT</a></li>
+            <li><a href="/players/opponent-shooting/">Opponent Shooting</a></li>
+            <li><a href="/players/isolation/#!/?OD=defensive">By Play Type</a></li>
+          </ul>
+        </section>
+
+        <!-- players / playtype -->
+        <li class="dropdown__item" ng-click="toggleSub(isPlayersSub, 'playtype')" ng-class="{'dropdown__item--active': isPlayersSub.playtype}">
+          <a class="dropdown__item-header">Play Type <i class="dropdown__item-header__arrow [ fa / fa-chevron-right / show-for-large ]" aria-hidden="true"></i><i class="dropdown__item-header__arrow [ fa / fa-chevron-down / hide-for-large ]" aria-hidden="true"></i></a>
+        </li>
+
+        <section class="dropdown__subcategory ng-hide" ng-show="isPlayersSub.playtype">
+          <ul class="dropdown__subcategory-list" style="height: 329px; overflow-y: auto;">
+            <li><a href="/players/transition/">Transition</a></li>
+            <li><a href="/players/isolation/">Isolation</a></li>
+            <li><a href="/players/ball-handler/">Ball Handler</a></li>
+            <li><a href="/players/roll-man/">Roll Man</a></li>
+            <li><a href="/players/post-up/">Post Up</a></li>
+            <li><a href="/players/spot-up/">Spot Up</a></li>
+            <li><a href="/players/hand-off/">Hand Off</a></li>
+            <li><a href="/players/cut/">Cut</a></li>
+            <li><a href="/players/off-screen/">Off Screen</a></li>
+            <li><a href="/players/putbacks/">Put Backs</a></li>
+            <li><a href="/players/playtype-misc/">Misc</a></li>
+          </ul>
+        </section>
+
+        <!-- players / tracking -->
+        <li class="dropdown__item" ng-click="toggleSub(isPlayersSub, 'tracking')" ng-class="{'dropdown__item--active': isPlayersSub.tracking}">
+          <a class="dropdown__item-header">Tracking <i class="dropdown__item-header__arrow [ fa / fa-chevron-right / show-for-large ]" aria-hidden="true"></i><i class="dropdown__item-header__arrow [ fa / fa-chevron-down / hide-for-large ]" aria-hidden="true"></i></a>
+        </li>
+
+        <section class="dropdown__subcategory ng-hide" ng-show="isPlayersSub.tracking">
+          <ul class="dropdown__subcategory-list" style="height: 329px; overflow-y: auto;">
+            <li><a href="/players/catch-shoot/">Catch &amp; Shoot</a></li>
+            <li><a href="/players/defensive-impact/">Defensive Impact</a></li>
+            <li><a href="/players/drives/">Drives</a></li>
+            <li><a href="/players/passing/">Passing</a></li>
+            <li><a href="/players/touches/">Touches</a></li>
+            <li><a href="/players/pullup/">Pull Up Shooting</a></li>
+            <li><a href="/players/rebounding/">Rebounding</a></li>
+            <li><a href="/players/offensive-rebounding/">Offensive Rebounding</a></li>
+            <li><a href="/players/defensive-rebounding/">Defensive Rebounding</a></li>
+            <li><a href="/players/shooting-efficiency/">Shooting Efficiency</a></li>
+            <li><a href="/players/speed-distance/">Speed &amp; Distance</a></li>
+            <li><a href="/players/elbow-touch/">Elbow Touches</a></li>
+            <li><a href="/players/post-touch/">Post Touches</a></li>
+            <li><a href="/players/paint-touch/">Paint Touches</a></li>
+          </ul>
+        </section>
+
+        <!-- players / shots -->
+        <li class="dropdown__item" ng-click="toggleSub(isPlayersSub, 'shots')" ng-class="{'dropdown__item--active': isPlayersSub.shots}">
+          <a class="dropdown__item-header">Shooting <i class="dropdown__item-header__arrow [ fa / fa-chevron-right / show-for-large ]" aria-hidden="true"></i><i class="dropdown__item-header__arrow [ fa / fa-chevron-down / hide-for-large ]" aria-hidden="true"></i></a>
+        </li>
+
+        <section class="dropdown__subcategory ng-hide" ng-show="isPlayersSub.shots">
+          <ul class="dropdown__subcategory-list" style="height: 329px; overflow-y: auto;">
+            <li><a href="/players/shots-general/">Shots by General Range</a></li>
+            <li><a href="/players/shots-shotclock/">Shots by Shotclock</a></li>
+            <li><a href="/players/shots-dribbles/">Shots by Dribbles</a></li>
+            <li><a href="/players/shots-touch-time/">Shots by Touch Time</a></li>
+            <li><a href="/players/shots-closest-defender/">Shots by Closest Defender</a></li>
+            <li><a href="/players/shots-closest-defender-10/">Shots by Closest Defender (+10 FT)</a></li>
+            <li><a href="/players/shooting/">Shooting</a></li>
+            <li><a href="/players/opponent-shooting/">Opponent Shooting</a></li>
+          </ul>
+        </section>
+
+        <li><a href="/players/hustle/">Hustle Stats</a></li>
+        <li><a href="/players/bio/">Bios</a></li>
+        <li><a href="/players/gamelogs/">Game Logs</a></li>
+
+
+      </ul>
+    </section>
+
+    <!-- teams -->
+    <div class="dropdown__item" ng-click="toggleCat('teams')" ng-class="{'dropdown__item--active':isCat.teams}">
+      <h4 class="dropdown__item-header">Teams <i class="dropdown__item-header__arrow [ fa / fa-chevron-right / show-for-large ]" aria-hidden="true"></i><i class="dropdown__item-header__arrow [ fa / fa-chevron-down / hide-for-large ]" aria-hidden="true"></i></h4>
+    </div>
+
+    <section class="dropdown__category ng-hide" ng-show="isCat.teams">
+      <ul class="dropdown__category-list" style="height: 329px; overflow-y: auto;">
+        <li><a href="/teams/">Teams Home</a></li>
+
+        <!-- teams / general -->
+        <li class="dropdown__item" ng-click="toggleSub(isTeamsSub, 'list')" ng-class="{'dropdown__item--active': isTeamsSub.list}">
+          <a class="dropdown__item-header">All Teams <i class="dropdown__item-header__arrow [ fa / fa-chevron-right / show-for-large ]" aria-hidden="true"></i><i class="dropdown__item-header__arrow [ fa / fa-chevron-down / hide-for-large ]" aria-hidden="true"></i></a>
+        </li>
+
+        <section class="dropdown__subcategory ng-hide" ng-show="isTeamsSub.list">
+          <ul class="dropdown__subcategory-list" style="height: 329px; overflow-y: auto;">
+            <!-- ngRepeat: t in teams --><li ng-repeat="t in teams" class="ng-scope"><a href="/team/#!/1610612737" class="ng-binding">Atlanta Hawks</a></li><!-- end ngRepeat: t in teams --><li ng-repeat="t in teams" class="ng-scope"><a href="/team/#!/1610612738" class="ng-binding">Boston Celtics</a></li><!-- end ngRepeat: t in teams --><li ng-repeat="t in teams" class="ng-scope"><a href="/team/#!/1610612751" class="ng-binding">Brooklyn Nets</a></li><!-- end ngRepeat: t in teams --><li ng-repeat="t in teams" class="ng-scope"><a href="/team/#!/1610612766" class="ng-binding">Charlotte Hornets</a></li><!-- end ngRepeat: t in teams --><li ng-repeat="t in teams" class="ng-scope"><a href="/team/#!/1610612741" class="ng-binding">Chicago Bulls</a></li><!-- end ngRepeat: t in teams --><li ng-repeat="t in teams" class="ng-scope"><a href="/team/#!/1610612739" class="ng-binding">Cleveland Cavaliers</a></li><!-- end ngRepeat: t in teams --><li ng-repeat="t in teams" class="ng-scope"><a href="/team/#!/1610612742" class="ng-binding">Dallas Mavericks</a></li><!-- end ngRepeat: t in teams --><li ng-repeat="t in teams" class="ng-scope"><a href="/team/#!/1610612743" class="ng-binding">Denver Nuggets</a></li><!-- end ngRepeat: t in teams --><li ng-repeat="t in teams" class="ng-scope"><a href="/team/#!/1610612765" class="ng-binding">Detroit Pistons</a></li><!-- end ngRepeat: t in teams --><li ng-repeat="t in teams" class="ng-scope"><a href="/team/#!/1610612744" class="ng-binding">Golden State Warriors</a></li><!-- end ngRepeat: t in teams --><li ng-repeat="t in teams" class="ng-scope"><a href="/team/#!/1610612745" class="ng-binding">Houston Rockets</a></li><!-- end ngRepeat: t in teams --><li ng-repeat="t in teams" class="ng-scope"><a href="/team/#!/1610612754" class="ng-binding">Indiana Pacers</a></li><!-- end ngRepeat: t in teams --><li ng-repeat="t in teams" class="ng-scope"><a href="/team/#!/1610612746" class="ng-binding">LA Clippers</a></li><!-- end ngRepeat: t in teams --><li ng-repeat="t in teams" class="ng-scope"><a href="/team/#!/1610612747" class="ng-binding">Los Angeles Lakers</a></li><!-- end ngRepeat: t in teams --><li ng-repeat="t in teams" class="ng-scope"><a href="/team/#!/1610612763" class="ng-binding">Memphis Grizzlies</a></li><!-- end ngRepeat: t in teams --><li ng-repeat="t in teams" class="ng-scope"><a href="/team/#!/1610612748" class="ng-binding">Miami Heat</a></li><!-- end ngRepeat: t in teams --><li ng-repeat="t in teams" class="ng-scope"><a href="/team/#!/1610612749" class="ng-binding">Milwaukee Bucks</a></li><!-- end ngRepeat: t in teams --><li ng-repeat="t in teams" class="ng-scope"><a href="/team/#!/1610612750" class="ng-binding">Minnesota Timberwolves</a></li><!-- end ngRepeat: t in teams --><li ng-repeat="t in teams" class="ng-scope"><a href="/team/#!/1610612740" class="ng-binding">New Orleans Pelicans</a></li><!-- end ngRepeat: t in teams --><li ng-repeat="t in teams" class="ng-scope"><a href="/team/#!/1610612752" class="ng-binding">New York Knicks</a></li><!-- end ngRepeat: t in teams --><li ng-repeat="t in teams" class="ng-scope"><a href="/team/#!/1610612760" class="ng-binding">Oklahoma City Thunder</a></li><!-- end ngRepeat: t in teams --><li ng-repeat="t in teams" class="ng-scope"><a href="/team/#!/1610612753" class="ng-binding">Orlando Magic</a></li><!-- end ngRepeat: t in teams --><li ng-repeat="t in teams" class="ng-scope"><a href="/team/#!/1610612755" class="ng-binding">Philadelphia 76ers</a></li><!-- end ngRepeat: t in teams --><li ng-repeat="t in teams" class="ng-scope"><a href="/team/#!/1610612756" class="ng-binding">Phoenix Suns</a></li><!-- end ngRepeat: t in teams --><li ng-repeat="t in teams" class="ng-scope"><a href="/team/#!/1610612757" class="ng-binding">Portland Trail Blazers</a></li><!-- end ngRepeat: t in teams --><li ng-repeat="t in teams" class="ng-scope"><a href="/team/#!/1610612758" class="ng-binding">Sacramento Kings</a></li><!-- end ngRepeat: t in teams --><li ng-repeat="t in teams" class="ng-scope"><a href="/team/#!/1610612759" class="ng-binding">San Antonio Spurs</a></li><!-- end ngRepeat: t in teams --><li ng-repeat="t in teams" class="ng-scope"><a href="/team/#!/1610612761" class="ng-binding">Toronto Raptors</a></li><!-- end ngRepeat: t in teams --><li ng-repeat="t in teams" class="ng-scope"><a href="/team/#!/1610612762" class="ng-binding">Utah Jazz</a></li><!-- end ngRepeat: t in teams --><li ng-repeat="t in teams" class="ng-scope"><a href="/team/#!/1610612764" class="ng-binding">Washington Wizards</a></li><!-- end ngRepeat: t in teams -->
+          </ul>
+        </section>
+
+        <li><a href="/teams/traditional/">Traditional Stats</a></li>
+
+        <!-- teams / general -->
+        <li class="dropdown__item" ng-click="toggleSub(isTeamsSub, 'general')" ng-class="{'dropdown__item--active': isTeamsSub.general}">
+          <a class="dropdown__item-header">General <i class="dropdown__item-header__arrow [ fa / fa-chevron-right / show-for-large ]" aria-hidden="true"></i><i class="dropdown__item-header__arrow [ fa / fa-chevron-down / hide-for-large ]" aria-hidden="true"></i></a>
+        </li>
+
+        <section class="dropdown__subcategory ng-hide" ng-show="isTeamsSub.general">
+          <ul class="dropdown__subcategory-list" style="height: 329px; overflow-y: auto;">
+            <li><a href="/teams/traditional/">Traditional</a></li>
+            <li><a href="/teams/advanced/">Advanced</a></li>
+            <li><a href="/teams/misc/">Misc</a></li>
+            <li><a href="/teams/four-factors/">Four Factors</a></li>
+            <li><a href="/teams/scoring/">Scoring</a></li>
+            <li><a href="/teams/opponent/">Opponent</a></li>
+            <li><a href="/teams/defense/">Defense</a></li>
+          </ul>
+        </section>
+
+        <!-- clutch -->
+        <li class="dropdown__item" ng-click="toggleSub(isTeamsSub, 'clutch')" ng-class="{'dropdown__item--active': isTeamsSub.clutch}">
+          <a class="dropdown__item-header">Clutch <i class="dropdown__item-header__arrow [ fa / fa-chevron-right / show-for-large ]" aria-hidden="true"></i><i class="dropdown__item-header__arrow [ fa / fa-chevron-down / hide-for-large ]" aria-hidden="true"></i></a>
+        </li>
+
+        <section class="dropdown__subcategory ng-hide" ng-show="isTeamsSub.clutch">
+          <ul class="dropdown__subcategory-list" style="height: 329px; overflow-y: auto;">
+            <li><a href="/teams/clutch-traditional/">Clutch Traditional</a></li>
+            <li><a href="/teams/clutch-advanced/">Clutch Advanced</a></li>
+            <li><a href="/teams/clutch-misc/">Clutch Misc</a></li>
+            <li><a href="/teams/clutch-four-factors/">Clutch Four Factors</a></li>
+            <li><a href="/teams/clutch-scoring/">Clutch Scoring</a></li>
+            <li><a href="/teams/clutch-opponent/">Clutch Opponent</a></li>
+          </ul>
+        </section>
+
+        <!-- teams / defense -->
+        <li class="dropdown__item" ng-click="toggleSub(isTeamsSub, 'defense')" ng-class="{'dropdown__item--active': isTeamsSub.defense}">
+          <a class="dropdown__item-header">Defense <i class="dropdown__item-header__arrow [ fa / fa-chevron-right / show-for-large ]" aria-hidden="true"></i><i class="dropdown__item-header__arrow [ fa / fa-chevron-down / hide-for-large ]" aria-hidden="true"></i></a>
+        </li>
+
+        <section class="dropdown__subcategory ng-hide" ng-show="isTeamsSub.defense">
+          <ul class="dropdown__subcategory-list" style="height: 329px; overflow-y: auto;">
+            <li><a href="/teams/defense/">Defense Overall</a></li>
+            <li><a href="/teams/defense-dash-overall/">Defending Shots Overall</a></li>
+            <li><a href="/teams/defense-dash-3pt/">Defending 3 Pointers</a></li>
+            <li><a href="/teams/defense-dash-2pt/">Defending 2 Pointers</a></li>
+            <li><a href="/teams/defense-dash-lt6/">Defending Less Than 6 FT</a></li>
+            <li><a href="/teams/defense-dash-lt10/">Defending Less Than 10 FT</a></li>
+            <li><a href="/teams/defense-dash-gt15/">Defending More Than 15 FT</a></li>
+            <li><a href="/teams/opponent-shooting/">Overall Opponent Shooting</a></li>
+            <li><a href="/teams/isolation/#!/?OD=defensive">By Play Type</a></li>
+          </ul>
+        </section>
+
+        <!-- teams / playtype -->
+        <li class="dropdown__item" ng-click="toggleSub(isTeamsSub, 'playtype')" ng-class="{'dropdown__item--active': isTeamsSub.playtype}">
+          <a class="dropdown__item-header">Play Type <i class="dropdown__item-header__arrow [ fa / fa-chevron-right / show-for-large ]" aria-hidden="true"></i><i class="dropdown__item-header__arrow [ fa / fa-chevron-down / hide-for-large ]" aria-hidden="true"></i></a>
+        </li>
+
+        <section class="dropdown__subcategory ng-hide" ng-show="isTeamsSub.playtype">
+          <ul class="dropdown__subcategory-list" style="height: 329px; overflow-y: auto;">
+            <li><a href="/teams/transition/">Transition</a></li>
+            <li><a href="/teams/isolation/">Isolation</a></li>
+            <li><a href="/teams/ball-handler/">Ball Handler</a></li>
+            <li><a href="/teams/roll-man/">Roll Man</a></li>
+            <li><a href="/teams/post-up/">Post Up</a></li>
+            <li><a href="/teams/spot-up/">Spot Up</a></li>
+            <li><a href="/teams/hand-off/">Hand Off</a></li>
+            <li><a href="/teams/cut/">Cut</a></li>
+            <li><a href="/teams/off-screen/">Off Screen</a></li>
+            <li><a href="/teams/putbacks/">Put Backs</a></li>
+            <li><a href="/teams/playtype-misc/">Misc</a></li>
+          </ul>
+        </section>
+
+        <!-- teams / tracking -->
+        <li class="dropdown__item" ng-click="toggleSub(isTeamsSub, 'tracking')" ng-class="{'dropdown__item--active': isTeamsSub.tracking}">
+          <a class="dropdown__item-header">Tracking <i class="dropdown__item-header__arrow [ fa / fa-chevron-right / show-for-large ]" aria-hidden="true"></i><i class="dropdown__item-header__arrow [ fa / fa-chevron-down / hide-for-large ]" aria-hidden="true"></i></a>
+        </li>
+
+        <section class="dropdown__subcategory ng-hide" ng-show="isTeamsSub.tracking">
+          <ul class="dropdown__subcategory-list" style="height: 329px; overflow-y: auto;">
+            <li><a href="/teams/catch-shoot/">Catch &amp; Shoot</a></li>
+            <li><a href="/teams/defensive-impact/">Defensive Impact</a></li>
+            <li><a href="/teams/drives/">Drives</a></li>
+            <li><a href="/teams/passing/">Passing</a></li>
+            <li><a href="/teams/touches/">Touches</a></li>
+            <li><a href="/teams/pullup/">Pull Up Shooting</a></li>
+            <li><a href="/teams/rebounding/">Rebounding</a></li>
+            <li><a href="/teams/offensive-rebounding/">Offensive Rebounding</a></li>
+            <li><a href="/teams/defensive-rebounding/">Defensive Rebounding</a></li>
+            <li><a href="/teams/shooting-efficiency/">Shooting Efficiency</a></li>
+            <li><a href="/teams/speed-distance/">Speed &amp; Distance</a></li>
+            <li><a href="/teams/elbow-touch/">Elbow Touches</a></li>
+            <li><a href="/teams/post-touch/">Post Touches</a></li>
+            <li><a href="/teams/paint-touch/">Paint Touches</a></li>
+          </ul>
+        </section>
+
+        <!-- teams / shot dashboard -->
+        <li class="dropdown__item" ng-click="toggleSub(isTeamsSub, 'shotdash')" ng-class="{'dropdown__item--active': isTeamsSub.shotdash}">
+          <a class="dropdown__item-header">Shooting <i class="dropdown__item-header__arrow [ fa / fa-chevron-right / show-for-large ]" aria-hidden="true"></i><i class="dropdown__item-header__arrow [ fa / fa-chevron-down / hide-for-large ]" aria-hidden="true"></i></a>
+        </li>
+
+        <section class="dropdown__subcategory ng-hide" ng-show="isTeamsSub.shotdash">
+          <ul class="dropdown__subcategory-list" style="height: 329px; overflow-y: auto;">
+            <li><a href="/teams/shots-general/">Shots By General Range</a></li>
+            <li><a href="/teams/shots-shotclock/">Shots By Shotclock</a></li>
+            <li><a href="/teams/shots-dribbles/">Shots By Dribbles</a></li>
+            <li><a href="/teams/shots-touch-time/">Shots By Touch Time</a></li>
+            <li><a href="/teams/shots-closest-defender/">Shots By Closest Defender</a></li>
+            <li><a href="/teams/shots-closest-defender-10/">Shots By Closest Defender (+10 FT)</a></li>
+            <li><a href="/teams/shooting/">Shooting</a></li>
+          </ul>
+        </section>
+
+
+        <!-- teams / opp shooting dashboard -->
+        <li class="dropdown__item" ng-click="toggleSub(isTeamsSub, 'oppshotdash')" ng-class="{'dropdown__item--active': isTeamsSub.oppshotdash}">
+          <a class="dropdown__item-header">Opponent Shooting <i class="dropdown__item-header__arrow [ fa / fa-chevron-right / show-for-large ]" aria-hidden="true"></i><i class="dropdown__item-header__arrow [ fa / fa-chevron-down / hide-for-large ]" aria-hidden="true"></i></a>
+        </li>
+
+        <section class="dropdown__subcategory ng-hide" ng-show="isTeamsSub.oppshotdash">
+          <ul class="dropdown__subcategory-list" style="height: 329px; overflow-y: auto;">
+            <li><a href="/teams/opponent-shooting/">Overall Opponent Shooting</a></li>
+            <li><a href="/teams/opponent-shots-general/">Opponent Shots By General Range</a></li>
+            <li><a href="/teams/opponent-shots-shotclock/">Opponent Shots By Shotclock</a></li>
+            <li><a href="/teams/opponent-shots-dribbles/">Opponent Shots By Dribbles</a></li>
+            <li><a href="/teams/opponent-shots-touch-time/">Opponent Shots By Touch Time</a></li>
+            <li><a href="/teams/opponent-shots-closest-defender/">Opponent Shots By Closest Defender</a></li>
+            <li><a href="/teams/opponent-shots-closest-defender-10/">Opponent Shots By Closest Defender (+10 FT)</a></li>
+          </ul>
+        </section>
+
+
+        <li><a href="/teams/hustle/">Hustle Stats</a></li>
+        <li><a href="/teams/gamelogs/">Game Logs</a></li>
+
+
+      </ul>
+    </section>
+
+    <div class="dropdown__separator"></div>
+
+    <div class="dropdown__item">
+      <h4 class="dropdown__item-header">
+        <a class="dropdown__item-header__link" href="/scores/">Scores</a>
+      </h4>
+    </div>
+
+    <div class="dropdown__item">
+      <h4 class="dropdown__item-header">
+        <a class="dropdown__item-header__link" href="/schedule/">Schedule</a>
+      </h4>
+    </div>
+
+    <div class="dropdown__item">
+      <h4 class="dropdown__item-header">
+        <a class="dropdown__item-header__link" href="/standings/">Standings</a>
+      </h4>
+    </div>
+
+    <!-- lineups -->
+    <div class="dropdown__item" ng-click="toggleCat('lineups')" ng-class="{'dropdown__item--active':isCat.lineups}">
+      <h4 class="dropdown__item-header">Lineups <i class="dropdown__item-header__arrow [ fa / fa-chevron-right / show-for-large ]" aria-hidden="true"></i><i class="dropdown__item-header__arrow [ fa / fa-chevron-down / hide-for-large ]" aria-hidden="true"></i></h4>
+    </div>
+
+    <!-- category: lineups -->
+    <section class="dropdown__category ng-hide" ng-show="isCat.lineups">
+      <ul class="dropdown__category-list" style="height: 329px; overflow-y: auto;">
+        <li><a href="/lineups/traditional/">Traditional</a></li>
+        <li><a href="/lineups/advanced/">Advanced</a></li>
+        <li><a href="/lineups/misc/">Misc</a></li>
+        <li><a href="/lineups/four-factors/">Four Factors</a></li>
+        <li><a href="/lineups/scoring/">Scoring</a></li>
+        <li><a href="/lineups/opponent/">Opponent</a></li>
+      </ul>
+    </section>
+
+    <!-- onoff  -->
+    <div class="dropdown__item" ng-click="toggleCat('onoff');" ng-class="{'dropdown__item--active':isCat.onoff}">
+      <h4 class="dropdown__item-header">On/Off Court by Team <i class="dropdown__item-header__arrow [ fa / fa-chevron-right / show-for-large ]" aria-hidden="true"></i><i class="dropdown__item-header__arrow [ fa / fa-chevron-down / hide-for-large ]" aria-hidden="true"></i></h4>
+    </div>
+
+    <!-- category: onoff -->
+    <section class="dropdown__category ng-hide" ng-show="isCat.onoff">
+      <ul class="dropdown__category-list" style="height: 329px; overflow-y: auto;">
+        <!-- ngRepeat: t in teams --><li ng-repeat="t in teams" class="ng-scope"><a href="/team/#!/1610612737/onoffcourt-summary" class="ng-binding">Atlanta Hawks</a></li><!-- end ngRepeat: t in teams --><li ng-repeat="t in teams" class="ng-scope"><a href="/team/#!/1610612738/onoffcourt-summary" class="ng-binding">Boston Celtics</a></li><!-- end ngRepeat: t in teams --><li ng-repeat="t in teams" class="ng-scope"><a href="/team/#!/1610612751/onoffcourt-summary" class="ng-binding">Brooklyn Nets</a></li><!-- end ngRepeat: t in teams --><li ng-repeat="t in teams" class="ng-scope"><a href="/team/#!/1610612766/onoffcourt-summary" class="ng-binding">Charlotte Hornets</a></li><!-- end ngRepeat: t in teams --><li ng-repeat="t in teams" class="ng-scope"><a href="/team/#!/1610612741/onoffcourt-summary" class="ng-binding">Chicago Bulls</a></li><!-- end ngRepeat: t in teams --><li ng-repeat="t in teams" class="ng-scope"><a href="/team/#!/1610612739/onoffcourt-summary" class="ng-binding">Cleveland Cavaliers</a></li><!-- end ngRepeat: t in teams --><li ng-repeat="t in teams" class="ng-scope"><a href="/team/#!/1610612742/onoffcourt-summary" class="ng-binding">Dallas Mavericks</a></li><!-- end ngRepeat: t in teams --><li ng-repeat="t in teams" class="ng-scope"><a href="/team/#!/1610612743/onoffcourt-summary" class="ng-binding">Denver Nuggets</a></li><!-- end ngRepeat: t in teams --><li ng-repeat="t in teams" class="ng-scope"><a href="/team/#!/1610612765/onoffcourt-summary" class="ng-binding">Detroit Pistons</a></li><!-- end ngRepeat: t in teams --><li ng-repeat="t in teams" class="ng-scope"><a href="/team/#!/1610612744/onoffcourt-summary" class="ng-binding">Golden State Warriors</a></li><!-- end ngRepeat: t in teams --><li ng-repeat="t in teams" class="ng-scope"><a href="/team/#!/1610612745/onoffcourt-summary" class="ng-binding">Houston Rockets</a></li><!-- end ngRepeat: t in teams --><li ng-repeat="t in teams" class="ng-scope"><a href="/team/#!/1610612754/onoffcourt-summary" class="ng-binding">Indiana Pacers</a></li><!-- end ngRepeat: t in teams --><li ng-repeat="t in teams" class="ng-scope"><a href="/team/#!/1610612746/onoffcourt-summary" class="ng-binding">LA Clippers</a></li><!-- end ngRepeat: t in teams --><li ng-repeat="t in teams" class="ng-scope"><a href="/team/#!/1610612747/onoffcourt-summary" class="ng-binding">Los Angeles Lakers</a></li><!-- end ngRepeat: t in teams --><li ng-repeat="t in teams" class="ng-scope"><a href="/team/#!/1610612763/onoffcourt-summary" class="ng-binding">Memphis Grizzlies</a></li><!-- end ngRepeat: t in teams --><li ng-repeat="t in teams" class="ng-scope"><a href="/team/#!/1610612748/onoffcourt-summary" class="ng-binding">Miami Heat</a></li><!-- end ngRepeat: t in teams --><li ng-repeat="t in teams" class="ng-scope"><a href="/team/#!/1610612749/onoffcourt-summary" class="ng-binding">Milwaukee Bucks</a></li><!-- end ngRepeat: t in teams --><li ng-repeat="t in teams" class="ng-scope"><a href="/team/#!/1610612750/onoffcourt-summary" class="ng-binding">Minnesota Timberwolves</a></li><!-- end ngRepeat: t in teams --><li ng-repeat="t in teams" class="ng-scope"><a href="/team/#!/1610612740/onoffcourt-summary" class="ng-binding">New Orleans Pelicans</a></li><!-- end ngRepeat: t in teams --><li ng-repeat="t in teams" class="ng-scope"><a href="/team/#!/1610612752/onoffcourt-summary" class="ng-binding">New York Knicks</a></li><!-- end ngRepeat: t in teams --><li ng-repeat="t in teams" class="ng-scope"><a href="/team/#!/1610612760/onoffcourt-summary" class="ng-binding">Oklahoma City Thunder</a></li><!-- end ngRepeat: t in teams --><li ng-repeat="t in teams" class="ng-scope"><a href="/team/#!/1610612753/onoffcourt-summary" class="ng-binding">Orlando Magic</a></li><!-- end ngRepeat: t in teams --><li ng-repeat="t in teams" class="ng-scope"><a href="/team/#!/1610612755/onoffcourt-summary" class="ng-binding">Philadelphia 76ers</a></li><!-- end ngRepeat: t in teams --><li ng-repeat="t in teams" class="ng-scope"><a href="/team/#!/1610612756/onoffcourt-summary" class="ng-binding">Phoenix Suns</a></li><!-- end ngRepeat: t in teams --><li ng-repeat="t in teams" class="ng-scope"><a href="/team/#!/1610612757/onoffcourt-summary" class="ng-binding">Portland Trail Blazers</a></li><!-- end ngRepeat: t in teams --><li ng-repeat="t in teams" class="ng-scope"><a href="/team/#!/1610612758/onoffcourt-summary" class="ng-binding">Sacramento Kings</a></li><!-- end ngRepeat: t in teams --><li ng-repeat="t in teams" class="ng-scope"><a href="/team/#!/1610612759/onoffcourt-summary" class="ng-binding">San Antonio Spurs</a></li><!-- end ngRepeat: t in teams --><li ng-repeat="t in teams" class="ng-scope"><a href="/team/#!/1610612761/onoffcourt-summary" class="ng-binding">Toronto Raptors</a></li><!-- end ngRepeat: t in teams --><li ng-repeat="t in teams" class="ng-scope"><a href="/team/#!/1610612762/onoffcourt-summary" class="ng-binding">Utah Jazz</a></li><!-- end ngRepeat: t in teams --><li ng-repeat="t in teams" class="ng-scope"><a href="/team/#!/1610612764/onoffcourt-summary" class="ng-binding">Washington Wizards</a></li><!-- end ngRepeat: t in teams -->
+      </ul>
+    </section>
+
+
+    <!-- draft -->
+    <div class="dropdown__item" ng-click="toggleCat('draft')" ng-class="{'dropdown__item--active':isCat.draft}">
+      <h4 class="dropdown__item-header">Draft &amp; Combine <i class="dropdown__item-header__arrow [ fa / fa-chevron-right / show-for-large ]" aria-hidden="true"></i><i class="dropdown__item-header__arrow [ fa / fa-chevron-down / hide-for-large ]" aria-hidden="true"></i></h4>
+    </div>
+
+    <!-- category: draft -->
+    <section class="dropdown__category ng-hide" ng-show="isCat.draft">
+      <ul class="dropdown__category-list" style="height: 329px; overflow-y: auto;">
+        <li><a href="/draft/history/">Draft History</a></li>
+        <li><a href="/draft/combine-spot-up/">Combine Spot Up Shooting</a></li>
+        <li><a href="/draft/combine-non-stationary/">Combine Non-Stationary Shooting</a></li>
+        <li><a href="/draft/combine-strength-agility/">Combine Strength &amp; Agility</a></li>
+        <li><a href="/draft/combine-anthro/">Combine Anthro</a></li>
+      </ul>
+    </section>
+
+
+    <!-- tools -->
+    <div class="dropdown__item" ng-click="toggleCat('tools')" ng-class="{'dropdown__item--active':isCat.tools}">
+      <h4 class="dropdown__item-header">Tools <i class="dropdown__item-header__arrow [ fa / fa-chevron-right / show-for-large ]" aria-hidden="true"></i><i class="dropdown__item-header__arrow [ fa / fa-chevron-down / hide-for-large ]" aria-hidden="true"></i></h4>
+    </div>
+
+    <!-- category: tools -->
+    <section class="dropdown__category ng-hide" ng-show="isCat.tools">
+      <ul class="dropdown__category-list" style="height: 329px; overflow-y: auto;">
+        <li><a href="/search/player-game/">Player Game Log Search</a></li>
+        <li><a href="/search/team-game/">Team Game Log Search</a></li>
+        <li><a href="/search/player-streak/">Player Streak Search</a></li>
+        <li><a href="/search/team-streak/">Team Streak Search</a></li>
+        <li><a href="/vs/">Player Compare</a></li>
+        <li><a href="/fantasycompare/">Fantasy Compare</a></li>
+      </ul>
+    </section>
+
+
+    <!-- Stats 101: OTHER -->
+    <div class="dropdown__item" ng-click="toggleCat('other')" ng-class="{'dropdown__item--active':isCat.other}">
+      <h4 class="dropdown__item-header">Stats 101<i class="dropdown__item-header__arrow [ fa / fa-chevron-right / show-for-large ]" aria-hidden="true"></i><i class="dropdown__item-header__arrow [ fa / fa-chevron-down / hide-for-large ]" aria-hidden="true"></i></h4>
+    </div>
+
+    <!-- category: other -->
+    <section class="dropdown__category ng-hide" ng-show="isCat.other">
+      <ul class="dropdown__category-list" style="height: 329px; overflow-y: auto;">
+        <li><a href="/history/">Franchise History</a></li>
+        <li><a href="/help/statminimums/">Statistical Minimums</a></li>
+        <li><a href="/transactions/">Transactions</a></li>
+        <li><a href="/fantasynews/">Fantasy News</a></li>
+        <li><a href="/featuredarchive/">Articles</a></li>
+        <li><a href="/spotlightarchive/">Weekly Stats Archive</a></li>
+        <li><a href="/help/glossary/">Glossary</a></li>
+        <li><a href="/help/faq/">FAQ</a></li>
+        <li><a href="/help/whatsnew/">What's New</a></li>
+        <li><a href="/help/videostatus/">Video &amp; Tracking Status</a></li>
+        <li><a href="/help/">Contact Us</a></li>
+      </ul>
+    </section>
+
+  </section>
+
+</nav>
+
+      <div class="nav-container ng-scope" ng-controller="StatsHeaderController" set-class-scroll-top="" data-element-class="nav-container--fixed" data-body-class="nav--fixed">
+
+  <div class="nav-inner" style="position: relative;">
+    <!-- left: inner nav -->
+    <nav class="nav-inner__menu nav-inner__menu--left" role="navigation">
+      <div class="nav-inner__menu-button" ng-click="toggleNav($event)">
+        <i class="nav-inner__menu-button-icon [ fa fa-bars fa-lg ]" aria-hidden="true"></i>
+        <div class="nav-inner__logo">
+          <img src="/media/img/nba-stats-logo.svg" alt="NBA STATS" title="NBA STATS" />
+        </div>
+        <span class="nav-inner__menu-button-label show-for-large">Menu</span>
+      </div>
+      <div class="nav-inner__menu-item" ng-class="{ active: activeTab=='home' }"><a href="/">Stats Home</a></div>
+      <div class="nav-inner__menu-item" ng-class="{ active: activeTab=='players' }"><a href="/players/">Players</a></div>
+      <div class="nav-inner__menu-item" ng-class="{ active: activeTab=='teams' }"><a href="/teams/">Teams</a></div>
+      <div class="nav-inner__menu-item" ng-class="{ active: activeTab=='scores' }"><a href="/scores/">Scores</a></div>
+      <div class="nav-inner__menu-item" ng-class="{ active: activeTab=='schedule' }"><a href="/schedule/">Schedule</a></div>
+      <div class="nav-inner__menu-item active" ng-class="{ active: activeTab=='standings' }"><a href="/standings/">Standings</a></div>
+    </nav> <!-- .nav-inner__menu -->
+
+
+    <!-- right: search -->
+    <!-- add active class to test active search state -->
+    <div class="nav-inner__search nav-inner__search--right stats-search ng-scope" ng-class="{ active: showSearch }" ng-controller="StatsSearchController">
+
+  <!-- search icon, always visible -->
+  <div class="stats-search__top">
+    <input class="stats-search__input ng-pristine ng-untouched ng-valid ng-empty ng-hide" type="text" ng-model="search" ng-keydown="onKeyDown($event)" ng-change="onChange($event)" ng-show="showSearch" />
+    <a class="stats-search__icon" ng-click="toggleSearch();">
+      <span class="stats-search__icon-text">Search For A Player or Team</span><i class="[ fa / fa-search ]" aria-hidden="true"></i>
+    </a>
+  </div>
+
+  <div class="stats-search__results ng-hide" ng-show="showResults">
+
+    <div class="stats-search__section stats-search__section--none ng-hide" ng-show="!hasResults &amp;&amp; search.length &gt; 3">
+      <span class="stats-search__no-results">No Results Found</span>
+    </div> <!-- .stats-search__section -->
+
+    <div class="stats-search__section ng-hide" ng-show="searchResults.length" ng-class="{recent: showRecent}">
+
+      <!-- ngRepeat: item in searchResults | limitTo:maxResults --><!-- .stats-search__item -->
+
+      <div class="stats-search__show-all">
+        <a class="searchbar__results__link searchbar__results__link--more ng-hide" ng-show="searchResults.length &gt; maxResults" ng-href="/players/#!/?player=&amp;historic=1" href="/players/#!/?player=&amp;historic=1">See More Results</a>
+      </div>
+
+    </div> <!-- .stats-search__section -->
+
+  </div> <!-- .nav-inner__search-results -->
+
+
+</div> <!-- .nav-inner__search -->
+
+
+    <div class="nav-inner__sap-insights [ show-for-sap ]">
+      <a href="">
+        <img src="/media/img/sap-insights.svg" alt="Insights From SAP" title="Insights From SAP" />
+      </a>
+    </div>
+
+  </div>
+
+
+
+</div>
+
+      <div class="stats-container__inner">
+
+<div class="stats-standings-page">
+
+  <div class="breadcrumbs">
+    <span><a href="/">Stats Home</a></span> / <span>Teams</span> / <span>Standings</span>
+  </div>
+
+  <div class="row">
+    <div class="columns small-12">
+      <div data-ng-controller="StandingsController" class="stats-standings-page ng-scope">
+
+  <div class="row row5 collapse stats-filters-top">
+    <div class="columns large-1"><div stats-filter-select="" split="splits.Season" autorun="true" class="ng-isolate-scope stats-filter-select"><div class="inner" ng-class="{toggled: (split.selected.val!=split.default)}">   <div class="label ng-binding">Season</div>   <div class="reset" ng-click="resetSplit();"><i class="fa fa-times" aria-hidden="true"></i></div>   <select name="Season" ng-model="split.selected" ng-change="setSplit(split.selected)" ng-options="v.text for v in split.options" class="ng-pristine ng-untouched ng-valid ng-not-empty"><option label="2016-17" value="object:7" selected="selected">2016-17</option><option label="2015-16" value="object:8">2015-16</option><option label="2014-15" value="object:9">2014-15</option><option label="2013-14" value="object:10">2013-14</option><option label="2012-13" value="object:11">2012-13</option><option label="2011-12" value="object:12">2011-12</option><option label="2010-11" value="object:13">2010-11</option><option label="2009-10" value="object:14">2009-10</option><option label="2008-09" value="object:15">2008-09</option><option label="2007-08" value="object:16">2007-08</option><option label="2006-07" value="object:17">2006-07</option><option label="2005-06" value="object:18">2005-06</option><option label="2004-05" value="object:19">2004-05</option><option label="2003-04" value="object:20">2003-04</option><option label="2002-03" value="object:21">2002-03</option><option label="2001-02" value="object:22">2001-02</option><option label="2000-01" value="object:23">2000-01</option><option label="1999-00" value="object:24">1999-00</option><option label="1998-99" value="object:25">1998-99</option><option label="1997-98" value="object:26">1997-98</option><option label="1996-97" value="object:27">1996-97</option><option label="1995-96" value="object:28">1995-96</option><option label="1994-95" value="object:29">1994-95</option><option label="1993-94" value="object:30">1993-94</option><option label="1992-93" value="object:31">1992-93</option><option label="1991-92" value="object:32">1991-92</option><option label="1990-91" value="object:33">1990-91</option><option label="1989-90" value="object:34">1989-90</option><option label="1988-89" value="object:35">1988-89</option><option label="1987-88" value="object:36">1987-88</option><option label="1986-87" value="object:37">1986-87</option><option label="1985-86" value="object:38">1985-86</option><option label="1984-85" value="object:39">1984-85</option><option label="1983-84" value="object:40">1983-84</option><option label="1982-83" value="object:41">1982-83</option><option label="1981-82" value="object:42">1981-82</option><option label="1980-81" value="object:43">1980-81</option><option label="1979-80" value="object:44">1979-80</option><option label="1978-79" value="object:45">1978-79</option><option label="1977-78" value="object:46">1977-78</option><option label="1976-77" value="object:47">1976-77</option><option label="1975-76" value="object:48">1975-76</option><option label="1974-75" value="object:49">1974-75</option><option label="1973-74" value="object:50">1973-74</option><option label="1972-73" value="object:51">1972-73</option><option label="1971-72" value="object:52">1971-72</option><option label="1970-71" value="object:53">1970-71</option></select></div></div></div>
+    <div class="columns large-1"><div stats-filter-select="" split="splits.SeasonType" autorun="true" class="ng-isolate-scope stats-filter-select"><div class="inner" ng-class="{toggled: (split.selected.val!=split.default)}">   <div class="label ng-binding">Season Type</div>   <div class="reset" ng-click="resetSplit();"><i class="fa fa-times" aria-hidden="true"></i></div>   <select name="SeasonType" ng-model="split.selected" ng-change="setSplit(split.selected)" ng-options="v.text for v in split.options" class="ng-pristine ng-untouched ng-valid ng-not-empty"><option label="Regular Season" value="object:55" selected="selected">Regular Season</option></select></div></div></div>
+    <div class="columns large-1"><div stats-filter-select="" split="splits.GroupBy" autorun="true" class="ng-isolate-scope stats-filter-select"><div class="inner" ng-class="{toggled: (split.selected.val!=split.default)}">   <div class="label ng-binding">Group By</div>   <div class="reset" ng-click="resetSplit();"><i class="fa fa-times" aria-hidden="true"></i></div>   <select name="GroupBy" ng-model="split.selected" ng-change="setSplit(split.selected)" ng-options="v.text for v in split.options" class="ng-pristine ng-untouched ng-valid ng-not-empty"><option label="Conference" value="object:57" selected="selected">Conference</option><option label="Division" value="object:58">Division</option></select></div></div></div>
+    <div class="columns large-1 end"><div stats-filter-select="" split="splits.Section" autorun="true" class="ng-isolate-scope stats-filter-select"><div class="inner" ng-class="{toggled: (split.selected.val!=split.default)}">   <div class="label ng-binding">Section</div>   <div class="reset" ng-click="resetSplit();"><i class="fa fa-times" aria-hidden="true"></i></div>   <select name="Section" ng-model="split.selected" ng-change="setSplit(split.selected)" ng-options="v.text for v in split.options" class="ng-pristine ng-untouched ng-valid ng-not-empty"><option label="Overall" value="object:60" selected="selected">Overall</option><option label="Streaks" value="object:61">Streaks</option><option label="Ahead/Behind" value="object:62">Ahead/Behind</option><option label="Margins &amp; Stats" value="object:63">Margins &amp; Stats</option><option label="vs Div/Conf" value="object:64">vs Div/Conf</option><option label="Calendar" value="object:65">Calendar</option></select></div></div></div>
+  </div>
+
+  <div class="stats-filters-advanced ng-hide" ng-show="showSplits">
+    <div class="stats-filters-advanced__bottom">
+      <stats-filter-reset><a href="" ng-click="reset();"><i class="fa fa-refresh" aria-hidden="true"></i> Reset Filters</a></stats-filter-reset>
+      <stats-run-it><a href="" class="run-it" ripple="" ng-click="runit();">Run It</a></stats-run-it>
+    </div>
+  </div>
+
+  <div stats-loader="isLoading" class="ng-isolate-scope"><!-- ngIf: statsLoader --></div>
+
+  <!-- ngRepeat: group in groups --><!-- ngIf: !isLoading && splits.Section.selected.val==='' --><nba-stat-table ng-if="!isLoading &amp;&amp; splits.Section.selected.val===''" ng-repeat="group in groups" rows="group.items" ai="ai" data-title="East" template="standings/standings-overall" class="ng-scope ng-isolate-scope"><!-- ngIf: title --><div ng-if="title" class="nba-stat-table__caption ng-binding ng-scope">
+  East
+</div><!-- end ngIf: title -->
+<div class="nba-stat-table">
+  <div class="nba-stat-table__overflow" data-fixed="1" role="grid">
+    <table>
+      <thead>
+        <tr>
+          <th class="team" data-field="TEAM">TEAM</th>
+          <th data-field="WINS">W</th>
+          <th data-field="LOSSES">L</th>
+          <th data-field="W_PCT">WIN%</th>
+          <!-- ngIf: ai.group==='Conference' --><th data-field="ConferenceGamesBack" ng-if="ai.group==='Conference'" class="ng-scope">GB</th><!-- end ngIf: ai.group==='Conference' -->
+          <!-- ngIf: ai.group==='Division' -->
+          <th data-field="ConferenceRecord">CONF</th>
+          <th data-field="DivisionRecord">DIV</th>
+          <th data-field="HOME_RECORD">HOME</th>
+          <th data-field="ROAD_RECORD">ROAD</th>
+          <th data-field="OT">OT</th>
+          <th data-field="L10">LAST 10</th>
+          <th data-field="CurrentStreak">STREAK</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- ngRepeat: (i, row) in page --><tr data-ng-repeat="(i, row) in page" index="0" class="ng-scope">
+          <td class="team">
+            <a ng-href="/team/#!/1610612739/" class="ng-binding" href="/team/#!/1610612739/">
+              <!-- ngIf: ai.group==='Conference' --><span ng-if="ai.group==='Conference'" class="ng-binding ng-scope">1. </span><!-- end ngIf: ai.group==='Conference' -->
+              <!-- ngIf: ai.group==='Division' -->
+              Cleveland Cavaliers
+            </a>
+          </td>
+          <td class="ng-binding">38</td>
+          <td class="ng-binding">16</td>
+          <td class="ng-binding">.704</td>
+          <!-- ngIf: ai.group==='Conference' --><td ng-if="ai.group==='Conference'" class="ng-binding ng-scope">-</td><!-- end ngIf: ai.group==='Conference' -->
+          <!-- ngIf: ai.group==='Division' -->
+          <td class="nowrap ng-binding">24-6 </td>
+          <td class="nowrap ng-binding">4-5  </td>
+          <td class="nowrap ng-binding">23-5 </td>
+          <td class="nowrap ng-binding">15-11</td>
+          <td class="nowrap ng-binding">2-2  </td>
+          <td class="nowrap ng-binding">8-2  </td>
+          <td class="nowrap ng-binding">W 2</td>
+        </tr><!-- end ngRepeat: (i, row) in page --><tr data-ng-repeat="(i, row) in page" index="1" class="ng-scope">
+          <td class="team">
+            <a ng-href="/team/#!/1610612738/" class="ng-binding" href="/team/#!/1610612738/">
+              <!-- ngIf: ai.group==='Conference' --><span ng-if="ai.group==='Conference'" class="ng-binding ng-scope">2. </span><!-- end ngIf: ai.group==='Conference' -->
+              <!-- ngIf: ai.group==='Division' -->
+              Boston Celtics
+            </a>
+          </td>
+          <td class="ng-binding">36</td>
+          <td class="ng-binding">19</td>
+          <td class="ng-binding">.655</td>
+          <!-- ngIf: ai.group==='Conference' --><td ng-if="ai.group==='Conference'" class="ng-binding ng-scope">2.5</td><!-- end ngIf: ai.group==='Conference' -->
+          <!-- ngIf: ai.group==='Division' -->
+          <td class="nowrap ng-binding">23-9 </td>
+          <td class="nowrap ng-binding">7-3  </td>
+          <td class="nowrap ng-binding">19-8 </td>
+          <td class="nowrap ng-binding">17-11</td>
+          <td class="nowrap ng-binding">2-1  </td>
+          <td class="nowrap ng-binding">9-1  </td>
+          <td class="nowrap ng-binding">W 3</td>
+        </tr><!-- end ngRepeat: (i, row) in page --><tr data-ng-repeat="(i, row) in page" index="2" class="ng-scope">
+          <td class="team">
+            <a ng-href="/team/#!/1610612764/" class="ng-binding" href="/team/#!/1610612764/">
+              <!-- ngIf: ai.group==='Conference' --><span ng-if="ai.group==='Conference'" class="ng-binding ng-scope">3. </span><!-- end ngIf: ai.group==='Conference' -->
+              <!-- ngIf: ai.group==='Division' -->
+              Washington Wizards
+            </a>
+          </td>
+          <td class="ng-binding">33</td>
+          <td class="ng-binding">21</td>
+          <td class="ng-binding">.611</td>
+          <!-- ngIf: ai.group==='Conference' --><td ng-if="ai.group==='Conference'" class="ng-binding ng-scope">5</td><!-- end ngIf: ai.group==='Conference' -->
+          <!-- ngIf: ai.group==='Division' -->
+          <td class="nowrap ng-binding">22-14</td>
+          <td class="nowrap ng-binding">5-5  </td>
+          <td class="nowrap ng-binding">24-7 </td>
+          <td class="nowrap ng-binding">9-14 </td>
+          <td class="nowrap ng-binding">2-3  </td>
+          <td class="nowrap ng-binding">9-1  </td>
+          <td class="nowrap ng-binding">W 3</td>
+        </tr><!-- end ngRepeat: (i, row) in page --><tr data-ng-repeat="(i, row) in page" index="3" class="ng-scope">
+          <td class="team">
+            <a ng-href="/team/#!/1610612737/" class="ng-binding" href="/team/#!/1610612737/">
+              <!-- ngIf: ai.group==='Conference' --><span ng-if="ai.group==='Conference'" class="ng-binding ng-scope">4. </span><!-- end ngIf: ai.group==='Conference' -->
+              <!-- ngIf: ai.group==='Division' -->
+              Atlanta Hawks
+            </a>
+          </td>
+          <td class="ng-binding">32</td>
+          <td class="ng-binding">23</td>
+          <td class="ng-binding">.582</td>
+          <!-- ngIf: ai.group==='Conference' --><td ng-if="ai.group==='Conference'" class="ng-binding ng-scope">6.5</td><!-- end ngIf: ai.group==='Conference' -->
+          <!-- ngIf: ai.group==='Division' -->
+          <td class="nowrap ng-binding">22-11</td>
+          <td class="nowrap ng-binding">5-6  </td>
+          <td class="nowrap ng-binding">16-11</td>
+          <td class="nowrap ng-binding">16-12</td>
+          <td class="nowrap ng-binding">4-0  </td>
+          <td class="nowrap ng-binding">6-4  </td>
+          <td class="nowrap ng-binding">W 1</td>
+        </tr><!-- end ngRepeat: (i, row) in page --><tr data-ng-repeat="(i, row) in page" index="4" class="ng-scope">
+          <td class="team">
+            <a ng-href="/team/#!/1610612761/" class="ng-binding" href="/team/#!/1610612761/">
+              <!-- ngIf: ai.group==='Conference' --><span ng-if="ai.group==='Conference'" class="ng-binding ng-scope">5. </span><!-- end ngIf: ai.group==='Conference' -->
+              <!-- ngIf: ai.group==='Division' -->
+              Toronto Raptors
+            </a>
+          </td>
+          <td class="ng-binding">32</td>
+          <td class="ng-binding">24</td>
+          <td class="ng-binding">.571</td>
+          <!-- ngIf: ai.group==='Conference' --><td ng-if="ai.group==='Conference'" class="ng-binding ng-scope">7</td><!-- end ngIf: ai.group==='Conference' -->
+          <!-- ngIf: ai.group==='Division' -->
+          <td class="nowrap ng-binding">19-12</td>
+          <td class="nowrap ng-binding">10-2 </td>
+          <td class="nowrap ng-binding">18-10</td>
+          <td class="nowrap ng-binding">14-14</td>
+          <td class="nowrap ng-binding">2-1  </td>
+          <td class="nowrap ng-binding">4-6  </td>
+          <td class="nowrap ng-binding">L 3</td>
+        </tr><!-- end ngRepeat: (i, row) in page --><tr data-ng-repeat="(i, row) in page" index="5" class="ng-scope">
+          <td class="team">
+            <a ng-href="/team/#!/1610612754/" class="ng-binding" href="/team/#!/1610612754/">
+              <!-- ngIf: ai.group==='Conference' --><span ng-if="ai.group==='Conference'" class="ng-binding ng-scope">6. </span><!-- end ngIf: ai.group==='Conference' -->
+              <!-- ngIf: ai.group==='Division' -->
+              Indiana Pacers
+            </a>
+          </td>
+          <td class="ng-binding">29</td>
+          <td class="ng-binding">26</td>
+          <td class="ng-binding">.527</td>
+          <!-- ngIf: ai.group==='Conference' --><td ng-if="ai.group==='Conference'" class="ng-binding ng-scope">9.5</td><!-- end ngIf: ai.group==='Conference' -->
+          <!-- ngIf: ai.group==='Division' -->
+          <td class="nowrap ng-binding">16-16</td>
+          <td class="nowrap ng-binding">6-5  </td>
+          <td class="nowrap ng-binding">20-9 </td>
+          <td class="nowrap ng-binding">9-17 </td>
+          <td class="nowrap ng-binding">4-1  </td>
+          <td class="nowrap ng-binding">6-4  </td>
+          <td class="nowrap ng-binding">L 4</td>
+        </tr><!-- end ngRepeat: (i, row) in page --><tr data-ng-repeat="(i, row) in page" index="6" class="ng-scope">
+          <td class="team">
+            <a ng-href="/team/#!/1610612741/" class="ng-binding" href="/team/#!/1610612741/">
+              <!-- ngIf: ai.group==='Conference' --><span ng-if="ai.group==='Conference'" class="ng-binding ng-scope">7. </span><!-- end ngIf: ai.group==='Conference' -->
+              <!-- ngIf: ai.group==='Division' -->
+              Chicago Bulls
+            </a>
+          </td>
+          <td class="ng-binding">27</td>
+          <td class="ng-binding">29</td>
+          <td class="ng-binding">.482</td>
+          <!-- ngIf: ai.group==='Conference' --><td ng-if="ai.group==='Conference'" class="ng-binding ng-scope">12</td><!-- end ngIf: ai.group==='Conference' -->
+          <!-- ngIf: ai.group==='Division' -->
+          <td class="nowrap ng-binding">18-16</td>
+          <td class="nowrap ng-binding">5-6  </td>
+          <td class="nowrap ng-binding">16-11</td>
+          <td class="nowrap ng-binding">11-18</td>
+          <td class="nowrap ng-binding">1-1  </td>
+          <td class="nowrap ng-binding">4-6  </td>
+          <td class="nowrap ng-binding">W 1</td>
+        </tr><!-- end ngRepeat: (i, row) in page --><tr data-ng-repeat="(i, row) in page" index="7" class="ng-scope">
+          <td class="team">
+            <a ng-href="/team/#!/1610612765/" class="ng-binding" href="/team/#!/1610612765/">
+              <!-- ngIf: ai.group==='Conference' --><span ng-if="ai.group==='Conference'" class="ng-binding ng-scope">8. </span><!-- end ngIf: ai.group==='Conference' -->
+              <!-- ngIf: ai.group==='Division' -->
+              Detroit Pistons
+            </a>
+          </td>
+          <td class="ng-binding">26</td>
+          <td class="ng-binding">30</td>
+          <td class="ng-binding">.464</td>
+          <!-- ngIf: ai.group==='Conference' --><td ng-if="ai.group==='Conference'" class="ng-binding ng-scope">13</td><!-- end ngIf: ai.group==='Conference' -->
+          <!-- ngIf: ai.group==='Division' -->
+          <td class="nowrap ng-binding">15-18</td>
+          <td class="nowrap ng-binding">3-7  </td>
+          <td class="nowrap ng-binding">16-11</td>
+          <td class="nowrap ng-binding">10-19</td>
+          <td class="nowrap ng-binding">1-0  </td>
+          <td class="nowrap ng-binding">5-5  </td>
+          <td class="nowrap ng-binding">L 1</td>
+        </tr><!-- end ngRepeat: (i, row) in page --><tr data-ng-repeat="(i, row) in page" index="8" class="ng-scope">
+          <td class="team">
+            <a ng-href="/team/#!/1610612749/" class="ng-binding" href="/team/#!/1610612749/">
+              <!-- ngIf: ai.group==='Conference' --><span ng-if="ai.group==='Conference'" class="ng-binding ng-scope">9. </span><!-- end ngIf: ai.group==='Conference' -->
+              <!-- ngIf: ai.group==='Division' -->
+              Milwaukee Bucks
+            </a>
+          </td>
+          <td class="ng-binding">24</td>
+          <td class="ng-binding">30</td>
+          <td class="ng-binding">.444</td>
+          <!-- ngIf: ai.group==='Conference' --><td ng-if="ai.group==='Conference'" class="ng-binding ng-scope">14</td><!-- end ngIf: ai.group==='Conference' -->
+          <!-- ngIf: ai.group==='Division' -->
+          <td class="nowrap ng-binding">16-21</td>
+          <td class="nowrap ng-binding">8-3  </td>
+          <td class="nowrap ng-binding">14-14</td>
+          <td class="nowrap ng-binding">10-16</td>
+          <td class="nowrap ng-binding">0-3  </td>
+          <td class="nowrap ng-binding">3-7  </td>
+          <td class="nowrap ng-binding">W 2</td>
+        </tr><!-- end ngRepeat: (i, row) in page --><tr data-ng-repeat="(i, row) in page" index="9" class="ng-scope">
+          <td class="team">
+            <a ng-href="/team/#!/1610612766/" class="ng-binding" href="/team/#!/1610612766/">
+              <!-- ngIf: ai.group==='Conference' --><span ng-if="ai.group==='Conference'" class="ng-binding ng-scope">10. </span><!-- end ngIf: ai.group==='Conference' -->
+              <!-- ngIf: ai.group==='Division' -->
+              Charlotte Hornets
+            </a>
+          </td>
+          <td class="ng-binding">24</td>
+          <td class="ng-binding">31</td>
+          <td class="ng-binding">.436</td>
+          <!-- ngIf: ai.group==='Conference' --><td ng-if="ai.group==='Conference'" class="ng-binding ng-scope">14.5</td><!-- end ngIf: ai.group==='Conference' -->
+          <!-- ngIf: ai.group==='Division' -->
+          <td class="nowrap ng-binding">16-18</td>
+          <td class="nowrap ng-binding">6-2  </td>
+          <td class="nowrap ng-binding">16-13</td>
+          <td class="nowrap ng-binding">8-18 </td>
+          <td class="nowrap ng-binding">0-3  </td>
+          <td class="nowrap ng-binding">1-9  </td>
+          <td class="nowrap ng-binding">L 3</td>
+        </tr><!-- end ngRepeat: (i, row) in page --><tr data-ng-repeat="(i, row) in page" index="10" class="ng-scope">
+          <td class="team">
+            <a ng-href="/team/#!/1610612748/" class="ng-binding" href="/team/#!/1610612748/">
+              <!-- ngIf: ai.group==='Conference' --><span ng-if="ai.group==='Conference'" class="ng-binding ng-scope">11. </span><!-- end ngIf: ai.group==='Conference' -->
+              <!-- ngIf: ai.group==='Division' -->
+              Miami Heat
+            </a>
+          </td>
+          <td class="ng-binding">24</td>
+          <td class="ng-binding">32</td>
+          <td class="ng-binding">.429</td>
+          <!-- ngIf: ai.group==='Conference' --><td ng-if="ai.group==='Conference'" class="ng-binding ng-scope">15</td><!-- end ngIf: ai.group==='Conference' -->
+          <!-- ngIf: ai.group==='Division' -->
+          <td class="nowrap ng-binding">14-19</td>
+          <td class="nowrap ng-binding">4-6  </td>
+          <td class="nowrap ng-binding">13-14</td>
+          <td class="nowrap ng-binding">11-18</td>
+          <td class="nowrap ng-binding">1-1  </td>
+          <td class="nowrap ng-binding">8-2  </td>
+          <td class="nowrap ng-binding">L 2</td>
+        </tr><!-- end ngRepeat: (i, row) in page --><tr data-ng-repeat="(i, row) in page" index="11" class="ng-scope">
+          <td class="team">
+            <a ng-href="/team/#!/1610612752/" class="ng-binding" href="/team/#!/1610612752/">
+              <!-- ngIf: ai.group==='Conference' --><span ng-if="ai.group==='Conference'" class="ng-binding ng-scope">12. </span><!-- end ngIf: ai.group==='Conference' -->
+              <!-- ngIf: ai.group==='Division' -->
+              New York Knicks
+            </a>
+          </td>
+          <td class="ng-binding">23</td>
+          <td class="ng-binding">33</td>
+          <td class="ng-binding">.411</td>
+          <!-- ngIf: ai.group==='Conference' --><td ng-if="ai.group==='Conference'" class="ng-binding ng-scope">16</td><!-- end ngIf: ai.group==='Conference' -->
+          <!-- ngIf: ai.group==='Division' -->
+          <td class="nowrap ng-binding">14-19</td>
+          <td class="nowrap ng-binding">3-5  </td>
+          <td class="nowrap ng-binding">14-15</td>
+          <td class="nowrap ng-binding">9-18 </td>
+          <td class="nowrap ng-binding">1-3  </td>
+          <td class="nowrap ng-binding">3-7  </td>
+          <td class="nowrap ng-binding">W 1</td>
+        </tr><!-- end ngRepeat: (i, row) in page --><tr data-ng-repeat="(i, row) in page" index="12" class="ng-scope">
+          <td class="team">
+            <a ng-href="/team/#!/1610612755/" class="ng-binding" href="/team/#!/1610612755/">
+              <!-- ngIf: ai.group==='Conference' --><span ng-if="ai.group==='Conference'" class="ng-binding ng-scope">13. </span><!-- end ngIf: ai.group==='Conference' -->
+              <!-- ngIf: ai.group==='Division' -->
+              Philadelphia 76ers
+            </a>
+          </td>
+          <td class="ng-binding">21</td>
+          <td class="ng-binding">34</td>
+          <td class="ng-binding">.382</td>
+          <!-- ngIf: ai.group==='Conference' --><td ng-if="ai.group==='Conference'" class="ng-binding ng-scope">17.5</td><!-- end ngIf: ai.group==='Conference' -->
+          <!-- ngIf: ai.group==='Division' -->
+          <td class="nowrap ng-binding">14-18</td>
+          <td class="nowrap ng-binding">4-4  </td>
+          <td class="nowrap ng-binding">13-16</td>
+          <td class="nowrap ng-binding">8-18 </td>
+          <td class="nowrap ng-binding">1-2  </td>
+          <td class="nowrap ng-binding">4-6  </td>
+          <td class="nowrap ng-binding">W 3</td>
+        </tr><!-- end ngRepeat: (i, row) in page --><tr data-ng-repeat="(i, row) in page" index="13" class="ng-scope">
+          <td class="team">
+            <a ng-href="/team/#!/1610612753/" class="ng-binding" href="/team/#!/1610612753/">
+              <!-- ngIf: ai.group==='Conference' --><span ng-if="ai.group==='Conference'" class="ng-binding ng-scope">14. </span><!-- end ngIf: ai.group==='Conference' -->
+              <!-- ngIf: ai.group==='Division' -->
+              Orlando Magic
+            </a>
+          </td>
+          <td class="ng-binding">21</td>
+          <td class="ng-binding">36</td>
+          <td class="ng-binding">.368</td>
+          <!-- ngIf: ai.group==='Conference' --><td ng-if="ai.group==='Conference'" class="ng-binding ng-scope">18.5</td><!-- end ngIf: ai.group==='Conference' -->
+          <!-- ngIf: ai.group==='Division' -->
+          <td class="nowrap ng-binding">13-20</td>
+          <td class="nowrap ng-binding">5-6  </td>
+          <td class="nowrap ng-binding">9-17 </td>
+          <td class="nowrap ng-binding">12-19</td>
+          <td class="nowrap ng-binding">1-1  </td>
+          <td class="nowrap ng-binding">3-7  </td>
+          <td class="nowrap ng-binding">W 1</td>
+        </tr><!-- end ngRepeat: (i, row) in page --><tr data-ng-repeat="(i, row) in page" index="14" class="ng-scope">
+          <td class="team">
+            <a ng-href="/team/#!/1610612751/" class="ng-binding" href="/team/#!/1610612751/">
+              <!-- ngIf: ai.group==='Conference' --><span ng-if="ai.group==='Conference'" class="ng-binding ng-scope">15. </span><!-- end ngIf: ai.group==='Conference' -->
+              <!-- ngIf: ai.group==='Division' -->
+              Brooklyn Nets
+            </a>
+          </td>
+          <td class="ng-binding">9</td>
+          <td class="ng-binding">46</td>
+          <td class="ng-binding">.164</td>
+          <!-- ngIf: ai.group==='Conference' --><td ng-if="ai.group==='Conference'" class="ng-binding ng-scope">29.5</td><!-- end ngIf: ai.group==='Conference' -->
+          <!-- ngIf: ai.group==='Division' -->
+          <td class="nowrap ng-binding">3-32 </td>
+          <td class="nowrap ng-binding">0-10 </td>
+          <td class="nowrap ng-binding">7-23 </td>
+          <td class="nowrap ng-binding">2-23 </td>
+          <td class="nowrap ng-binding">1-1  </td>
+          <td class="nowrap ng-binding">0-10 </td>
+          <td class="nowrap ng-binding">L 13</td>
+        </tr><!-- end ngRepeat: (i, row) in page -->
+      </tbody>
+    </table>
+  </div> <!-- .stat-table__overflow -->
+<div class="nba-stat-table__overlay" data-fixed="1" role="grid">
+    <table>
+      <thead>
+        <tr>
+          <th class="team" data-field="TEAM">TEAM</th>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        </tr>
+      </thead>
+      <tbody>
+        <!-- ngRepeat: (i, row) in page --><tr data-ng-repeat="(i, row) in page" index="0" class="ng-scope">
+          <td class="team">
+            <a ng-href="/team/#!/1610612739/" class="ng-binding" href="/team/#!/1610612739/">
+              <!-- ngIf: ai.group==='Conference' --><span ng-if="ai.group==='Conference'" class="ng-binding ng-scope">1. </span><!-- end ngIf: ai.group==='Conference' -->
+              <!-- ngIf: ai.group==='Division' -->
+              Cleveland Cavaliers
+            </a>
+          </td>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        </tr><!-- end ngRepeat: (i, row) in page --><tr data-ng-repeat="(i, row) in page" index="1" class="ng-scope">
+          <td class="team">
+            <a ng-href="/team/#!/1610612738/" class="ng-binding" href="/team/#!/1610612738/">
+              <!-- ngIf: ai.group==='Conference' --><span ng-if="ai.group==='Conference'" class="ng-binding ng-scope">2. </span><!-- end ngIf: ai.group==='Conference' -->
+              <!-- ngIf: ai.group==='Division' -->
+              Boston Celtics
+            </a>
+          </td>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        </tr><!-- end ngRepeat: (i, row) in page --><tr data-ng-repeat="(i, row) in page" index="2" class="ng-scope">
+          <td class="team">
+            <a ng-href="/team/#!/1610612764/" class="ng-binding" href="/team/#!/1610612764/">
+              <!-- ngIf: ai.group==='Conference' --><span ng-if="ai.group==='Conference'" class="ng-binding ng-scope">3. </span><!-- end ngIf: ai.group==='Conference' -->
+              <!-- ngIf: ai.group==='Division' -->
+              Washington Wizards
+            </a>
+          </td>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        </tr><!-- end ngRepeat: (i, row) in page --><tr data-ng-repeat="(i, row) in page" index="3" class="ng-scope">
+          <td class="team">
+            <a ng-href="/team/#!/1610612737/" class="ng-binding" href="/team/#!/1610612737/">
+              <!-- ngIf: ai.group==='Conference' --><span ng-if="ai.group==='Conference'" class="ng-binding ng-scope">4. </span><!-- end ngIf: ai.group==='Conference' -->
+              <!-- ngIf: ai.group==='Division' -->
+              Atlanta Hawks
+            </a>
+          </td>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        </tr><!-- end ngRepeat: (i, row) in page --><tr data-ng-repeat="(i, row) in page" index="4" class="ng-scope">
+          <td class="team">
+            <a ng-href="/team/#!/1610612761/" class="ng-binding" href="/team/#!/1610612761/">
+              <!-- ngIf: ai.group==='Conference' --><span ng-if="ai.group==='Conference'" class="ng-binding ng-scope">5. </span><!-- end ngIf: ai.group==='Conference' -->
+              <!-- ngIf: ai.group==='Division' -->
+              Toronto Raptors
+            </a>
+          </td>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        </tr><!-- end ngRepeat: (i, row) in page --><tr data-ng-repeat="(i, row) in page" index="5" class="ng-scope">
+          <td class="team">
+            <a ng-href="/team/#!/1610612754/" class="ng-binding" href="/team/#!/1610612754/">
+              <!-- ngIf: ai.group==='Conference' --><span ng-if="ai.group==='Conference'" class="ng-binding ng-scope">6. </span><!-- end ngIf: ai.group==='Conference' -->
+              <!-- ngIf: ai.group==='Division' -->
+              Indiana Pacers
+            </a>
+          </td>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        </tr><!-- end ngRepeat: (i, row) in page --><tr data-ng-repeat="(i, row) in page" index="6" class="ng-scope">
+          <td class="team">
+            <a ng-href="/team/#!/1610612741/" class="ng-binding" href="/team/#!/1610612741/">
+              <!-- ngIf: ai.group==='Conference' --><span ng-if="ai.group==='Conference'" class="ng-binding ng-scope">7. </span><!-- end ngIf: ai.group==='Conference' -->
+              <!-- ngIf: ai.group==='Division' -->
+              Chicago Bulls
+            </a>
+          </td>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        </tr><!-- end ngRepeat: (i, row) in page --><tr data-ng-repeat="(i, row) in page" index="7" class="ng-scope">
+          <td class="team">
+            <a ng-href="/team/#!/1610612765/" class="ng-binding" href="/team/#!/1610612765/">
+              <!-- ngIf: ai.group==='Conference' --><span ng-if="ai.group==='Conference'" class="ng-binding ng-scope">8. </span><!-- end ngIf: ai.group==='Conference' -->
+              <!-- ngIf: ai.group==='Division' -->
+              Detroit Pistons
+            </a>
+          </td>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        </tr><!-- end ngRepeat: (i, row) in page --><tr data-ng-repeat="(i, row) in page" index="8" class="ng-scope">
+          <td class="team">
+            <a ng-href="/team/#!/1610612749/" class="ng-binding" href="/team/#!/1610612749/">
+              <!-- ngIf: ai.group==='Conference' --><span ng-if="ai.group==='Conference'" class="ng-binding ng-scope">9. </span><!-- end ngIf: ai.group==='Conference' -->
+              <!-- ngIf: ai.group==='Division' -->
+              Milwaukee Bucks
+            </a>
+          </td>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        </tr><!-- end ngRepeat: (i, row) in page --><tr data-ng-repeat="(i, row) in page" index="9" class="ng-scope">
+          <td class="team">
+            <a ng-href="/team/#!/1610612766/" class="ng-binding" href="/team/#!/1610612766/">
+              <!-- ngIf: ai.group==='Conference' --><span ng-if="ai.group==='Conference'" class="ng-binding ng-scope">10. </span><!-- end ngIf: ai.group==='Conference' -->
+              <!-- ngIf: ai.group==='Division' -->
+              Charlotte Hornets
+            </a>
+          </td>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        </tr><!-- end ngRepeat: (i, row) in page --><tr data-ng-repeat="(i, row) in page" index="10" class="ng-scope">
+          <td class="team">
+            <a ng-href="/team/#!/1610612748/" class="ng-binding" href="/team/#!/1610612748/">
+              <!-- ngIf: ai.group==='Conference' --><span ng-if="ai.group==='Conference'" class="ng-binding ng-scope">11. </span><!-- end ngIf: ai.group==='Conference' -->
+              <!-- ngIf: ai.group==='Division' -->
+              Miami Heat
+            </a>
+          </td>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        </tr><!-- end ngRepeat: (i, row) in page --><tr data-ng-repeat="(i, row) in page" index="11" class="ng-scope">
+          <td class="team">
+            <a ng-href="/team/#!/1610612752/" class="ng-binding" href="/team/#!/1610612752/">
+              <!-- ngIf: ai.group==='Conference' --><span ng-if="ai.group==='Conference'" class="ng-binding ng-scope">12. </span><!-- end ngIf: ai.group==='Conference' -->
+              <!-- ngIf: ai.group==='Division' -->
+              New York Knicks
+            </a>
+          </td>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        </tr><!-- end ngRepeat: (i, row) in page --><tr data-ng-repeat="(i, row) in page" index="12" class="ng-scope">
+          <td class="team">
+            <a ng-href="/team/#!/1610612755/" class="ng-binding" href="/team/#!/1610612755/">
+              <!-- ngIf: ai.group==='Conference' --><span ng-if="ai.group==='Conference'" class="ng-binding ng-scope">13. </span><!-- end ngIf: ai.group==='Conference' -->
+              <!-- ngIf: ai.group==='Division' -->
+              Philadelphia 76ers
+            </a>
+          </td>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        </tr><!-- end ngRepeat: (i, row) in page --><tr data-ng-repeat="(i, row) in page" index="13" class="ng-scope">
+          <td class="team">
+            <a ng-href="/team/#!/1610612753/" class="ng-binding" href="/team/#!/1610612753/">
+              <!-- ngIf: ai.group==='Conference' --><span ng-if="ai.group==='Conference'" class="ng-binding ng-scope">14. </span><!-- end ngIf: ai.group==='Conference' -->
+              <!-- ngIf: ai.group==='Division' -->
+              Orlando Magic
+            </a>
+          </td>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        </tr><!-- end ngRepeat: (i, row) in page --><tr data-ng-repeat="(i, row) in page" index="14" class="ng-scope">
+          <td class="team">
+            <a ng-href="/team/#!/1610612751/" class="ng-binding" href="/team/#!/1610612751/">
+              <!-- ngIf: ai.group==='Conference' --><span ng-if="ai.group==='Conference'" class="ng-binding ng-scope">15. </span><!-- end ngIf: ai.group==='Conference' -->
+              <!-- ngIf: ai.group==='Division' -->
+              Brooklyn Nets
+            </a>
+          </td>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        </tr><!-- end ngRepeat: (i, row) in page -->
+      </tbody>
+    </table>
+  </div></div> <!-- .nba-stat-table -->
+<div stats-table-add-rows=""><!-- ngIf: visibleRows < totalRows --></div></nba-stat-table><!-- end ngIf: !isLoading && splits.Section.selected.val==='' --><!-- end ngRepeat: group in groups --><!-- ngIf: !isLoading && splits.Section.selected.val==='' --><nba-stat-table ng-if="!isLoading &amp;&amp; splits.Section.selected.val===''" ng-repeat="group in groups" rows="group.items" ai="ai" data-title="West" template="standings/standings-overall" class="ng-scope ng-isolate-scope"><!-- ngIf: title --><div ng-if="title" class="nba-stat-table__caption ng-binding ng-scope">
+  West
+</div><!-- end ngIf: title -->
+<div class="nba-stat-table">
+  <div class="nba-stat-table__overflow" data-fixed="1" role="grid">
+    <table>
+      <thead>
+        <tr>
+          <th class="team" data-field="TEAM">TEAM</th>
+          <th data-field="WINS">W</th>
+          <th data-field="LOSSES">L</th>
+          <th data-field="W_PCT">WIN%</th>
+          <!-- ngIf: ai.group==='Conference' --><th data-field="ConferenceGamesBack" ng-if="ai.group==='Conference'" class="ng-scope">GB</th><!-- end ngIf: ai.group==='Conference' -->
+          <!-- ngIf: ai.group==='Division' -->
+          <th data-field="ConferenceRecord">CONF</th>
+          <th data-field="DivisionRecord">DIV</th>
+          <th data-field="HOME_RECORD">HOME</th>
+          <th data-field="ROAD_RECORD">ROAD</th>
+          <th data-field="OT">OT</th>
+          <th data-field="L10">LAST 10</th>
+          <th data-field="CurrentStreak">STREAK</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- ngRepeat: (i, row) in page --><tr data-ng-repeat="(i, row) in page" index="0" class="ng-scope">
+          <td class="team">
+            <a ng-href="/team/#!/1610612744/" class="ng-binding" href="/team/#!/1610612744/">
+              <!-- ngIf: ai.group==='Conference' --><span ng-if="ai.group==='Conference'" class="ng-binding ng-scope">1. </span><!-- end ngIf: ai.group==='Conference' -->
+              <!-- ngIf: ai.group==='Division' -->
+              Golden State Warriors
+            </a>
+          </td>
+          <td class="ng-binding">46</td>
+          <td class="ng-binding">9</td>
+          <td class="ng-binding">.836</td>
+          <!-- ngIf: ai.group==='Conference' --><td ng-if="ai.group==='Conference'" class="ng-binding ng-scope">-</td><!-- end ngIf: ai.group==='Conference' -->
+          <!-- ngIf: ai.group==='Division' -->
+          <td class="nowrap ng-binding">29-7 </td>
+          <td class="nowrap ng-binding">9-2  </td>
+          <td class="nowrap ng-binding">23-3 </td>
+          <td class="nowrap ng-binding">23-6 </td>
+          <td class="nowrap ng-binding">0-3  </td>
+          <td class="nowrap ng-binding">8-2  </td>
+          <td class="nowrap ng-binding">L 1</td>
+        </tr><!-- end ngRepeat: (i, row) in page --><tr data-ng-repeat="(i, row) in page" index="1" class="ng-scope">
+          <td class="team">
+            <a ng-href="/team/#!/1610612759/" class="ng-binding" href="/team/#!/1610612759/">
+              <!-- ngIf: ai.group==='Conference' --><span ng-if="ai.group==='Conference'" class="ng-binding ng-scope">2. </span><!-- end ngIf: ai.group==='Conference' -->
+              <!-- ngIf: ai.group==='Division' -->
+              San Antonio Spurs
+            </a>
+          </td>
+          <td class="ng-binding">42</td>
+          <td class="ng-binding">13</td>
+          <td class="ng-binding">.764</td>
+          <!-- ngIf: ai.group==='Conference' --><td ng-if="ai.group==='Conference'" class="ng-binding ng-scope">4</td><!-- end ngIf: ai.group==='Conference' -->
+          <!-- ngIf: ai.group==='Division' -->
+          <td class="nowrap ng-binding">22-8 </td>
+          <td class="nowrap ng-binding">6-4  </td>
+          <td class="nowrap ng-binding">19-6 </td>
+          <td class="nowrap ng-binding">23-7 </td>
+          <td class="nowrap ng-binding">1-1  </td>
+          <td class="nowrap ng-binding">6-4  </td>
+          <td class="nowrap ng-binding">W 1</td>
+        </tr><!-- end ngRepeat: (i, row) in page --><tr data-ng-repeat="(i, row) in page" index="2" class="ng-scope">
+          <td class="team">
+            <a ng-href="/team/#!/1610612745/" class="ng-binding" href="/team/#!/1610612745/">
+              <!-- ngIf: ai.group==='Conference' --><span ng-if="ai.group==='Conference'" class="ng-binding ng-scope">3. </span><!-- end ngIf: ai.group==='Conference' -->
+              <!-- ngIf: ai.group==='Division' -->
+              Houston Rockets
+            </a>
+          </td>
+          <td class="ng-binding">40</td>
+          <td class="ng-binding">17</td>
+          <td class="ng-binding">.702</td>
+          <!-- ngIf: ai.group==='Conference' --><td ng-if="ai.group==='Conference'" class="ng-binding ng-scope">7</td><!-- end ngIf: ai.group==='Conference' -->
+          <!-- ngIf: ai.group==='Division' -->
+          <td class="nowrap ng-binding">23-9 </td>
+          <td class="nowrap ng-binding">7-4  </td>
+          <td class="nowrap ng-binding">21-6 </td>
+          <td class="nowrap ng-binding">19-11</td>
+          <td class="nowrap ng-binding">3-0  </td>
+          <td class="nowrap ng-binding">6-4  </td>
+          <td class="nowrap ng-binding">W 4</td>
+        </tr><!-- end ngRepeat: (i, row) in page --><tr data-ng-repeat="(i, row) in page" index="3" class="ng-scope">
+          <td class="team">
+            <a ng-href="/team/#!/1610612746/" class="ng-binding" href="/team/#!/1610612746/">
+              <!-- ngIf: ai.group==='Conference' --><span ng-if="ai.group==='Conference'" class="ng-binding ng-scope">4. </span><!-- end ngIf: ai.group==='Conference' -->
+              <!-- ngIf: ai.group==='Division' -->
+              LA Clippers
+            </a>
+          </td>
+          <td class="ng-binding">34</td>
+          <td class="ng-binding">21</td>
+          <td class="ng-binding">.618</td>
+          <!-- ngIf: ai.group==='Conference' --><td ng-if="ai.group==='Conference'" class="ng-binding ng-scope">12</td><!-- end ngIf: ai.group==='Conference' -->
+          <!-- ngIf: ai.group==='Division' -->
+          <td class="nowrap ng-binding">22-13</td>
+          <td class="nowrap ng-binding">6-4  </td>
+          <td class="nowrap ng-binding">17-8 </td>
+          <td class="nowrap ng-binding">17-13</td>
+          <td class="nowrap ng-binding">0-1  </td>
+          <td class="nowrap ng-binding">5-5  </td>
+          <td class="nowrap ng-binding">W 3</td>
+        </tr><!-- end ngRepeat: (i, row) in page --><tr data-ng-repeat="(i, row) in page" index="4" class="ng-scope">
+          <td class="team">
+            <a ng-href="/team/#!/1610612762/" class="ng-binding" href="/team/#!/1610612762/">
+              <!-- ngIf: ai.group==='Conference' --><span ng-if="ai.group==='Conference'" class="ng-binding ng-scope">5. </span><!-- end ngIf: ai.group==='Conference' -->
+              <!-- ngIf: ai.group==='Division' -->
+              Utah Jazz
+            </a>
+          </td>
+          <td class="ng-binding">34</td>
+          <td class="ng-binding">22</td>
+          <td class="ng-binding">.607</td>
+          <!-- ngIf: ai.group==='Conference' --><td ng-if="ai.group==='Conference'" class="ng-binding ng-scope">12.5</td><!-- end ngIf: ai.group==='Conference' -->
+          <!-- ngIf: ai.group==='Division' -->
+          <td class="nowrap ng-binding">20-15</td>
+          <td class="nowrap ng-binding">5-4  </td>
+          <td class="nowrap ng-binding">19-11</td>
+          <td class="nowrap ng-binding">15-11</td>
+          <td class="nowrap ng-binding">1-1  </td>
+          <td class="nowrap ng-binding">5-5  </td>
+          <td class="nowrap ng-binding">L 3</td>
+        </tr><!-- end ngRepeat: (i, row) in page --><tr data-ng-repeat="(i, row) in page" index="5" class="ng-scope">
+          <td class="team">
+            <a ng-href="/team/#!/1610612763/" class="ng-binding" href="/team/#!/1610612763/">
+              <!-- ngIf: ai.group==='Conference' --><span ng-if="ai.group==='Conference'" class="ng-binding ng-scope">6. </span><!-- end ngIf: ai.group==='Conference' -->
+              <!-- ngIf: ai.group==='Division' -->
+              Memphis Grizzlies
+            </a>
+          </td>
+          <td class="ng-binding">34</td>
+          <td class="ng-binding">23</td>
+          <td class="ng-binding">.596</td>
+          <!-- ngIf: ai.group==='Conference' --><td ng-if="ai.group==='Conference'" class="ng-binding ng-scope">13</td><!-- end ngIf: ai.group==='Conference' -->
+          <!-- ngIf: ai.group==='Division' -->
+          <td class="nowrap ng-binding">24-12</td>
+          <td class="nowrap ng-binding">6-1  </td>
+          <td class="nowrap ng-binding">18-10</td>
+          <td class="nowrap ng-binding">16-13</td>
+          <td class="nowrap ng-binding">5-1  </td>
+          <td class="nowrap ng-binding">7-3  </td>
+          <td class="nowrap ng-binding">W 1</td>
+        </tr><!-- end ngRepeat: (i, row) in page --><tr data-ng-repeat="(i, row) in page" index="6" class="ng-scope">
+          <td class="team">
+            <a ng-href="/team/#!/1610612760/" class="ng-binding" href="/team/#!/1610612760/">
+              <!-- ngIf: ai.group==='Conference' --><span ng-if="ai.group==='Conference'" class="ng-binding ng-scope">7. </span><!-- end ngIf: ai.group==='Conference' -->
+              <!-- ngIf: ai.group==='Division' -->
+              Oklahoma City Thunder
+            </a>
+          </td>
+          <td class="ng-binding">31</td>
+          <td class="ng-binding">25</td>
+          <td class="ng-binding">.554</td>
+          <!-- ngIf: ai.group==='Conference' --><td ng-if="ai.group==='Conference'" class="ng-binding ng-scope">15.5</td><!-- end ngIf: ai.group==='Conference' -->
+          <!-- ngIf: ai.group==='Division' -->
+          <td class="nowrap ng-binding">19-14</td>
+          <td class="nowrap ng-binding">6-3  </td>
+          <td class="nowrap ng-binding">19-8 </td>
+          <td class="nowrap ng-binding">12-17</td>
+          <td class="nowrap ng-binding">3-1  </td>
+          <td class="nowrap ng-binding">4-6  </td>
+          <td class="nowrap ng-binding">L 2</td>
+        </tr><!-- end ngRepeat: (i, row) in page --><tr data-ng-repeat="(i, row) in page" index="7" class="ng-scope">
+          <td class="team">
+            <a ng-href="/team/#!/1610612743/" class="ng-binding" href="/team/#!/1610612743/">
+              <!-- ngIf: ai.group==='Conference' --><span ng-if="ai.group==='Conference'" class="ng-binding ng-scope">8. </span><!-- end ngIf: ai.group==='Conference' -->
+              <!-- ngIf: ai.group==='Division' -->
+              Denver Nuggets
+            </a>
+          </td>
+          <td class="ng-binding">25</td>
+          <td class="ng-binding">30</td>
+          <td class="ng-binding">.455</td>
+          <!-- ngIf: ai.group==='Conference' --><td ng-if="ai.group==='Conference'" class="ng-binding ng-scope">21</td><!-- end ngIf: ai.group==='Conference' -->
+          <!-- ngIf: ai.group==='Division' -->
+          <td class="nowrap ng-binding">16-19</td>
+          <td class="nowrap ng-binding">5-7  </td>
+          <td class="nowrap ng-binding">15-12</td>
+          <td class="nowrap ng-binding">10-18</td>
+          <td class="nowrap ng-binding">0-3  </td>
+          <td class="nowrap ng-binding">5-5  </td>
+          <td class="nowrap ng-binding">W 1</td>
+        </tr><!-- end ngRepeat: (i, row) in page --><tr data-ng-repeat="(i, row) in page" index="8" class="ng-scope">
+          <td class="team">
+            <a ng-href="/team/#!/1610612758/" class="ng-binding" href="/team/#!/1610612758/">
+              <!-- ngIf: ai.group==='Conference' --><span ng-if="ai.group==='Conference'" class="ng-binding ng-scope">9. </span><!-- end ngIf: ai.group==='Conference' -->
+              <!-- ngIf: ai.group==='Division' -->
+              Sacramento Kings
+            </a>
+          </td>
+          <td class="ng-binding">24</td>
+          <td class="ng-binding">32</td>
+          <td class="ng-binding">.429</td>
+          <!-- ngIf: ai.group==='Conference' --><td ng-if="ai.group==='Conference'" class="ng-binding ng-scope">22.5</td><!-- end ngIf: ai.group==='Conference' -->
+          <!-- ngIf: ai.group==='Division' -->
+          <td class="nowrap ng-binding">14-17</td>
+          <td class="nowrap ng-binding">4-5  </td>
+          <td class="nowrap ng-binding">12-15</td>
+          <td class="nowrap ng-binding">12-17</td>
+          <td class="nowrap ng-binding">2-4  </td>
+          <td class="nowrap ng-binding">6-4  </td>
+          <td class="nowrap ng-binding">W 4</td>
+        </tr><!-- end ngRepeat: (i, row) in page --><tr data-ng-repeat="(i, row) in page" index="9" class="ng-scope">
+          <td class="team">
+            <a ng-href="/team/#!/1610612757/" class="ng-binding" href="/team/#!/1610612757/">
+              <!-- ngIf: ai.group==='Conference' --><span ng-if="ai.group==='Conference'" class="ng-binding ng-scope">10. </span><!-- end ngIf: ai.group==='Conference' -->
+              <!-- ngIf: ai.group==='Division' -->
+              Portland Trail Blazers
+            </a>
+          </td>
+          <td class="ng-binding">23</td>
+          <td class="ng-binding">32</td>
+          <td class="ng-binding">.418</td>
+          <!-- ngIf: ai.group==='Conference' --><td ng-if="ai.group==='Conference'" class="ng-binding ng-scope">23</td><!-- end ngIf: ai.group==='Conference' -->
+          <!-- ngIf: ai.group==='Division' -->
+          <td class="nowrap ng-binding">16-19</td>
+          <td class="nowrap ng-binding">5-2  </td>
+          <td class="nowrap ng-binding">14-13</td>
+          <td class="nowrap ng-binding">9-19 </td>
+          <td class="nowrap ng-binding">3-3  </td>
+          <td class="nowrap ng-binding">5-5  </td>
+          <td class="nowrap ng-binding">L 2</td>
+        </tr><!-- end ngRepeat: (i, row) in page --><tr data-ng-repeat="(i, row) in page" index="10" class="ng-scope">
+          <td class="team">
+            <a ng-href="/team/#!/1610612742/" class="ng-binding" href="/team/#!/1610612742/">
+              <!-- ngIf: ai.group==='Conference' --><span ng-if="ai.group==='Conference'" class="ng-binding ng-scope">11. </span><!-- end ngIf: ai.group==='Conference' -->
+              <!-- ngIf: ai.group==='Division' -->
+              Dallas Mavericks
+            </a>
+          </td>
+          <td class="ng-binding">22</td>
+          <td class="ng-binding">33</td>
+          <td class="ng-binding">.400</td>
+          <!-- ngIf: ai.group==='Conference' --><td ng-if="ai.group==='Conference'" class="ng-binding ng-scope">24</td><!-- end ngIf: ai.group==='Conference' -->
+          <!-- ngIf: ai.group==='Division' -->
+          <td class="nowrap ng-binding">13-22</td>
+          <td class="nowrap ng-binding">2-8  </td>
+          <td class="nowrap ng-binding">14-14</td>
+          <td class="nowrap ng-binding">8-19 </td>
+          <td class="nowrap ng-binding">2-2  </td>
+          <td class="nowrap ng-binding">6-4  </td>
+          <td class="nowrap ng-binding">L 1</td>
+        </tr><!-- end ngRepeat: (i, row) in page --><tr data-ng-repeat="(i, row) in page" index="11" class="ng-scope">
+          <td class="team">
+            <a ng-href="/team/#!/1610612740/" class="ng-binding" href="/team/#!/1610612740/">
+              <!-- ngIf: ai.group==='Conference' --><span ng-if="ai.group==='Conference'" class="ng-binding ng-scope">12. </span><!-- end ngIf: ai.group==='Conference' -->
+              <!-- ngIf: ai.group==='Division' -->
+              New Orleans Pelicans
+            </a>
+          </td>
+          <td class="ng-binding">22</td>
+          <td class="ng-binding">34</td>
+          <td class="ng-binding">.393</td>
+          <!-- ngIf: ai.group==='Conference' --><td ng-if="ai.group==='Conference'" class="ng-binding ng-scope">24.5</td><!-- end ngIf: ai.group==='Conference' -->
+          <!-- ngIf: ai.group==='Division' -->
+          <td class="nowrap ng-binding">10-21</td>
+          <td class="nowrap ng-binding">2-6  </td>
+          <td class="nowrap ng-binding">14-15</td>
+          <td class="nowrap ng-binding">8-19 </td>
+          <td class="nowrap ng-binding">2-4  </td>
+          <td class="nowrap ng-binding">4-6  </td>
+          <td class="nowrap ng-binding">W 1</td>
+        </tr><!-- end ngRepeat: (i, row) in page --><tr data-ng-repeat="(i, row) in page" index="12" class="ng-scope">
+          <td class="team">
+            <a ng-href="/team/#!/1610612750/" class="ng-binding" href="/team/#!/1610612750/">
+              <!-- ngIf: ai.group==='Conference' --><span ng-if="ai.group==='Conference'" class="ng-binding ng-scope">13. </span><!-- end ngIf: ai.group==='Conference' -->
+              <!-- ngIf: ai.group==='Division' -->
+              Minnesota Timberwolves
+            </a>
+          </td>
+          <td class="ng-binding">21</td>
+          <td class="ng-binding">35</td>
+          <td class="ng-binding">.375</td>
+          <!-- ngIf: ai.group==='Conference' --><td ng-if="ai.group==='Conference'" class="ng-binding ng-scope">25.5</td><!-- end ngIf: ai.group==='Conference' -->
+          <!-- ngIf: ai.group==='Division' -->
+          <td class="nowrap ng-binding">10-21</td>
+          <td class="nowrap ng-binding">2-7  </td>
+          <td class="nowrap ng-binding">14-18</td>
+          <td class="nowrap ng-binding">7-17 </td>
+          <td class="nowrap ng-binding">2-1  </td>
+          <td class="nowrap ng-binding">4-6  </td>
+          <td class="nowrap ng-binding">L 1</td>
+        </tr><!-- end ngRepeat: (i, row) in page --><tr data-ng-repeat="(i, row) in page" index="13" class="ng-scope">
+          <td class="team">
+            <a ng-href="/team/#!/1610612747/" class="ng-binding" href="/team/#!/1610612747/">
+              <!-- ngIf: ai.group==='Conference' --><span ng-if="ai.group==='Conference'" class="ng-binding ng-scope">14. </span><!-- end ngIf: ai.group==='Conference' -->
+              <!-- ngIf: ai.group==='Division' -->
+              Los Angeles Lakers
+            </a>
+          </td>
+          <td class="ng-binding">19</td>
+          <td class="ng-binding">38</td>
+          <td class="ng-binding">.333</td>
+          <!-- ngIf: ai.group==='Conference' --><td ng-if="ai.group==='Conference'" class="ng-binding ng-scope">28</td><!-- end ngIf: ai.group==='Conference' -->
+          <!-- ngIf: ai.group==='Division' -->
+          <td class="nowrap ng-binding">9-24 </td>
+          <td class="nowrap ng-binding">4-6  </td>
+          <td class="nowrap ng-binding">12-14</td>
+          <td class="nowrap ng-binding">7-24 </td>
+          <td class="nowrap ng-binding">0-0  </td>
+          <td class="nowrap ng-binding">3-7  </td>
+          <td class="nowrap ng-binding">L 1</td>
+        </tr><!-- end ngRepeat: (i, row) in page --><tr data-ng-repeat="(i, row) in page" index="14" class="ng-scope">
+          <td class="team">
+            <a ng-href="/team/#!/1610612756/" class="ng-binding" href="/team/#!/1610612756/">
+              <!-- ngIf: ai.group==='Conference' --><span ng-if="ai.group==='Conference'" class="ng-binding ng-scope">15. </span><!-- end ngIf: ai.group==='Conference' -->
+              <!-- ngIf: ai.group==='Division' -->
+              Phoenix Suns
+            </a>
+          </td>
+          <td class="ng-binding">17</td>
+          <td class="ng-binding">39</td>
+          <td class="ng-binding">.304</td>
+          <!-- ngIf: ai.group==='Conference' --><td ng-if="ai.group==='Conference'" class="ng-binding ng-scope">29.5</td><!-- end ngIf: ai.group==='Conference' -->
+          <!-- ngIf: ai.group==='Division' -->
+          <td class="nowrap ng-binding">6-32 </td>
+          <td class="nowrap ng-binding">2-8  </td>
+          <td class="nowrap ng-binding">9-18 </td>
+          <td class="nowrap ng-binding">8-21 </td>
+          <td class="nowrap ng-binding">3-2  </td>
+          <td class="nowrap ng-binding">2-8  </td>
+          <td class="nowrap ng-binding">L 2</td>
+        </tr><!-- end ngRepeat: (i, row) in page -->
+      </tbody>
+    </table>
+  </div> <!-- .stat-table__overflow -->
+<div class="nba-stat-table__overlay" data-fixed="1" role="grid">
+    <table>
+      <thead>
+        <tr>
+          <th class="team" data-field="TEAM">TEAM</th>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        </tr>
+      </thead>
+      <tbody>
+        <!-- ngRepeat: (i, row) in page --><tr data-ng-repeat="(i, row) in page" index="0" class="ng-scope">
+          <td class="team">
+            <a ng-href="/team/#!/1610612744/" class="ng-binding" href="/team/#!/1610612744/">
+              <!-- ngIf: ai.group==='Conference' --><span ng-if="ai.group==='Conference'" class="ng-binding ng-scope">1. </span><!-- end ngIf: ai.group==='Conference' -->
+              <!-- ngIf: ai.group==='Division' -->
+              Golden State Warriors
+            </a>
+          </td>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        </tr><!-- end ngRepeat: (i, row) in page --><tr data-ng-repeat="(i, row) in page" index="1" class="ng-scope">
+          <td class="team">
+            <a ng-href="/team/#!/1610612759/" class="ng-binding" href="/team/#!/1610612759/">
+              <!-- ngIf: ai.group==='Conference' --><span ng-if="ai.group==='Conference'" class="ng-binding ng-scope">2. </span><!-- end ngIf: ai.group==='Conference' -->
+              <!-- ngIf: ai.group==='Division' -->
+              San Antonio Spurs
+            </a>
+          </td>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        </tr><!-- end ngRepeat: (i, row) in page --><tr data-ng-repeat="(i, row) in page" index="2" class="ng-scope">
+          <td class="team">
+            <a ng-href="/team/#!/1610612745/" class="ng-binding" href="/team/#!/1610612745/">
+              <!-- ngIf: ai.group==='Conference' --><span ng-if="ai.group==='Conference'" class="ng-binding ng-scope">3. </span><!-- end ngIf: ai.group==='Conference' -->
+              <!-- ngIf: ai.group==='Division' -->
+              Houston Rockets
+            </a>
+          </td>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        </tr><!-- end ngRepeat: (i, row) in page --><tr data-ng-repeat="(i, row) in page" index="3" class="ng-scope">
+          <td class="team">
+            <a ng-href="/team/#!/1610612746/" class="ng-binding" href="/team/#!/1610612746/">
+              <!-- ngIf: ai.group==='Conference' --><span ng-if="ai.group==='Conference'" class="ng-binding ng-scope">4. </span><!-- end ngIf: ai.group==='Conference' -->
+              <!-- ngIf: ai.group==='Division' -->
+              LA Clippers
+            </a>
+          </td>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        </tr><!-- end ngRepeat: (i, row) in page --><tr data-ng-repeat="(i, row) in page" index="4" class="ng-scope">
+          <td class="team">
+            <a ng-href="/team/#!/1610612762/" class="ng-binding" href="/team/#!/1610612762/">
+              <!-- ngIf: ai.group==='Conference' --><span ng-if="ai.group==='Conference'" class="ng-binding ng-scope">5. </span><!-- end ngIf: ai.group==='Conference' -->
+              <!-- ngIf: ai.group==='Division' -->
+              Utah Jazz
+            </a>
+          </td>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        </tr><!-- end ngRepeat: (i, row) in page --><tr data-ng-repeat="(i, row) in page" index="5" class="ng-scope">
+          <td class="team">
+            <a ng-href="/team/#!/1610612763/" class="ng-binding" href="/team/#!/1610612763/">
+              <!-- ngIf: ai.group==='Conference' --><span ng-if="ai.group==='Conference'" class="ng-binding ng-scope">6. </span><!-- end ngIf: ai.group==='Conference' -->
+              <!-- ngIf: ai.group==='Division' -->
+              Memphis Grizzlies
+            </a>
+          </td>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        </tr><!-- end ngRepeat: (i, row) in page --><tr data-ng-repeat="(i, row) in page" index="6" class="ng-scope">
+          <td class="team">
+            <a ng-href="/team/#!/1610612760/" class="ng-binding" href="/team/#!/1610612760/">
+              <!-- ngIf: ai.group==='Conference' --><span ng-if="ai.group==='Conference'" class="ng-binding ng-scope">7. </span><!-- end ngIf: ai.group==='Conference' -->
+              <!-- ngIf: ai.group==='Division' -->
+              Oklahoma City Thunder
+            </a>
+          </td>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        </tr><!-- end ngRepeat: (i, row) in page --><tr data-ng-repeat="(i, row) in page" index="7" class="ng-scope">
+          <td class="team">
+            <a ng-href="/team/#!/1610612743/" class="ng-binding" href="/team/#!/1610612743/">
+              <!-- ngIf: ai.group==='Conference' --><span ng-if="ai.group==='Conference'" class="ng-binding ng-scope">8. </span><!-- end ngIf: ai.group==='Conference' -->
+              <!-- ngIf: ai.group==='Division' -->
+              Denver Nuggets
+            </a>
+          </td>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        </tr><!-- end ngRepeat: (i, row) in page --><tr data-ng-repeat="(i, row) in page" index="8" class="ng-scope">
+          <td class="team">
+            <a ng-href="/team/#!/1610612758/" class="ng-binding" href="/team/#!/1610612758/">
+              <!-- ngIf: ai.group==='Conference' --><span ng-if="ai.group==='Conference'" class="ng-binding ng-scope">9. </span><!-- end ngIf: ai.group==='Conference' -->
+              <!-- ngIf: ai.group==='Division' -->
+              Sacramento Kings
+            </a>
+          </td>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        </tr><!-- end ngRepeat: (i, row) in page --><tr data-ng-repeat="(i, row) in page" index="9" class="ng-scope">
+          <td class="team">
+            <a ng-href="/team/#!/1610612757/" class="ng-binding" href="/team/#!/1610612757/">
+              <!-- ngIf: ai.group==='Conference' --><span ng-if="ai.group==='Conference'" class="ng-binding ng-scope">10. </span><!-- end ngIf: ai.group==='Conference' -->
+              <!-- ngIf: ai.group==='Division' -->
+              Portland Trail Blazers
+            </a>
+          </td>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        </tr><!-- end ngRepeat: (i, row) in page --><tr data-ng-repeat="(i, row) in page" index="10" class="ng-scope">
+          <td class="team">
+            <a ng-href="/team/#!/1610612742/" class="ng-binding" href="/team/#!/1610612742/">
+              <!-- ngIf: ai.group==='Conference' --><span ng-if="ai.group==='Conference'" class="ng-binding ng-scope">11. </span><!-- end ngIf: ai.group==='Conference' -->
+              <!-- ngIf: ai.group==='Division' -->
+              Dallas Mavericks
+            </a>
+          </td>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        </tr><!-- end ngRepeat: (i, row) in page --><tr data-ng-repeat="(i, row) in page" index="11" class="ng-scope">
+          <td class="team">
+            <a ng-href="/team/#!/1610612740/" class="ng-binding" href="/team/#!/1610612740/">
+              <!-- ngIf: ai.group==='Conference' --><span ng-if="ai.group==='Conference'" class="ng-binding ng-scope">12. </span><!-- end ngIf: ai.group==='Conference' -->
+              <!-- ngIf: ai.group==='Division' -->
+              New Orleans Pelicans
+            </a>
+          </td>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        </tr><!-- end ngRepeat: (i, row) in page --><tr data-ng-repeat="(i, row) in page" index="12" class="ng-scope">
+          <td class="team">
+            <a ng-href="/team/#!/1610612750/" class="ng-binding" href="/team/#!/1610612750/">
+              <!-- ngIf: ai.group==='Conference' --><span ng-if="ai.group==='Conference'" class="ng-binding ng-scope">13. </span><!-- end ngIf: ai.group==='Conference' -->
+              <!-- ngIf: ai.group==='Division' -->
+              Minnesota Timberwolves
+            </a>
+          </td>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        </tr><!-- end ngRepeat: (i, row) in page --><tr data-ng-repeat="(i, row) in page" index="13" class="ng-scope">
+          <td class="team">
+            <a ng-href="/team/#!/1610612747/" class="ng-binding" href="/team/#!/1610612747/">
+              <!-- ngIf: ai.group==='Conference' --><span ng-if="ai.group==='Conference'" class="ng-binding ng-scope">14. </span><!-- end ngIf: ai.group==='Conference' -->
+              <!-- ngIf: ai.group==='Division' -->
+              Los Angeles Lakers
+            </a>
+          </td>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        </tr><!-- end ngRepeat: (i, row) in page --><tr data-ng-repeat="(i, row) in page" index="14" class="ng-scope">
+          <td class="team">
+            <a ng-href="/team/#!/1610612756/" class="ng-binding" href="/team/#!/1610612756/">
+              <!-- ngIf: ai.group==='Conference' --><span ng-if="ai.group==='Conference'" class="ng-binding ng-scope">15. </span><!-- end ngIf: ai.group==='Conference' -->
+              <!-- ngIf: ai.group==='Division' -->
+              Phoenix Suns
+            </a>
+          </td>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        </tr><!-- end ngRepeat: (i, row) in page -->
+      </tbody>
+    </table>
+  </div></div> <!-- .nba-stat-table -->
+<div stats-table-add-rows=""><!-- ngIf: visibleRows < totalRows --></div></nba-stat-table><!-- end ngIf: !isLoading && splits.Section.selected.val==='' --><!-- end ngRepeat: group in groups -->
+
+  <!-- ngRepeat: group in groups --><!-- ngIf: !isLoading && splits.Section.selected.val==='streaks' --><!-- end ngRepeat: group in groups --><!-- ngIf: !isLoading && splits.Section.selected.val==='streaks' --><!-- end ngRepeat: group in groups -->
+
+  <!-- ngRepeat: group in groups --><!-- ngIf: !isLoading && splits.Section.selected.val==='ab' --><!-- end ngRepeat: group in groups --><!-- ngIf: !isLoading && splits.Section.selected.val==='ab' --><!-- end ngRepeat: group in groups -->
+
+  <!-- ngRepeat: group in groups --><!-- ngIf: !isLoading && splits.Section.selected.val==='margins' --><!-- end ngRepeat: group in groups --><!-- ngIf: !isLoading && splits.Section.selected.val==='margins' --><!-- end ngRepeat: group in groups -->
+
+  <!-- ngRepeat: group in groups --><!-- ngIf: !isLoading && splits.Section.selected.val==='vs' --><!-- end ngRepeat: group in groups --><!-- ngIf: !isLoading && splits.Section.selected.val==='vs' --><!-- end ngRepeat: group in groups -->
+
+  <!-- ngRepeat: group in groups --><!-- ngIf: !isLoading && splits.Section.selected.val==='calendar' --><!-- end ngRepeat: group in groups --><!-- ngIf: !isLoading && splits.Section.selected.val==='calendar' --><!-- end ngRepeat: group in groups -->
+
+
+
+  <section class="stats-notice" role="clinching-rules">
+
+      <div>
+          <p>
+          x-Clinched Playoff Berth | o-Eliminated from Playoffs contention | e-Clinched Eastern Conference | w-Clinched Western Conference <br />
+          nw-Clinched Northwest Division | p-Clinched Pacific Division | sw-Clinched Southwest Division | a-Clinched Atlantic Division <br />
+          c-Clinched Central Division | se-Clinched Southeast Division <br />
+          </p>
+          <p><strong>TIEBREAKER BASIS FOR TWO-WAY TIES:</strong></p>
+          <ul>
+              <li>(-) Tie breaker not needed (better overall winning percentage)</li>
+              <li>(1) Head-to-head won-lost percentage</li>
+              <li>(2) Division leader wins tie from team not leading a division</li>
+              <li>(3) Division won-lost percentage for teams in the same division</li>
+              <li>(4) Conference won-lost percentage</li>
+              <li>(5) W-L Percentage vs. Playoff teams, own conference</li>
+              <li>(6) W-L Percentage vs. Playoff teams, other conference</li>
+              <li>(7) Net Points, all games</li>
+          </ul>
+          <br />
+          <p><strong>TIEBREAKER BASIS FOR MULTI-WAY TIES:</strong></p>
+          <ul>
+              <li>(-) Tie breaker not needed (better overall winning percentage)</li>
+              <li>(1) Division leader wins tie from team not leading a division</li>
+              <li>(2) Head-to-head won-lost percentage</li>
+              <li>(3) Division won-lost percentage for teams in the same division</li>
+              <li>(4) Conference won-lost percentage</li>
+              <li>(5) W-L Percentage vs. Playoff teams, own conference</li>
+              <li>(6) W-L Percentage vs. Playoff teams, other conference</li>
+              <li>(7) Net Points, all games</li>
+          </ul>
+          <br />
+          <strong>Strength of Schedule:</strong><br />
+          Looks at the opponents for your remaining games,
+          their winning percentage on the road or at home,
+          and whether or not either team is on the second
+          night of a back to back.<br />
+          <br /><br />
+      </div>
+
+  </section>
+
+
+  <section class="stats-notice" role="tiebreaking-rules">
+
+		<div>
+			<br />
+			Ties for playoff positions (including division winners) will be broken utilizing the criteria set forth in subparagraph a. below (in the case of ties involving two teams) and subparagraph b. below (in the case of ties involving more than two teams), and the guidelines set forth in subparagraph c. below.			<br />
+			<br />
+			<strong>a. Two Teams Tied. In the case of a tie in regular-season records involving only two teams, the following criteria will be utilized in the following order:</strong><br />
+			<ul>
+			<li>(1) Better  winning  percentage  in  games  against  each other. </li>
+			<li>(2) Division winner (this criterion is applied regardless of whether the tied teams are in the same division). </li>
+			<li>(3) Better  winning  percentage  against  teams   in  own division (only if tied teams are in same division). </li>
+			<li>(4) Better  winning  percentage  against  teams   in  own conference. </li>
+			<li>(5) Better winning percentage against teams  eligible for playoffs in own conference (including teams that finished the regular season tied for a playoff position).</li>
+			<li>(6) Better winning percentage against teams eligible for playoffs in opposite conference (including teams that finished the regular season tied for a playoff position).</li>
+			<li>(7) Better net result of total points scored less total points allowed against all opponents (“point differential”). </li>
+			</ul>
+			<br />
+			<strong>b. More Than Two Teams Tied. In the case of a tie in regular-season records involving more than two teams, the following criteria will be utilized in the following order:</strong><br />
+			<ul>
+			<li>(1) Division winner (this criterion is applied regardless of whether the tied teams are in the same division).</li>
+			<li>(2) Better winning percentage in all games among the tied teams.</li>
+			<li>(3) Better  winning  percentage  against  teams  in  own division (only if all tied teams are in same division).</li>
+			<li>(4) Better  winning  percentage  against  teams  in  own conference.</li>
+			<li>(5) Better winning percentage against teams eligible for playoffs in own conference (including teams that finished the regular season tied for a playoff position).</li>
+			<li>(6) Better net result of total points scored less total points allowed against all opponents (“point differential”).</li>
+			</ul>
+
+			<br />
+			<strong>c. Guidelines For Applying Tie-Break Criteria. The following guidelines shall be used when applying the above criteria to break ties for playoff positions:</strong><br />
+			<ul>
+			<li>(1) (a)  Ties to determine the division winners must be broken before any other ties.</li>
+			<li>(b) When a tie must be broken to determine a division winner, the results of the tie-break shall be used to determine only the division winner, and not for any other purpose.</li>
+			<li>(2) If a tie involves more than two teams, the tie-break criteria in subparagraph b. shall be applied in the order set forth therein until the first to occur of the following:</li>
+			<li>(a) Each of the tied teams has a different winning percentage or point differential under the applicable tie-break criterion (a “complete” breaking of the tie). In this circumstance, the team with the best winning percentage or point differential under the criterion will be awarded the best playoff position, the team with the next-best winning percentage or point differential will be awarded the next-best playoff position, and so on, and no further application of the tie-break criteria will be required.</li>
+			<li>-- OR --</li>
+			<li>(b) One or more (but not all) of the  tied teams has a different winning percentage or point differential under the applicable tie-break criterion (a “partial” breaking of the tie). In this circumstance: (x) any   team(s)   that   performed   better   under   the applicable criterion than any other team(s) will be awarded a higher playoff position than such other team(s); and (y) teams that had equivalent performance under the applicable criterion will remain tied, and such remaining tie(s) will be broken by applying, from the beginning, the criteria in subparagraph a.(1)-(6) above (for any remaining tie involving only two teams) or subparagraph b.(1)-(5) above (for any remaining tie involving more than two teams) and the guidelines set forth in this subparagraph c.</li>
+			<li>(3) If application of the criteria in subparagraph a. or b. does not result in the breaking of a tie, the playoff positions of the tied teams will be determined by a random drawing.</li>
+
+			</ul>
+		</div>
+
+  </section>
+
+
+</div>
+    </div>
+  </div>
+
+</div>
+
+
+      </div>
+
+    </main> <!-- .container -->
+
+    <footer>
+      <div class="footer nba-footer" id="nbaGlobalFooter">
+  <!-- <hr> -->
+  <p>Copyright © <em class="placeholder">2016</em> NBA Media Ventures, LLC. All rights reserved.</p>
+  <p>
+    <a href="http://www.nba.com/news/privacy_policy.html">Privacy Policy</a> | <a href="http://www.nba.com/news/termsofuse.html">Terms of Use</a> | <a id="nba_cnsnt_trst" class="nbaAdChoices" href="http://www.nba.com/adchoices" target="_blank" rel="noreferrer noopener">Ad Choices</a></p>
+  <p>NBA.com is part of Turner Sports Digital, part of the Turner Sports &amp; Entertainment Digital Network.</p><img alt="Turner Broadcasting System, Inc. A Time Warner Company." src="//i.cdn.turner.com/nba/nba/footer/turner_logo_200x35.png" />
+</div>
+          </footer>
+    
+    
+  
+    <script async="" src="https://www.google-analytics.com/analytics.js"></script><script type="text/javascript" async="" src="http://ssl.cdn.turner.com/ads/adfuel/modules/dhtmlxgrid.js"></script><script type="text/javascript" async="" src="http://ssl.cdn.turner.com/ads/adfuel/modules/keypress.js"></script><script type="text/javascript" src="http://www.googletagservices.com/tag/js/gpt.js"></script><script type="text/javascript" async="" src="http://cdn.krxd.net/controltag?confid=ITcATbN4"></script><script type="text/javascript" async="" src="//www.ugdturner.com/xd.sjs"></script><script type="text/javascript" async="" src="http://c.amazon-adsystem.com/aax2/amzn_ads.js"></script><script>
+      window.esi_ = {
+        country: "US",
+        tz: "PST",
+        region: "WA",
+        browser: "MOZILLA"
+      };
+    </script>
+  
+
+
+  
+    
+  
+      <script src="/js/data/ptsd/stats_ptsd.js"></script>
+  <script src="/scripts/theme.min.js"></script>
+  
+    <!-- turner ad tag includes -->
+<script src="http://i.cdn.turner.com/ads/adfuel/ais/nba2-ais.js"></script><script type="text/javascript" async="" src="http://ads.rubiconproject.com/header/11078.js"></script>
+<script src="http://i.cdn.turner.com/ads/nba2/adfuel.js"></script>
+<script src="http://i.cdn.turner.com/ads/nba2/nba_stats.js"></script>
+
+<!-- turner nba ros node tag -->
+<script type="text/javascript" src="http://content.dl-rms.com/rms/mother/18184/nodetag.js"></script>
+    <!-- GA and page tracking scripts -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-86643645-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<!-- /GA and page tracking scripts -->
+
+<!-- BEGIN: NBA analytics package snippet. -->
+<!-- Should be as close the the closing "body" tag as possible. -->
+<script id="_nbaScoutAnalytics" src="http://z.cdn.turner.com/nba/tmpl_asset/static/nba-cms3-base/latest/js/pkgAnalyticsScout-min.js"></script><script src="//z.cdn.turner.com/nba/tmpl_asset/static/nba-cms3-base/466/js/pkgAnalytics-min.js"></script><link rel="dns-prefetch" href="//optimized-by.rubiconproject.com/" />
+<script>
+
+  var hostname = window.location.hostname;
+  var accountIdOverride = "";
+  var nbaOmChannelPrefix = "";
+  nbaOmChannelPrefix="stats.nba.com";
+
+  //Set to use the omniture dev suite for our development hostnames, else prod
+  if (hostname === "dev.stats.nba.com" || hostname === "statsv3.nba.com" || hostname === "linuxpubstats.nba.com" || hostname == "linuxpubstatsdev.nba.com"){
+    accountIdOverride="nbag-n-league-dev";
+  }
+  else {
+    accountIdOverride="nbag-n-league";
+  }
+
+	_nba.analytics.setOverride("disableAutoPage",true);
+  _nba.analytics.setOverride("accountIds", accountIdOverride);
+
+	if (_nba &amp;&amp; _nba.settings &amp;&amp; _nba.settings.global) {
+	   _nba.settings.global.experience="responsive";
+	}
+</script>
+<!-- END: NBA analytics package snippet. -->
+
+  
+
+<img src="http://t.mookie1.com/t/v1/imp?migAgencyId=347&amp;migSource=adsrv2&amp;migTrackDataExt=3143259;106063877;278930987;0&amp;migTrackFmtExt=client;io;ad;crtv&amp;migUnencodedDest=https://ad.doubleclick.net/ddm/ad/N69702.149455NBAMEDIAVENTURESLLC/B9310282.126620931;sz=1x1;ord=1487179824043;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=?" style="display: none;" /><img class="pub_300x250 pub_300x250m pub_728x90 text-ad textAd text_ad text_ads text-ads text-ad-links" style="width: 1px !important; height: 1px !important; position: absolute !important; left: -10000px !important; top: -1000px !important;" /><div class="kxhead" data-id="ITcATbN4" style="display:none !important;"><span class="kxtag kxinvisible" data-id="23413"><script>
+(function(){
+  if (window.Krux) {
+    var kuid = window.Krux('get', 'user');
+    if (kuid &amp;&amp; typeof kuid != 'undefined') {
+       var rubicon_url = '//tap.rubiconproject.com/oz/feeds/krux/tokens?afu=' + kuid;
+       var i = new Image();
+       i.src = rubicon_url;
+    }
+  }
+})();
+</script></span><span class="kxtag kxinvisible" data-id="26790"><script>
+(function(){
+    var kuid = Krux('get', 'user');
+    var prefix = window.location.protocol == 'https:' ? 'https:' : 'http:';
+    if (kuid) {
+        new Image().src = prefix + '//tapestry.tapad.com/tapestry/1?ta_partner_id=1969&amp;ta_redirect=' + prefix + encodeURIComponent('//beacon.krxd.net/usermatch.gif?partner=tapad&amp;partner_uid=${IDS:key}');
+        }
+})();
+</script></span><span class="kxtag kxinvisible" data-id="24231"><script>
+(function(){
+	new Image().src = location.protocol + '//usersync.videoamp.com/usersync?partner_id=6902992&amp;redirect=' + location.protocol + encodeURIComponent('//beacon.krxd.net/usermatch.gif?partner=vidamp&amp;partner_uid={vamp_user_id}');
+})();
+</script></span><span class="kxtag kxinvisible" data-id="23416"><script type="text/javascript">
+(function () {
+_ml = window._ml || {};
+_ml.pub = '748';
+_ml.redirect = '//beacon.krxd.net/usermatch.gif?partner=madisonlogic&amp;partner_uid=[PersonID]';
+var s = document.getElementsByTagName('script')[0], cd = new Date(), mltag = document.createElement('script');
+mltag.type = 'text/javascript'; mltag.async = true;
+mltag.src = '//ml314.com/tag.aspx?' + cd.getDate() + cd.getMonth() + cd.getFullYear();
+s.parentNode.insertBefore(mltag, s);
+})();
+</script></span><span class="kxtag kxinvisible" data-id="23445"><script>
+    var slot;
+    (function() {
+        if (window.googletag &amp;&amp; googletag.pubads() &amp;&amp; googletag.pubads().getSlots()) {
+            var c1 = {};
+            var arr = googletag.pubads().getSlots();
+            var site = ["br", "cnn", "cnn_arabic", "cnn_international", "cnn_money", "conan", "eSports", "espanol", "funnyordie", "hln", "nascar", "nba", "ncaa", "pga", "tbs", "tcm", "toonswim", "trutv"];
+
+            if (arr) {
+                for (var i = 0, l = arr.length; i &lt; l; i++) {
+                    c1[arr[i].getAdUnitPath()] = (c1[arr[i].getAdUnitPath()] || 0) + 1;
+                }
+                slot = Object.keys(c1)[0] || null;
+                for (k in c1) slot = (c1[k] &gt; c1[slot]) ? k : slot;
+            }
+
+            if (window.slot) { // Set string lowercase and split slot into an array 
+                slot = slot.toLowerCase();
+                slot = slot.split('/');
+
+                // Changes slot from "as" to "toonswim"
+                slot[2] = slot[2] == 'as' ? 'toonswim' : slot[2];
+                // Changes slot from "arabic" to "cnn_arabic"
+                slot[2] = slot[2] == 'arabic' ? 'cnn_arabic' : slot[2];
+                // Changes slot from "cnni" to "cnn_internation"
+                slot[2] = slot[2] == 'cnni' ? 'cnn_international' : slot[2];
+                // Changes slot from "cnnmoney" to "cnn_money"
+                slot[2] = slot[2] == 'cnnmoney' ? 'cnn_money' : slot[2];
+				
+				// "teamcoco"
+				if(slot[2] === "tbs" &amp;&amp; slot[4] === "conan"){
+					slot = slot.splice(2)
+				};
+
+                for (var i = 0; i &lt; site.length; i++) {
+
+                    if (slot[2] == site[i]) {
+                        // Using domain to dynamically scrape page attribute site 
+                        Krux('set', 'page_attr_' + slot[2] + '_site', slot[2]);
+                        // Using domain to dynamically scrape page attribute rollup
+                        Krux('set', 'page_attr_' + slot[2] + '_rollup', slot[3]);
+                        // Using domain to dynamically scrape page attribute section 
+                        Krux('set', 'page_attr_' + slot[2] + '_section', slot[4]);
+                        // Using domain to dynamically scrape page attribute subsection
+                        Krux('set', 'page_attr_' + slot[2] + '_subsection', slot[5]);
+                        // Using domain to dynamically scrape page attribute AdUnit 5 
+                        Krux('set', 'page_attr_' + slot[2] + '_adunit5', slot[6]);
+                        
+	
+                    };
+                };
+            };
+        };
+		
+		if(window.CNNMONEY &amp;&amp; window.CNNMONEY.adTargets) spec = CNNMONEY.adTargets.spec;
+		if(window.CNN &amp;&amp; window.CNN.adTargets) spec = CNN.adTargets.spec;
+		if(window.CNNI &amp;&amp; window.CNNI.adTargets) spec = CNNI.adTargets.spec;
+						
+		if (window.spec &amp;&amp; slot &amp;&amp; slot.length &gt;= 3) {
+           Krux('set', 'page_attr_' + slot[2] + '_spec', spec);
+        };
+		
+	
+		
+		
+        if (window.queryString) {
+            Krux('set', 'page_attr_on_site_searcher', true)
+        };
+
+
+        if (window.CNN &amp;&amp; window.CNN.contentModel &amp;&amp; window.CNN.contentModel.analytics) {
+            var ct = CNN.contentModel.analytics.cap_topics;
+            if (ct) {
+                ct = ct.replace(/ /g, '');
+                Krux('set', 'page_attr_cap_topics', ct);
+            };
+        };
+
+    })();
+</script></span><span class="kxtag kxinvisible" data-id="27404"><script>
+(function(){
+
+   var kuid = Krux('get', 'user');
+   if (kuid) {
+      var prefix = location.protocol == 'https:' ? "https:" : "http:";
+      var kurl = prefix + encodeURIComponent('//beacon.krxd.net/usermatch.gif?partner=spotxchange&amp;partner_uid=&lt;spotx_audience_id&gt;');
+      var spotxchange_url = prefix + '//sync.search.spotxchange.com/audience_sync/9?redir=' + kurl;
+      new Image().src = spotxchange_url;
+   }
+
+})();
+</script></span><span class="kxtag kxinvisible" data-id="26137"><script>
+    (function() {
+        var kuid = Krux('get', 'user');
+        if (kuid) {
+            var prefix = location.protocol == 'https:' ? "https:" : "http:";
+            var kurl_params = encodeURIComponent("_kuid=" + kuid + "&amp;_kdpid=4e3f8627-26fa-484d-bd95-a1f8f09d95a6&amp;dlxid=&lt;na_id&gt;&amp;dlxdata=&lt;na_da&gt;");
+            var kurl = prefix + "//beacon.krxd.net/data.gif?" + kurl_params;
+            var dlx_url = '//r.nexac.com/e/getdata.xgi?dt=br&amp;pkey=quky68qukyi81&amp;ru=' + kurl;
+            var i = new Image();
+            i.src = dlx_url;
+        }
+    })();
+</script>
+</span><span class="kxtag kxinvisible" data-id="23605"></span><span class="kxtag kxinvisible" data-id="23619"><script>
+(function() {
+    if (window.location.protocol == 'http:') {
+        var img = new Image();
+        img.src = "//bea4.v.fwmrm.net/ad/u?mode=echo&amp;cr=http%3A%2F%2Fbeacon.krxd.net%2Fusermatch.gif%3Fpartner%3Dfreewheel%26partner_uid%3D%23%7Buser.id%7D"
+        img.setAttribute("style", "width:0px; height:0px; visibility:hidden;");
+        document.body.appendChild(img);
+    }
+})();
+</script></span><span class="kxtag kxinvisible" data-id="23636"><img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/925133270/?value=1.00&amp;currency_code=USD&amp;label=yxtWCO6-3GcQ1tORuQM&amp;guid=ON&amp;script=0" /></span><span class="kxtag kxinvisible" data-id="23409"><script>
+// this tag is intentionally blank
+</script></span><span class="kxtag kxinvisible" data-id="23410"></span><span class="kxtag kxinvisible" data-id="23412"><script type="text/javascript">Krux('social.init');</script></span><span class="kxtag kxinvisible" data-id="23414"><script>
+(function() {
+  if (Krux('get', 'user') != null) {
+      new Image().src = 'https://usermatch.krxd.net/um/v2?partner=google';
+  }
+})();
+</script></span><span class="kxtag kxinvisible" data-id="23430"><img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/1010738507/?value=0&amp;guid=ON&amp;script=0" /></span><span class="kxtag kxinvisible" data-id="23439"><img height="1" width="1" style="display:none;" alt="" src="//t.co/i/adsct?txn_id=l4uma&amp;p_id=Twitter" /></span><span class="kxtag kxinvisible" data-id="23440"><img height="1" width="1" style="display:none;" alt="" src="//t.co/i/adsct?txn_id=l4umb&amp;p_id=Twitter" /></span><span class="kxtag kxinvisible" data-id="27284"><script>
+    (function() {
+        var kuid = Krux('get', 'user');
+        if (kuid) {
+            var prefix = location.protocol == 'https:' ? "https:" : "http:";
+            var kurl_params = encodeURIComponent("_kuid=" + kuid + "&amp;_kdpid=a8138b01-9fff-43bb-b649-99241ab62170&amp;dlxid=&lt;na_id&gt;&amp;dlxdata=&lt;na_da&gt;");
+            var kurl = prefix + "//beacon.krxd.net/data.gif?" + kurl_params;
+            var dlx_url = '//r.nexac.com/e/getdata.xgi?dt=br&amp;pkey=qkgx66qkgxw46&amp;ru=' + kurl;
+            var i = new Image();
+            i.src = dlx_url;
+        }
+    })();
+</script></span><span class="kxtag kxinvisible" data-id="23461"><img height="1" width="1" style="display:none;" alt="" src="https://analytics.twitter.com/i/adsct?txn_id=l4uma&amp;p_id=Twitter" /></span><span class="kxtag kxinvisible" data-id="23462"><img height="1" width="1" style="display:none;" alt="" src="https://analytics.twitter.com/i/adsct?txn_id=l4umb&amp;p_id=Twitter" /></span><span class="kxtag kxinvisible" data-id="23474"><script>
+(function() {
+
+    // Using Meta keywords to produce page attribute keywords
+    Krux('scrape', { "page_attr_keywords": {meta_name: "keywords"}});
+    // Using Cookie last5stocks to produce page attribute cookie_last5stocks
+    Krux('scrape', { "page_attr_cookie_last5stocks": {cookie: "last5stocks"}});
+
+    if (document.location.host.match("bleacherreport")) {
+        // Using Meta keywords to produce page attribute keywords
+        Krux('scrape', {"page_attr_bleacherreport_keywords": {meta_name: "keywords"}});
+        Krux('scrape', {"page_attr_bleacherreport_site": {javascript: "document.location.host.split('.')[0]"}});
+    }
+
+    if(window.slot) {
+        // get namespace;
+        var ns = (function() {
+                        var exceptions, jsmdmap, key1, key2, val1, val2, _ref;
+                        if (window._jsmd_default) {
+                            jsmdmap = _jsmd_default.map;
+                            for (key1 in jsmdmap) {
+                                val1 = jsmdmap[key1];
+                                for (key2 in val1) {
+                                    val2 = val1[key2];
+                                    if (ns = val2 != null ? (_ref = val2.settings) != null ? _ref.visitorNamespace : void 0 : void 0) {
+                                        return ns;
+                                    }
+                                }
+                            }
+                        }
+                        exceptions = {
+                            'NBA': '0_nbagroup',
+                            'Nascar': 'nascardigitalsap',
+                            'Bleacher Report': 'turnersidigital',
+                            'Teamcoco': '0_teamcoco'
+                        };
+                        return exceptions[Krux('get', 'site')];
+                })();
+
+        if(!ns) return;
+        //get site
+        var site = slot[2];
+        // get pixel
+        var pixel = window["s_i_" + ns] || window["s_i_1_" + ns] || window["s_i_0_" + ns];
+        // regex for pixel source
+        var lookFor = "&amp;h1=(.*?)&amp;";
+        // check if pixel source matches the regex
+        var match =  (pixel &amp;&amp; pixel.src) ? pixel.src.match(lookFor) : null;
+
+        if (match) {
+            var parts = decodeURIComponent(match[1]).split('|');
+            var keys = ['lob', 'brand', 'bizunit', 'sitename', 'sitesectionlevel1', 'sitesectionlevel2'];
+            for (var i = 0, l = keys.length;i &lt; l; i++) {
+                var key = keys[i];
+                if(parts[i]) Krux('set', "page_attr_" + site + "_" + key, parts[i]);
+            }
+        }
+    }
+
+})();
+</script></span><span class="kxtag kxinvisible" data-id="23477"><script>
+    (function() {
+        // To Pull GUID 
+        Krux('scrape', {
+            'user_attr_turner_guid': {
+                cookie: 'ug'
+            }
+        });
+
+        // To Pull Adobe Analytics ID 
+        adobeID = Krux('scrape.javascript', "Krux('scrape.cookie', 's_vi').split('|',2)[1].split('[')[0]");
+        if (window.adobeID) {
+            if (adobeID.length === 33 &amp;&amp; adobeID.indexOf('-') != -1) {
+                Krux('set', 'user_attr_aa_id', adobeID);
+            };
+        };
+
+        // To Pull Backup Adobe Analytics ID
+        Krux('scrape', {
+            'user_attr_af_id': {
+                cookie: 's_fid'
+            }
+        });
+
+    })();
+</script></span><span class="kxtag kxinvisible" data-id="23509"></span><span class="kxtag kxinvisible" data-id="23511"></span><span class="kxtag kxinvisible" data-id="23513"><script>
+    (function() {
+        var kuid = Krux('get', 'user');
+        if (kuid) {
+            var prefix = location.protocol == 'https:' ? "https:" : "http:";
+            var bk_prefix = location.protocol == 'https:' ? "stags" : "tags";
+            var kurl_params = encodeURIComponent("_kuid=" + kuid + "&amp;partner=bluekai&amp;bk_uuid=$_BK_UUID");
+            var kurl = prefix + "//beacon.krxd.net/usermatch.gif?" + kurl_params;
+            var bk_params = 'id=' + kuid;
+            var bk_url = '//' + bk_prefix + '.bluekai.com/site/26357?' + bk_params + '&amp;redir=' + kurl;
+            var i = new Image();
+            i.src = bk_url;
+        }
+    })();
+</script>
+</span><span class="kxtag kxinvisible" data-id="26604"><script>
+(function(){
+var kxfbmap = {
+  'JLmLD3_1': '782589578427709',
+  'ITcBPihd':	'289259704582565',
+  'ITcA0tkB':	'1517553741888280',
+  'ITcA76Nx':	'1407388882899380',
+  'ITcAwecV':	'497430300356774',
+  'IWzDCwHo':	'418245194992316',
+  'ITcAsWsy':	'418245194992316',
+  'ITcATbN4':	'418245194992316',
+  'ITcAEoo6':	'177383419263866',
+  'ITb_4eqO':	'731697573629176',
+  'ITb9NmYG':   '596760543765088',
+  'ITb9Q03y':   '418245194992316'
+};
+
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','//connect.facebook.net/en_US/fbevents.js');
+
+fbq('init', kxfbmap[Krux('get', 'confid')]);
+fbq('track', 'PageView');
+})();
+</script> </span><span class="kxtag kxinvisible" data-id="23548"></span></div><img src="//bea4.v.fwmrm.net/ad/u?mode=echo&amp;cr=http%3A%2F%2Fbeacon.krxd.net%2Fusermatch.gif%3Fpartner%3Dfreewheel%26partner_uid%3D%23%7Buser.id%7D" style="width:0px; height:0px; visibility:hidden;" /><iframe id="google_osd_static_frame_7549300434483" name="google_osd_static_frame" style="display: none; width: 0px; height: 0px;"></iframe></body><iframe id="kx-proxy-ITcATbN4" src="http://cdn.krxd.net/partnerjs/xdi/proxy.5e2dbc85682c7ee766b9048147c21374.html#!kxcid=ITcATbN4&amp;kxt=http%3A%2F%2Fstats.nba.com&amp;kxcl=cdn&amp;kxp=" style="display: none; visibility: hidden; height: 0; width: 0;"></iframe></html>
