@@ -1,0 +1,215 @@
+# standingsTableGenerator.py
+# --------------------------------------------------
+# This file is used for generating the team standings table
+# for each day for a season
+from __future__ import division
+from team_names import team_mapping
+import argparse
+import datetime
+import csv
+import os
+
+def main():
+	parser = argparse.ArgumentParser(description='Provide the season to get team standings for.')
+	parser.add_argument('-s', metavar = "<year1>-<year2>", help = "The season to get team standings for")
+	parser.add_argument('-d', metavar = "<yyyy>-<mm>-<dd>", help = "The specific day up to which to get team standings for")
+	args = parser.parse_args()
+
+	default_year = "2016_2017"
+	today = datetime.date.today().strftime('%Y-%m-%d')
+
+	year = args.s
+	day_until = args.d
+	if year == None:
+		year = default_year
+	else:
+		year = year.replace('-','_')
+	if day_until == None:
+		day_until = today
+
+	table_name = "team_standings"
+	visitor_team_index = 1
+	home_team_index = 3
+	source_directory = "../../data/" + year + "/";
+	source_file = source_directory + year + "_schedule.csv";
+
+	game_schedule_reader = open(source_file, 'r')
+	game_csv_reader = csv.reader(game_schedule_reader)
+
+	# initiate the table:
+	table = {}
+	team_names = team_mapping.values()
+	for team_name in team_names:
+		table[team_name] = {
+			"team_name": team_name,
+			"Games_Played": 0,
+			"Games_Won": 0,
+			"Home_Played": 0,
+			"Home_Won": 0,
+			"Road_Played": 0,
+			"Road_Won" : 0,
+			"Last_10_records": [],
+			"Last_10_Won": 0,
+			"Last_10_Played": 0,
+			"Current_streak": 0
+		}
+
+	index = 0
+	previous_date = None
+	current_date = None
+	#TODO: refactor this for loop
+	for row in game_csv_reader:
+		# Skip the first row
+		if index != 0:
+			current_date = row[0]
+			current_date_without_day = (' ').join(current_date.split(' ')[1:])
+			current_date_object = datetime.datetime.strptime(current_date_without_day, '%b %d %Y')
+			current_date = current_date_object.strftime('%Y-%m-%d')
+			# Write the team standings for the previous day if we see a game result in a new day
+			if current_date != previous_date:
+				writeToTable(year, current_date, table_name, table, team_names)
+				# Break the loop if we have processed up to the inclusive date
+				if current_date == day_until:
+					break
+				else:
+					previous_date = current_date;
+
+			# update the current table
+			# result is 1 if Home team won the game, otherwise 0
+			result = int(row[-1])
+			if result == 1:
+				table[row[home_team_index]] = updateTeamRecord(table[row[home_team_index]], 1, 1)
+				table[row[visitor_team_index]] = updateTeamRecord(table[row[visitor_team_index]], 0, 0)
+			else:
+				table[row[home_team_index]] = updateTeamRecord(table[row[home_team_index]], 1, 0)
+				table[row[visitor_team_index]] = updateTeamRecord(table[row[visitor_team_index]], 0, 1)
+		index += 1
+
+	# The following piece is for testing. Make sure the standing table at the end of the season matches
+	# the data provided by the website
+	"""
+	current_date_object = datetime.datetime.strptime(current_date, '%Y-%m-%d')
+	nextday_object = current_date_object + datetime.timedelta(days = 1)
+	nextday = nextday_object.strftime('%Y-%m-%d')
+	writeToTable(year, nextday, table_name, table, team_names)
+	"""
+
+def updateTeamRecord(old_record, home_game, result):
+	""" Update the new record of the team in the table
+
+	:param old_record: the old record for the team
+	:param home_game: whether this game is played at home or not. 0 for no and 1 for yes.
+	:param result: the result of the game. 0 for a L and 1 for a W.
+	:return: The new record of the team record
+	"""
+	new_record = {
+		"team_name": old_record["team_name"],
+		"Games_Played": old_record["Games_Played"] + 1,
+		"Games_Won": old_record["Games_Won"] + result,
+		"Home_Played": old_record["Home_Played"] + home_game,
+		"Home_Won": old_record["Home_Won"] + home_game * result ,
+		"Road_Played": old_record["Road_Played"] + (1 - home_game),
+		"Road_Won" : old_record["Road_Won"] + (1 - home_game) * result,
+		"Last_10_records": updateLast10GamesRecord(old_record, result),
+		"Last_10_Won": updateLast10GamesWon(old_record, result),
+		"Last_10_Played": updateLast10GamesPlayed(old_record["Last_10_Played"]),
+		"Current_streak": updateCurrentStreak(old_record["Current_streak"], result)
+	}
+	return new_record
+
+def updateCurrentStreak(old_streak, result):
+	""" Return the new streak
+
+	:param old_streak: the old streak before the current game
+	:param result: the result of the current game
+	:return: the new streak
+	"""
+	current_streak = old_streak
+	result_signed = 2 * result - 1  # if result is 1 then 1, and if result is 0 then -1
+	if current_streak * result_signed > 0:
+		current_streak = current_streak + result_signed
+	else:
+		current_streak = result_signed
+	return current_streak
+
+def updateLast10GamesPlayed(old_last_10_games_played):
+	""" Update the number of games played (up to 10)
+
+	:param old_last_10_games_played: the old number of games played
+	:return: the new number of games played
+	"""
+	last_10_played = old_last_10_games_played + 1
+	if last_10_played > 10:
+	   last_10_played = 10
+	return last_10_played
+
+def updateLast10GamesRecord(old_record, result):
+	""" Update the list of ints that represents the record of the team in the last 10 games
+
+	:param old_record:  the old record
+	:param result: the result of the new game
+	:return: the new record for the team
+	"""
+	record = None
+	if len(old_record["Last_10_records"]) == 10:
+		record = old_record["Last_10_records"][1:]
+		record.append(result)
+	else:
+		record = old_record["Last_10_records"]
+		record.append(result)
+	return record
+
+def updateLast10GamesWon(old_record, result):
+	""" Update the new number of games won in the last 10 games
+
+	:param old_record: the old record that contains all the fields
+	:param result: the result of the current game
+	:return: new number of games won in the last 10 games
+	"""
+	if old_record["Last_10_Played"] < 10:
+		return old_record["Last_10_Won"] + result
+	else:
+		return old_record["Last_10_Won"] + result - old_record["Last_10_records"][0]
+
+def convertRecordToentry(record):
+	""" Convert the record of a team into a row in the team standings table
+
+	:param record: a record of a team
+	:return: a row to be written into the table
+	"""
+	entry = []
+	entry.append(record["team_name"])
+	entry.append(record["Games_Won"]/record["Games_Played"]) if record["Games_Played"] != 0 else entry.append(0.0)
+	entry.append(record["Home_Won"] / record["Home_Played"]) if record["Home_Played"] != 0 else entry.append(0.0)
+	entry.append(record["Road_Won"]/record["Road_Played"]) if record["Road_Played"] != 0 else entry.append(0.0)
+	entry.append(record["Last_10_Won"]/record["Last_10_Played"]) if record["Last_10_Played"] != 0 else entry.append(0.0)
+	entry.append(record["Current_streak"])
+	return entry
+
+def constructHeader():
+	""" Construct the header for the team standings table
+
+	:return: The header of the team standings table
+	"""
+	header = ["team_name", "W_PCT", "HOME_RECORD", "ROAD_RECORD", "L10", "CurrentStreak"]
+	return header
+
+def writeToTable(year, current_date, table_name, table, team_names):
+	destination_directory = "../../data/" + year + "/" + "stats" + "/" + current_date + "/"
+	destination_file = destination_directory + year + "_" + table_name + ".csv"
+	if not os.path.exists(destination_directory):
+		os.makedirs(destination_directory)
+	game_file_writer = open(destination_file, 'w')
+	game_csv_writer = csv.writer(game_file_writer)
+	# write the header
+	header = constructHeader()
+	game_csv_writer.writerow(header)
+	# write the entries into the file
+	for team_name in team_names:
+		print "The team name is: ", team_name
+		entry = convertRecordToentry(table[team_name])
+		print "The entry is: ", table[team_name]
+		game_csv_writer.writerow(entry)
+
+if __name__ == '__main__':
+    main()
