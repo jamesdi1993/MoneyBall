@@ -1,9 +1,9 @@
 Visitor,Home,Prediction,Result,Prediction_Outcome
-Cleveland Cavaliers,Boston Celtics,,,
-Miami Heat,Charlotte Hornets,,,
-Toronto Raptors,Detroit Pistons,,,
-Denver Nuggets,Houston Rockets,,,
-Dallas Mavericks,Los Angeles Clippers,,,
-Oklahoma City Thunder,Memphis Grizzlies,,,
-Golden State Warriors,Phoenix Suns,,,
-Los Angeles Lakers,San Antonio Spurs,,,
+Cleveland Cavaliers,Boston Celtics,0,0,1
+Miami Heat,Charlotte Hornets,0,0,1
+Toronto Raptors,Detroit Pistons,0,0,1
+Denver Nuggets,Houston Rockets,0,1,0
+Dallas Mavericks,Los Angeles Clippers,0,1,0
+Oklahoma City Thunder,Memphis Grizzlies,0,0,1
+Golden State Warriors,Phoenix Suns,0,0,1
+Los Angeles Lakers,San Antonio Spurs,0,0,1

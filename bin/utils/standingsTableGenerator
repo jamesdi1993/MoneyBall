@@ -73,7 +73,6 @@ def main():
 					break
 				else:
 					previous_date = current_date;
-
 			# update the current table
 			# result is 1 if Home team won the game, otherwise 0
 			result = int(row[-1])

@@ -1,6 +1,6 @@
 Visitor,Home,Prediction,Result,Prediction_Outcome
-Cleveland Cavaliers,Chicago Bulls,,,
-Brooklyn Nets,Detroit Pistons,,,
-Los Angeles Lakers,Minnesota Timberwolves,,,
-Los Angeles Clippers,Phoenix Suns,,,
-Houston Rockets,Portland Trail Blazers,,,
+Cleveland Cavaliers,Chicago Bulls,0,1,0
+Brooklyn Nets,Detroit Pistons,0,1,0
+Los Angeles Lakers,Minnesota Timberwolves,0,1,0
+Los Angeles Clippers,Phoenix Suns,0,0,1
+Houston Rockets,Portland Trail Blazers,0,1,0

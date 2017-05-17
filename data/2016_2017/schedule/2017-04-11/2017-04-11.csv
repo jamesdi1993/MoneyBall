@@ -1,6 +1,6 @@
 Visitor,Home,Prediction,Result,Prediction_Outcome
-Charlotte Hornets,Atlanta Hawks,,,
-Denver Nuggets,Dallas Mavericks,,,
-New Orleans Pelicans,Los Angeles Lakers,,,
-Oklahoma City Thunder,Minnesota Timberwolves,,,
-Phoenix Suns,Sacramento Kings,,,
+Charlotte Hornets,Atlanta Hawks,0,1,0
+Denver Nuggets,Dallas Mavericks,0,0,1
+New Orleans Pelicans,Los Angeles Lakers,0,1,0
+Oklahoma City Thunder,Minnesota Timberwolves,0,0,1
+Phoenix Suns,Sacramento Kings,0,1,0

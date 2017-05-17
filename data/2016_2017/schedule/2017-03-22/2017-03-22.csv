@@ -1,9 +1,9 @@
 Visitor,Home,Prediction,Result,Prediction_Outcome
-Indiana Pacers,Boston Celtics,,,
-Detroit Pistons,Chicago Bulls,,,
-Cleveland Cavaliers,Denver Nuggets,,,
-Philadelphia 76ers,Oklahoma City Thunder,,,
-Charlotte Hornets,Orlando Magic,,,
-Milwaukee Bucks,Sacramento Kings,,,
-New York Knicks,Utah Jazz,,,
-Atlanta Hawks,Washington Wizards,,,
+Indiana Pacers,Boston Celtics,0,1,0
+Detroit Pistons,Chicago Bulls,0,1,0
+Cleveland Cavaliers,Denver Nuggets,0,1,0
+Philadelphia 76ers,Oklahoma City Thunder,0,1,0
+Charlotte Hornets,Orlando Magic,0,0,1
+Milwaukee Bucks,Sacramento Kings,0,0,1
+New York Knicks,Utah Jazz,0,1,0
+Atlanta Hawks,Washington Wizards,0,1,0

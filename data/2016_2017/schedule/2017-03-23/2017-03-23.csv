@@ -1,6 +1,6 @@
 Visitor,Home,Prediction,Result,Prediction_Outcome
-Phoenix Suns,Brooklyn Nets,,,
-Los Angeles Clippers,Dallas Mavericks,,,
-Toronto Raptors,Miami Heat,,,
-New York Knicks,Portland Trail Blazers,,,
-Memphis Grizzlies,San Antonio Spurs,,,
+Phoenix Suns,Brooklyn Nets,0,1,0
+Los Angeles Clippers,Dallas Mavericks,0,1,0
+Toronto Raptors,Miami Heat,0,0,1
+New York Knicks,Portland Trail Blazers,0,1,0
+Memphis Grizzlies,San Antonio Spurs,0,1,0

@@ -6,6 +6,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from lxml import html
 from lxml import etree
+from utils.team_names import team_mapping
 import urllib
 import csv
 import datetime
@@ -47,38 +48,6 @@ if not os.path.exists(directory):
 
 # These indices correspond to Team, WIN%, Home record, Away Record, Last 10, Winning/Losing Streak
 column_indices = [0, 3, 7, 8, 10, 11]
-team_mapping = {
-    "Golden State Warriors" : "Golden State Warriors",
-    "San Antonio Spurs" : "San Antonio Spurs",
-    "Houston Rockets" : "Houston Rockets",
-    "LA Clippers" : "Los Angeles Clippers",
-    "Utah Jazz" : "Utah Jazz",
-    "Oklahoma City Thunder" : "Oklahoma City Thunder",
-    "Memphis Grizzlies" : "Memphis Grizzlies",
-    "Denver Nuggets" : "Denver Nuggets",
-    "Portland Trail Blazers" : "Portland Trail Blazers",
-    "New Orleans Pelicans" : "New Orleans Pelicans",
-    "Sacramento Kings" : "Sacramento Kings",
-    "Minnesota Timberwolves" : "Minnesota Timberwolves",
-    "Dallas Mavericks": "Dallas Mavericks",
-    "Los Angeles Lakers" : "Los Angeles Lakers",
-    "Phoenix Suns" : "Phoenix Suns",
-    "Cleveland Cavaliers" : "Cleveland Cavaliers",
-    "Toronto Raptors" : "Toronto Raptors",
-    "Boston Celtics" : "Boston Celtics",
-    "Atlanta Hawks" : "Atlanta Hawks",
-    "Washington Wizards" : "Washington Wizards",
-    "Charlotte Hornets" : "Charlotte Hornets",
-    "Indiana Pacers" : "Indiana Pacers",
-    "Chicago Bulls" : "Chicago Bulls",
-    "Milwaukee Bucks" : "Milwaukee Bucks",
-    "Detroit Pistons" : "Detroit Pistons",
-    "New York Knicks" : "New York Knicks",
-    "Orlando Magic" : "Orlando Magic",
-    "Philadelphia 76ers" : "Philadelphia 76ers",
-    "Miami Heat" : "Miami Heat",
-    "Brooklyn Nets" : "Brooklyn Nets"
-}
 
 driver = webdriver.Chrome('../lib/chromedriver')
 driver.set_page_load_timeout(15)
@@ -130,9 +99,8 @@ for table in tables:
         # TODO: Refactor this for loop.
         for index in range(0, len(selected_columns)):
             if (index == 0):
-                # -1 because the team name is after the last element of the a tag,
-                # which is a comment element...
-                column = selected_columns[index].xpath('./a')[0][-1].tail.strip()
+                # 1 because the team name is in the second span of the element
+                column = selected_columns[index].xpath('./a/span')[1].text
                 # convert the team name according to mapping
                 column = team_mapping[column]
             elif (index == len(selected_columns) - 1):
